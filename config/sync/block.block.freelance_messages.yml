@@ -1,0 +1,22 @@
+uuid: ff640e37-c2ea-4e6e-86a8-f67331f1e6de
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - freelance
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: freelance_messages
+theme: freelance
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

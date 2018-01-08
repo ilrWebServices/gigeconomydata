@@ -7,6 +7,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   color: 0
+  components: 0
   config: 0
   config_filter: 0
   config_split: 0
@@ -16,6 +17,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -38,16 +40,19 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  unified_twig_ext: 0
   user: 0
   views_ui: 0
   menu_link_content: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   stable: 0
   classy: 0
   bartik: 0
   seven: 0
+  freelance: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

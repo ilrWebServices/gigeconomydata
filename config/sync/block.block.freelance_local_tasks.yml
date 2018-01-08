@@ -1,0 +1,22 @@
+uuid: 46a46fff-1f85-4e8e-9fc2-83ad0c0e520f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - freelance
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: freelance_local_tasks
+theme: freelance
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

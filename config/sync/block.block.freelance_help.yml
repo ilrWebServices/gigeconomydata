@@ -1,0 +1,22 @@
+uuid: a21a9b68-3597-4905-84e9-8748538e37cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - freelance
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: freelance_help
+theme: freelance
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
