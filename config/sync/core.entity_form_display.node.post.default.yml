@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.post.field_content
+    - field.field.node.post.field_meta_tags
     - field.field.node.post.field_tags
     - node.type.post
   module:
+    - metatag
     - paragraphs
     - path
 id: node.post.default
@@ -33,6 +35,12 @@ content:
       closed_mode: summary
       autocollapse: none
     third_party_settings: {  }
+    region: content
+  field_meta_tags:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_tags:
     weight: 123
