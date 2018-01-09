@@ -13,20 +13,32 @@ module:
   config_split: 0
   contact: 0
   contextual: 0
+  crop: 0
+  ctools: 0
   datetime: 0
   dblog: 0
+  dropzonejs: 0
+  dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
+  entity_browser: 0
+  entity_browser_entity_form: 0
   entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  focal_point: 0
   gig_admin: 0
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   link: 0
+  media_entity: 0
+  media_entity_image: 0
+  media_essentials: 0
   menu_ui: 0
   metatag: 0
   metatag_open_graph: 0
@@ -37,6 +49,7 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
+  responsive_image: 0
   search: 0
   shortcut: 0
   system: 0
