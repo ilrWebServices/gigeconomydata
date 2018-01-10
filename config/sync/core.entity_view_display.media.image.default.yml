@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.media.image.field_image
     - media_entity.bundle.image
+  module:
+    - image
 _core:
   default_config_hash: MlMb-JfBuz3lH1-ryZ57jgIf7k-VHGgfcsTATBzldI8
 id: media.image.default
@@ -17,54 +19,10 @@ content:
     label: hidden
     settings:
       image_style: ''
-      thumbnail_style: ''
-      responsive_image_style: media_image
-      media_switch: ''
-      ratio: ''
-      sizes: ''
-      current_view_mode: default
-      background: false
-      caption:
-        title: '0'
-        alt: '0'
-      breakpoints:
-        xs:
-          breakpoint: ''
-          image_style: ''
-          width: ''
-        sm:
-          breakpoint: ''
-          image_style: ''
-          width: ''
-        md:
-          breakpoint: ''
-          image_style: ''
-          width: ''
-        lg:
-          breakpoint: ''
-          image_style: ''
-          width: ''
-        xl:
-          breakpoint: ''
-          image_style: ''
-          width: ''
-      box_caption: ''
-      box_caption_custom: ''
-      box_style: ''
-      iframe_lazy: true
-      icon: ''
-      layout: ''
-      view_mode: ''
-      cache: 0
-      optionset: default
-      skin: ''
-      style: ''
-      grid: 0
-      grid_header: ''
-      grid_medium: 0
-      grid_small: 0
+      image_link: ''
     third_party_settings: {  }
     region: content
+    type: image
 hidden:
   created: true
   name: true
