@@ -17,7 +17,7 @@ display: modal
 display_configuration:
   width: '1245'
   height: ''
-  link_text: 'Select entities'
+  link_text: 'Add or choose image'
   auto_open: false
 selection_display: no_display
 selection_display_configuration: {  }
@@ -28,7 +28,7 @@ widgets:
     settings:
       view: image_browser
       view_display: entity_browser_1
-      submit_text: 'Select entities'
+      submit_text: 'Select image'
       auto_select: false
     uuid: f09e2255-6bd8-4301-ba02-1d446f7fca70
     weight: -10
@@ -38,17 +38,17 @@ widgets:
     settings:
       form_mode: default
       media_entity_bundle: image
-      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      upload_location: 'public://image-uploads'
       dropzone_description: 'Drop files here to upload them'
       max_filesize: 128M
       extensions: 'png gif jpg jpeg'
       clientside_resize: false
       resize_width: null
       resize_height: null
-      resize_quality: 1
+      resize_quality: !!float 1
       resize_method: contain
       thumbnail_method: contain
-      submit_text: 'Select entities'
+      submit_text: 'Select image'
     uuid: 3c3b56e6-f111-4477-b9f8-c789b68d6f15
     weight: 3
     label: 'Import image'
