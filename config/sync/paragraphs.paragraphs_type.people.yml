@@ -1,0 +1,9 @@
+uuid: d4205cc8-a6ea-4044-8cf4-7e07d8745a3d
+langcode: en
+status: true
+dependencies: {  }
+id: people
+label: people
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

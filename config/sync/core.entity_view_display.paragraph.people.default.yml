@@ -1,0 +1,21 @@
+uuid: 51d55ed3-a1e4-45da-995c-83a74d828355
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.people.field_people_reference
+    - paragraphs.paragraphs_type.people
+id: paragraph.people.default
+targetEntityType: paragraph
+bundle: people
+mode: default
+content:
+  field_people_reference:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

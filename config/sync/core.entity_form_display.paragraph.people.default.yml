@@ -1,0 +1,25 @@
+uuid: b76b3f54-5a22-4694-8cd7-d52a1e3223cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.people.field_people_reference
+    - paragraphs.paragraphs_type.people
+id: paragraph.people.default
+targetEntityType: paragraph
+bundle: people
+mode: default
+content:
+  field_people_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
