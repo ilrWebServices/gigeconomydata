@@ -5,13 +5,12 @@ dependencies:
   config:
     - field.field.node.person.body
     - field.field.node.person.field_first_name
-    - field.field.node.person.field_image
+    - field.field.node.person.field_image_reference
     - field.field.node.person.field_job_title
     - field.field.node.person.field_last_name
     - field.field.node.person.field_organization
     - node.type.person
   module:
-    - image
     - text
     - user
 id: node.person.default
@@ -34,14 +33,13 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_image:
+  field_image_reference:
     weight: 6
-    label: hidden
+    label: above
     settings:
-      image_style: ''
-      image_link: ''
+      link: true
     third_party_settings: {  }
-    type: image
+    type: entity_reference_label
     region: content
   field_job_title:
     weight: 4

@@ -3,11 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.post.field_author
     - field.field.node.post.field_content
     - field.field.node.post.field_meta_tags
+    - field.field.node.post.field_publication_date
     - field.field.node.post.field_tags
     - node.type.post
   module:
+    - datetime
     - metatag
     - paragraphs
     - path
@@ -16,34 +19,43 @@ targetEntityType: node
 bundle: post
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 10
-    region: content
-    settings: {  }
+  field_author:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_content:
     type: paragraphs
-    weight: 122
+    weight: 7
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
-      closed_mode: summary
-      autocollapse: none
+      default_paragraph_type: text
     third_party_settings: {  }
     region: content
   field_meta_tags:
-    weight: 124
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: metatag_firehose
     region: content
+  field_publication_date:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_tags:
-    weight: 123
+    weight: 8
     settings:
       match_operator: CONTAINS
       size: 60
@@ -53,7 +65,7 @@ content:
     region: content
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -61,38 +73,31 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 3
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 6
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 4
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 5
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    region: content
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  uid: true
