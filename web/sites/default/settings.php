@@ -769,6 +769,21 @@ $settings['file_scan_ignore_directories'] = [
  */
 $settings['entity_update_batch_size'] = 50;
 
+$config_directories['sync'] = '../config/sync';
+
+$settings['file_scan_ignore_directories'] = [
+  'node_modules',
+  'bower_components',
+];
+
+$settings['install_profile'] = 'config_installer';
+
+// Unset google tracking code. Override in settings.prod.php when ready
+$config['google_analytics.settings']['account'] = '';
+
+// Turn off local config split by default. Enable in settings.local.php
+$config['config_split.config_split.local']['status'] = FALSE;
+
 /**
  * Load local development override configuration, if available.
  *
@@ -787,17 +802,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$config_directories['sync'] = '../config/sync';
-
-$databases['default']['default'] = array (
-  'database' => 'gigeconomydata',
-  'username' => 'drupal',
-  'password' => 'drupal',
-  'prefix' => '',
-  'host' => '192.168.88.81',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-
-$settings['install_profile'] = 'standard';
