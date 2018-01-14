@@ -58,6 +58,8 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  twig_field_value: 0
+  twig_tweak: 0
   unified_twig_ext: 0
   user: 0
   views_ui: 0

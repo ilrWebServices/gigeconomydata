@@ -64,11 +64,16 @@
         "heading_url": card_title_link|default(card_link_url),
         "heading_blockname": card_title_blockname|default(card_base_class),
         "heading_modifiers": card_title_modifiers,
-        "heading_link_base_class": card_title_link_base_class|default('title-link'),
+        "heading_link_base_class": card_title_link_base_class|default('title__link'),
         "heading_link_blockname": card_base_class,
         "heading_base_class": card_title_base_class|default('title'),
       } %}
       {{ title_suffix }}
+    {% endif %}
+    {% if card_date %}
+    <div class="card__date">
+      <span class="date">{{ card_date }}</span>
+    </div>
     {% endif %}
     {% if card_subtitle %}
       {% include "@atoms/02-text/00-headings/_heading.twig" with {

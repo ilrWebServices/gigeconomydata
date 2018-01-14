@@ -1,8 +1,3 @@
-link_modifiers:
-  1:
-    alt
-  2:
-    more-link
 link_attributes:
   target:
     _blank
@@ -11,6 +6,6 @@ link_attributes:
   href:
     "#"
 link_url:
-  https://github.com/fourkitchens/freelance
+  https://github.com/fourkitchens/emulsify
 link_content:
   "This is my link text"

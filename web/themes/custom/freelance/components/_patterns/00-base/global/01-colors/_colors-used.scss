@@ -1,5 +1,12 @@
+$color-bg-body: $near-white;
 $color-border: $gray-light;
-$color-link: $gray-darker;
-$color-link--hover: $gray-light;
+$color-link: $strong-cyan;
+$color-link--hover: lighten($color-link, 10%);
+$color-link--alt: $cornell-red;
+$color-link--alt-hover: $cornell-red;
 
-$color-heading: $gray-darker;
+$color-heading: $cornell-red;
+$color-heading-link: $cornell-red;
+$color-heading-link--hover: $cornell-red;
+$color-button: $strong-cyan;
+$color-button--hover: lighten($color-button, 10%);

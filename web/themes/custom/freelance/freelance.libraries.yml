@@ -5,11 +5,10 @@ global:
   js:
     dist/scripts.js: {}
 
-# Examples of Library syntax
-# typekit:
-#   header: true
-#   js:
-#     //use.typekit.net/TYPEKIT_ID.js: { every_page: true }
+typekit:
+  header: true
+  js:
+    //use.typekit.net/bva6ofm.js: { every_page: true }
 
 main_menu:
   js:

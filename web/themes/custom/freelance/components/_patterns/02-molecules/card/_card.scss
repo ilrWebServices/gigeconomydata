@@ -1,10 +1,6 @@
 .card__title {
   @include heading-large($font-size: 1.3rem);
   @include no-bottom;
-
-  &-link {
-    @include link;
-  }
 }
 
 .card__subtitle {
