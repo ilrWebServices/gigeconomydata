@@ -1,0 +1,19 @@
+uuid: 545e5a33-5ddd-49f5-9e8b-d420e18e94a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: posts
+label: Posts
+logic: and
+conditions:
+  3b1930b9-cb73-4aa6-afbe-699681ca2f5a:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: 3b1930b9-cb73-4aa6-afbe-699681ca2f5a
+allow_other_conditions: false
