@@ -1,10 +1,15 @@
 .content-teaser {
   @include add-grid(12);
   @include clearfix;
-  @include leader(3);
-  @include trailing-border(3px, 3);
+  @include trailer(2);
+  @include trailing-border(3px, 2);
 
   border-color: $color-border;
+
+  @include large {
+    @include trailer(3);
+    @include trailing-border(3px, 3);
+  }
 }
 
 .content-teaser__img {

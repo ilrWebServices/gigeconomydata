@@ -7,7 +7,7 @@ dependencies:
     - image.style.medium
     - media_entity.bundle.image
   module:
-    - image
+    - focal_point
     - path
 _core:
   default_config_hash: Sp_l49V1k6X-t55swc_4D_7w_-6c7GES3FzhGaYRlww
@@ -19,10 +19,12 @@ content:
   field_image:
     weight: 1
     settings:
-      progress_indicator: throbber
       preview_image_style: medium
+      preview_link: true
+      offsets: '50,50'
+      progress_indicator: throbber
     third_party_settings: {  }
-    type: image_image
+    type: image_focal_point
     region: content
   name:
     type: string_textfield

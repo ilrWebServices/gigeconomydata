@@ -1,0 +1,73 @@
+demo:
+  teasers:
+    -
+      # Image
+      content_teaser_img_src:
+        "https://placeimg.com/400/300/nature"
+      content_teaser_img_alt:
+        "This is the teaser image's alt text"
+
+      # Title
+      content_teaser_label:
+        "This is a Teaser Label"
+      content_teaser_title:
+        "This is a post title"
+      # Body
+      content_teaser_body:
+        "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+      # Link
+      content_teaser_link_url:
+        "#"
+      content_teaser_link_text:
+        'Read more'
+      content_teaser_link_modifiers:
+        1:
+          more-link
+    -
+      # Image
+      content_teaser_img_src:
+        "https://placeimg.com/400/300/nature"
+      content_teaser_img_alt:
+        "This is the teaser image's alt text"
+
+      # Title
+      content_teaser_label:
+        "Another Teaser Label"
+      content_teaser_title:
+        "This is another post title"
+      # Body
+      content_teaser_body:
+        "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+      # Link
+      content_teaser_link_url:
+        "#"
+      content_teaser_link_text:
+        'Read more'
+      content_teaser_link_modifiers:
+        1:
+          more-link
+    -
+      # Image
+      content_teaser_img_src:
+        "https://placeimg.com/400/300/nature"
+      content_teaser_img_alt:
+        "This is the teaser image's alt text"
+
+      # Title
+      content_teaser_label:
+        "This is a Teaser Label"
+      content_teaser_title:
+        "Yet an additional post title"
+      # Body
+      content_teaser_body:
+        "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+      # Link
+      content_teaser_link_url:
+        "#"
+      content_teaser_link_text:
+        'Read more'
+      content_teaser_link_modifiers:
+        1:
+          more-link
+
+

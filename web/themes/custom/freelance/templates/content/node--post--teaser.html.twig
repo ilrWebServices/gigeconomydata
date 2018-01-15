@@ -8,7 +8,7 @@
   {% set authors = authors|merge([author['#title']]) %}
 {% endfor %}
 
-{% embed "@molecules/content_teaser/content_teaser.twig"
+{% embed "@molecules/content-teaser/content-teaser.twig"
   with {
     "content_teaser_header": true,
     "content_teaser_date": content.field_publication_date,
@@ -16,7 +16,7 @@
     "content_teaser_title_link": url,
     "content_teaser_link_url": url,
     "content_teaser_body": content.body|render|striptags|raw,
-    "content_teaser_img_src": img.uri|image_style('media_thumbnail'),
+    "content_teaser_img_src": img.uri|image_style('teaser'),
     "content_teaser_img_alt": img.alt,
   }
 %}
