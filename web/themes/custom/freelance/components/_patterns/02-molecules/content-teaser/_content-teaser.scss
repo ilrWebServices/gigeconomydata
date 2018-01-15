@@ -1,0 +1,46 @@
+.content-teaser {
+  @include add-grid(12);
+  @include clearfix;
+  @include leader(3);
+  @include trailing-border(3px, 3);
+
+  border-color: $color-border;
+}
+
+.content-teaser__img {
+  @include img;
+  @include fill-parent;
+
+  @include medium {
+    @include grid-span(4);
+  }
+}
+
+.content-teaser__copy {
+  @include medium {
+    @include grid-span(8, 5);
+  }
+}
+
+.content-teaser__title {
+  @include heading-large($font-size: 1.3rem);
+  @include no-bottom;
+}
+
+.content-teaser__body {
+  margin: 0.7em 0 1em;
+}
+
+.content-teaser__link {
+  @include link;
+}
+
+.content-teaser__button {
+  @include button;
+}
+
+// Variations
+.content-teaser--bg {
+  background-color: $gray-lightest;
+  padding: 1em;
+}

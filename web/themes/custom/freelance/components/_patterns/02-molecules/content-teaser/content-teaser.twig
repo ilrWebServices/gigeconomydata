@@ -1,0 +1,101 @@
+{#
+/**
+ * Available variables:
+ * - content_teaser_base_class - base classname of the wrapper
+ * - content_teaser_modifiers - array of modifiers to add to the base classname of the wrapper
+ * - content_teaser_blockname - blockname prepended to the base classname of the wrapper(s) and each component
+ *
+ * - content_teaser_img_src - the actual image file location
+ * - content_teaser_img_alt - (optional) the alt text for screen readers and when the image cannot load
+ * - content_teaser_img_url - Url the image should link to. Defaults to content_teaser_link_url
+ *
+ * - content_teaser_copy_base_class - base classname of the copy wrapper - defaults to 'content_teaser__copy'
+ * - content_teaser_copy_modifiers - array of modifiers to add to the base classname of the copy wrapper
+ * - content_teaser_copy_blockname - blockname prepended to the base classname of the copy wrapper
+ *
+ * - content_teaser_title - the content of the title component
+ * - content_teaser_title_link - (optional) the url the title should link to. Defaults to content_teaser_link_url.
+ * - content_teaser_title_base_class - base classname of the title component. Defaults to "title"
+ * - content_teaser_title_blockname - blockname to add to the base classname of the title - defaults to content_teaser_base_class
+ * - content_teaser_title_modifiers - array of modifiers to add to the base classname of the title
+ * - content_teaser_title_link_base_class - base class to add to the title link - defaults to 'title-link'
+ *
+ * - content_teaser_body - the content of the body component
+ * - content_teaser_body_base_class - base classname of the body component. Defaults to "body"
+ * - content_teaser_body_modifiers - array of modifiers to add to the base classname of the body
+ *
+ * - content_teaser_link_text - the content of the link component
+ * - content_teaser_link_url - the url the link should link to
+ * - content_teaser_link_base_class - base classname of the link component. Defaults to "link"
+ * - content_teaser_link_blockname - override link blockname. Defaults to content_teaser_base_class
+ * - content_teaser_link_attributes - array of attribute,value pairs for the link attribute
+ * - content_teaser_link_modifiers - array of modifiers to add to the base classname of the link
+ *
+ * - content_teaser_button_content - the content of the button component
+ * - content_teaser_button_url - the url the button should link to
+ * - content_teaser_button_base_class - base classname of the button component. Defaults to "button"
+ * - content_teaser_button_attributes - array of attribute,value pairs for the button attribute
+ * - content_teaser_button_modifiers - array of modifiers to add to the base classname of the button
+ */
+#}
+{% set content_teaser_base_class = 'content-teaser' %}
+
+<div {{ bem(content_teaser_base_class, (content_teaser_modifiers), content_teaser_blockname) }}>
+  {% if content_teaser_img_src %}
+    {% include "@atoms/04-images/00-image/image.twig" with {
+      "img_url": content_teaser_img_url|default(content_teaser_link_url),
+      "img_src": content_teaser_img_src,
+      "img_alt": content_teaser_img_alt,
+      "image_link_blockname": content_teaser_base_class,
+      "image_blockname": content_teaser_base_class,
+    } %}
+  {% endif %}
+  <div {{ bem(content_teaser_copy_base_class|default('content-teaser__copy'), (content_teaser_copy_modifiers), content_teaser_copy_blockname) }}>
+    {% if content_teaser_title %}
+      {{ title_prefix }}
+      {% include "@atoms/02-text/00-headings/_heading.twig" with {
+        "heading_level": 2,
+        "heading": content_teaser_title,
+        "heading_url": content_teaser_title_link|default(content_teaser_link_url),
+        "heading_blockname": content_teaser_title_blockname|default(content_teaser_base_class),
+        "heading_modifiers": content_teaser_title_modifiers,
+        "heading_link_base_class": content_teaser_title_link_base_class|default('title__link'),
+        "heading_link_blockname": content_teaser_base_class,
+        "heading_base_class": content_teaser_title_base_class|default('title'),
+      } %}
+      {{ title_suffix }}
+    {% endif %}
+    {% if content_teaser_date %}
+    <div class="content-teaser__date">
+      <span class="date">{{ content_teaser_date }}</span>
+    </div>
+    {% endif %}
+    {% if content_teaser_body %}
+      {% include "@atoms/02-text/text/01-paragraph.twig" with {
+        "paragraph_content": content_teaser_body,
+        "paragraph_blockname": content_teaser_body_base_class|default(content_teaser_base_class),
+        "paragraph_modifiers": content_teaser_body_modifiers,
+        "paragraph_base_class": content_teaser_body_base_class|default('body'),
+      } %}
+    {% endif %}
+    {% if content_teaser_link_url %}
+      {% include "@atoms/01-links/link/link.twig" with {
+        "link_content": content_teaser_link_text,
+        "link_url": content_teaser_link_url,
+        "link_attributes": content_teaser_link_attributes,
+        "link_blockname": content_teaser_link_blockname|default(content_teaser_base_class),
+        "link_base_class": content_teaser_link_base_class|default('link'),
+      } %}
+    {% endif %}
+    {% if content_teaser_button_url %}
+      {% include "@atoms/06-buttons/01-button.twig" with {
+        "button_content": content_teaser_button_content,
+        "button_url": content_teaser_button_url,
+        "button_base_class": content_teaser_button_base_class|default('button'),
+        "button_attributes": content_teaser_button_attributes,
+        "button_modifiers": content_teaser_button_modifiers,
+        "button_blockname": content_teaser_blockname|default(content_teaser_base_class),
+      } %}
+    {% endif %}
+  </div><!-- copy -->
+</div>

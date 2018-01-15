@@ -1,0 +1,43 @@
+# Image
+content_teaser_img_modifiers:
+content_teaser_img_blockname:
+content_teaser_img_src:
+  "https://placeimg.com/400/300/nature"
+content_teaser_img_alt:
+  "This is the teaser image's alt text"
+
+# Title
+content_teaser_label:
+  "This is a Teaser Label"
+content_teaser_title:
+  "This is a card title"
+content_teaser_title_link:
+content_teaser_title_modifiers:
+  1:
+    no-space
+content_teaser_title_blockname:
+
+# Subtitle
+content_teaser_subtitle:
+  "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus."
+content_teaser_subtitle_link:
+content_teaser_subtitle_modifiers:
+  1:
+    no-space
+content_teaser_subtitle_blockname:
+
+# Body
+content_teaser_body:
+  "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+content_teaser_body_modifiers:
+content_teaser_body_blockname:
+
+# Link
+content_teaser_link_url:
+  "#"
+content_teaser_link_text:
+  'Read more'
+content_teaser_link_modifiers:
+  1:
+    more-link
+content_teaser_link_blockname:

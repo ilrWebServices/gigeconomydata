@@ -1,4 +1,4 @@
-{% set card_modifiers = [
+{% set content_teaser_modifiers = [
   node.isPromoted() ? 'promoted',
   view_mode ? 'view-mode-' ~ view_mode|clean_class,
   ]
@@ -8,16 +8,16 @@
   {% set authors = authors|merge([author['#title']]) %}
 {% endfor %}
 
-{% embed "@molecules/card/01-card.twig"
+{% embed "@molecules/content_teaser/content_teaser.twig"
   with {
-    "card_header": true,
-    "card_date": content.field_publication_date,
-    "card_title": label,
-    "card_title_link": url,
-    "card_link_url": url,
-    "card_body": content.body|render|striptags|raw,
-    "card_img_src": img.uri|image_style('media_thumbnail'),
-    "card_img_alt": img.alt,
+    "content_teaser_header": true,
+    "content_teaser_date": content.field_publication_date,
+    "content_teaser_title": label,
+    "content_teaser_title_link": url,
+    "content_teaser_link_url": url,
+    "content_teaser_body": content.body|render|striptags|raw,
+    "content_teaser_img_src": img.uri|image_style('media_thumbnail'),
+    "content_teaser_img_alt": img.alt,
   }
 %}
 {% endembed %}

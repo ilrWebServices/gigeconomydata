@@ -33,9 +33,11 @@
 
   &__link {
     color: $color-heading-link;
+    text-decoration: none;
 
     &:hover {
       color: $color-heading-link--hover;
+      text-decoration: underline;
     }
   }
 }
