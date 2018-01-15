@@ -1,17 +1,27 @@
 .info-box {
-  background-color: $gray-lightest;
-  margin-bottom: 2%;
-  padding: 1em;
+  @include padding-leader(3);
+  @include padding-trailer(4);
+
+  background-color: $color-info-box;
   width: 100%;
 }
 
 .info-box__title {
-  @include heading-medium($font-size: 1rem);
+  @include heading-medium($font-size: 0.9rem, $font-family: $font-body);
 
   font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .info-box__link {
-  @include link;
+  @include link(white, white);
+}
+
+.info-box__body {
+  @include heading-large($color: white, $font-weight: normal);
+
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
 }
