@@ -1,0 +1,52 @@
+.post {
+  @include add-grid(12);
+}
+
+.post__title {
+  @extend .h1;
+}
+
+.post__subtitle {
+  @extend .h3;
+  @include trailer(1);
+
+  color: $gray;
+}
+
+.post__image {
+  @include trailer(1);
+
+  @include large {
+    @include grid-span(9);
+    clear: left;
+  }
+}
+
+.post__date {
+  @include trailer(1);
+}
+
+.post__body,
+.post__title,
+.post__subtitle,
+.post__date {
+  @include large {
+    @include grid-span(8);
+
+    padding-left: 2rem;
+    clear: left;
+  }
+
+  .paragraph__image {
+    @include large {
+      @include grid-span(14);
+      @include clearfix;
+
+      margin-left: -2rem;
+    }
+  }
+
+  .paragraph__text {
+    @include grid-span(12);
+  }
+}

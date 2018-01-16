@@ -1,0 +1,16 @@
+{% include "@organisms/site/site-header/site-header.twig" with { pl: true } only %}
+
+{%  set content %}
+  {% include "@organisms/teaser-list/teaser-list.twig" with {
+    teasers: [1, 2, 3]
+  } %}
+{% endset %}
+
+{% include '_post.twig' with {
+  "content": content,
+}%}
+
+{% include "@organisms/site/site-footer/site-footer.twig" only %}
+
+
+

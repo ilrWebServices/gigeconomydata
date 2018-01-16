@@ -3,6 +3,8 @@
 //
 
 .body {
+  @include wrapper;
+
   background: $color-bg-body;
 }
 

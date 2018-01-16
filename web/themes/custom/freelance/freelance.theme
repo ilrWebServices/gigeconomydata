@@ -26,6 +26,26 @@ function freelance_preprocess_node(&$variables) {
 }
 
 /**
+ * Implements hook_preprocess_entity().
+ *
+ * Prepares variables for the template(s).
+ *
+ */
+function freelance_preprocess_paragraph__image(&$variables) {
+  $paragraph =& $variables['paragraph'];
+  if ($paragraph->hasField('field_image')) {
+    if ($paragraph->get('field_image')->first()) {
+      if ($entity_ref_item = $paragraph->get('field_image')->first()) {
+        $entities = freelance_get_entities_from_media_entity($entity_ref_item->get('entity')->getTarget());
+        if ($entities['file']) {
+          $variables['img'] = freelance_get_image_properties_array($entities['file'], $entities['img']);
+        }
+      }
+    }
+  }
+}
+
+/**
  * Takes a media entity and returns a keyed array of entities: file, image, and media.
  *
  * @param $media_entity

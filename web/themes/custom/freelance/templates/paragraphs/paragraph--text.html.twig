@@ -1,0 +1,14 @@
+<div class="paragraph paragraph__text">
+  {% set heading = content.field_heading|field_value %}
+  {% if heading %}
+    {% include "@atoms/02-text/00-headings/_heading.twig" with {
+      "heading_level": 3,
+      "heading": heading,
+    } %}
+  {% endif %}
+
+  {% include "@atoms/02-text/text/01-paragraph.twig" with {
+    "paragraph_content": content.field_content|field_raw('value')|striptags,
+    "paragraph_base_class": 'text',
+  } %}
+</div>

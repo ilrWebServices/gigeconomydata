@@ -15,7 +15,7 @@
     "content_teaser_title": label,
     "content_teaser_title_link": url,
     "content_teaser_link_url": url,
-    "content_teaser_body": content.body|render|striptags|raw,
+    "content_teaser_body": content.field_teaser_text|field_value|render|striptags,
     "content_teaser_img_src": img.uri|image_style('teaser'),
     "content_teaser_img_alt": img.alt,
   }

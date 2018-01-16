@@ -9,7 +9,7 @@ _core:
 id: freelance_local_tasks
 theme: freelance
 region: content
-weight: -40
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:

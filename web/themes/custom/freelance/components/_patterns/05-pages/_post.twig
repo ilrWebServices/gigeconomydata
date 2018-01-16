@@ -1,0 +1,58 @@
+{# authors #}
+{# format_date #}
+{% set post_base_class = 'post' %}
+
+<div {{ bem(post_base_class, (post_modifiers), post_blockname) }}>
+  {{ title_prefix }}
+  {% include "@atoms/02-text/00-headings/_heading.twig" with {
+    "heading_level": 1,
+    "heading": post_title,
+    "heading_blockname": 'post',
+    "heading_base_class": 'title',
+  } %}
+  {{ title_suffix }}
+
+  {% if post_subtitle %}
+    {% include "@atoms/02-text/00-headings/_heading.twig" with {
+      "heading_level": 2,
+      "heading": post_subtitle,
+      "heading_blockname": post_subtitle_blockname|default(post_base_class),
+      "heading_modifiers": post_subtitle_modifiers,
+      "heading_base_class": post_subtitle_base_class|default('subtitle'),
+    } %}
+  {% endif %}
+
+  {% if card_subtitle %}
+    {% include "@atoms/02-text/00-headings/_heading.twig" with {
+      "heading_level": 3,
+      "heading": card_subtitle,
+      "heading_url": card_subtitle_link,
+      "heading_blockname": card_subtitle_blockname|default(card_base_class),
+      "heading_modifiers": card_subtitle_modifiers,
+      "heading_base_class": card_subtitle_base_class|default('subtitle'),
+    } %}
+  {% endif %}
+
+  {% if post_img_src %}
+    <div class="post__image">
+      {% include "@atoms/04-images/00-image/image.twig" with {
+        "img_src": post_img_src,
+        "img_alt": post_img_alt,
+      } %}
+    </div>
+  {% endif %}
+
+  {% if post_date %}
+  <div class="post__date">
+    <span class="date">{{ post_date }}</span>
+  </div>
+  {% endif %}
+
+  {% if post_body %}
+    <div class="post__body">
+      {{ post_body }}
+    </div>
+  {% endif %}
+
+  {{ content }}
+</div><!-- /post -->

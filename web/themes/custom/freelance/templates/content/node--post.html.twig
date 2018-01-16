@@ -1,0 +1,18 @@
+{% set authors = [] %}
+{% for author in content.field_author|field_value %}
+  {% set authors = authors|merge([author['#title']]) %}
+{% endfor %}
+
+{% embed "@pages/_post.twig"
+  with {
+    "post_date": content.field_publication_date,
+    "post_title": label,
+    "post_subtitle": content.field_subtitle|field_value,
+    "post_title_link": url,
+    "post_link_url": url,
+    "post_body": content.field_content|render,
+    "post_img_src": img.uri|image_style('full_content'),
+    "post_img_alt": img.alt,
+  }
+%}
+{% endembed %}

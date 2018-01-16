@@ -2,13 +2,13 @@
   @include add-grid(12);
   @include clearfix;
   @include trailer(2);
-  @include trailing-border(3px, 2);
+  @include trailing-border(2px, 2);
 
   border-color: $color-border;
 
   @include large {
     @include trailer(3);
-    @include trailing-border(3px, 3);
+    @include trailing-border(2px, 3);
   }
 }
 
