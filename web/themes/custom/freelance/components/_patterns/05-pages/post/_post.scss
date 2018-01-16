@@ -1,5 +1,11 @@
 .post {
   @include add-grid(12);
+  @include trailer(2);
+  @include clearfix;
+
+  @include large {
+    @include trailer(3);
+  }
 }
 
 .post__title {
@@ -8,9 +14,10 @@
 
 .post__subtitle {
   @extend .h3;
+
   @include trailer(1);
 
-  color: $gray;
+  color: $color-heading--alt;
 }
 
 .post__image {
@@ -18,6 +25,7 @@
 
   @include large {
     @include grid-span(9);
+
     clear: left;
   }
 }

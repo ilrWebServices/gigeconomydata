@@ -1,0 +1,6 @@
+.teaser-list__heading {
+  @include alt-heading;
+  @include trailer(1);
+
+  @extend .h3;
+}

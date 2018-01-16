@@ -1,7 +1,18 @@
-{% if pl %}
-  {% for i in teasers %}
-    {% include "@molecules/content-teaser/content-teaser.twig" with random(demo.teasers) only %}
-  {% endfor %}
-{% else %}
-  {% set content = teasers %}
-{% endif %}
+<div class="teaser-list">
+  {% if list_heading %}
+    {% include "@atoms/02-text/00-headings/_heading.twig" with {
+      "heading_level": 3,
+      "heading": list_heading,
+      "heading_blockname": 'teaser-list',
+      "heading_modifiers": ['alt'],
+      "heading_base_class": 'heading',
+    } %}
+  {% endif %}
+  {% if pl %}
+    {% for i in teasers %}
+      {% include "@molecules/content-teaser/content-teaser.twig" with random(demo.teasers) only %}
+    {% endfor %}
+  {% else %}
+    {% set content = teasers %}
+  {% endif %}
+</div>

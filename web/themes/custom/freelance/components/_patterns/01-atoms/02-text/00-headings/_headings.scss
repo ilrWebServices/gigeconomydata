@@ -99,6 +99,10 @@
   }
 }
 
+@mixin alt-heading($color: $color-heading--alt) {
+  color: $color;
+}
+
 .h1 {
   @include heading-xl();
 }

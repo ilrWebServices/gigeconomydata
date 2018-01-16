@@ -1,0 +1,21 @@
+{% include "@organisms/site/site-header/site-header.twig" with { pl: true } only %}
+
+{% include '@pages/post/_post.twig' with {
+  "content": content,
+  "post_date": "January 31, 2018",
+  "post_title": "Welcome to the New Site!",
+  "post_subtitle": "The ILR School partners with the Aspen Institue to explore the Gig Economy",
+  "post_body": excerpt.long,
+  "post_img_src": "https://placeimg.com/800/445/people",
+  "post_img_alt": "Image alt text",
+}%}
+
+{% include "@organisms/teaser-list/teaser-list.twig" with {
+  teasers: [1, 2, 3],
+  list_heading: "Read Next",
+} %}
+
+{% include "@organisms/site/site-footer/site-footer.twig" only %}
+
+
+

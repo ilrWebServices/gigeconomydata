@@ -1,10 +1,23 @@
 <?php
 
+use Drupal\Component\Utility\Html;
+
 /**
  * @file
  * Functions to support theming in the Pattern Lab theme.
  */
 
+
+/**
+ * Preprocess variables for html templates.
+ * @param $variables
+ */
+function freelance_preprocess_html(&$vars) {
+  $vars['path_info']['args'] = Html::cleanCssIdentifier(ltrim(\Drupal::request()->getPathInfo(), '/'));
+  if (!empty($vars['node_type'])) {
+    $vars['path_info']['node_type_class'] = "node-type__{$vars['node_type']}";
+  }
+}
 
 /**
  * Implements template_preprocess_node().
