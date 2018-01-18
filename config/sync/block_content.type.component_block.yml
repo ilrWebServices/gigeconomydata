@@ -1,0 +1,8 @@
+uuid: 532155c1-2bd7-439c-a61b-000bf9a8ed72
+langcode: en
+status: true
+dependencies: {  }
+id: component_block
+label: 'Component block'
+revision: 0
+description: 'Component blocks allow you to create components that will be re-used across different pages on the site. '

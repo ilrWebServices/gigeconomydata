@@ -1,0 +1,9 @@
+uuid: 09539372-00fb-47f1-aab0-c05cfaf52547
+langcode: en
+status: true
+dependencies: {  }
+id: tagged_content
+label: 'tagged content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

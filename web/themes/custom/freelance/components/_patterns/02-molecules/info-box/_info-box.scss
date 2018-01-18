@@ -7,7 +7,9 @@
 }
 
 .info-box__title {
-  @include heading-medium($font-size: 0.9rem, $font-family: $font-body);
+  @include heading-xs($font-family: $font-body);
+  @include alt-heading;
+  @include trailer(0.5);
 
   font-weight: 400;
   text-align: center;
@@ -19,9 +21,13 @@
 }
 
 .info-box__body {
-  @include heading-large($color: white, $font-weight: normal);
+  @include heading-medium($color: white, $font-weight: normal);
 
   text-align: center;
-  max-width: 50%;
   margin: 0 auto;
+  max-width: 80%;
+
+  @include large {
+    max-width: 50%;
+  }
 }

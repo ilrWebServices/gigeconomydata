@@ -1,7 +1,4 @@
-{# authors #}
-{# format_date #}
 {% set post_base_class = 'post' %}
-
 <div {{ bem(post_base_class, (post_modifiers), post_blockname) }}>
   {{ title_prefix }}
   {% include "@atoms/02-text/00-headings/_heading.twig" with {
@@ -34,11 +31,13 @@
   {% endif %}
 
   {% if post_img_src %}
-    <div class="post__image">
-      {% include "@atoms/04-images/00-image/image.twig" with {
-        "img_src": post_img_src,
-        "img_alt": post_img_alt,
-      } %}
+    <div class="post__media-wrapper">
+      <div class="post__image">
+        {% include "@atoms/04-images/00-image/image.twig" with {
+          "img_src": post_img_src,
+          "img_alt": post_img_alt,
+        } %}
+      </div>
     </div>
   {% endif %}
 

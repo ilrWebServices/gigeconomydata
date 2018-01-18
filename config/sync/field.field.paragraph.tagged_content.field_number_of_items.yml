@@ -1,0 +1,23 @@
+uuid: dc4bb666-648d-4668-b0eb-44fbc0c94121
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number_of_items
+    - paragraphs.paragraphs_type.tagged_content
+id: paragraph.tagged_content.field_number_of_items
+field_name: field_number_of_items
+entity_type: paragraph
+bundle: tagged_content
+label: 'Number of items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

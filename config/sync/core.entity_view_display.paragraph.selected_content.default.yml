@@ -1,0 +1,31 @@
+uuid: 9c7c4809-ecee-4759-b0b8-7da3f33cf69c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.selected_content.field_heading
+    - field.field.paragraph.selected_content.field_referenced_posts
+    - paragraphs.paragraphs_type.selected_content
+id: paragraph.selected_content.default
+targetEntityType: paragraph
+bundle: selected_content
+mode: default
+content:
+  field_heading:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_referenced_posts:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

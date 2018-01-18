@@ -9,24 +9,32 @@
 }
 
 .post__title {
-  @extend .h1;
+  @include heading-xl;
 }
 
 .post__subtitle {
-  @extend .h3;
-
-  @include trailer(1);
+  @include heading-medium;
 
   color: $color-heading--alt;
+}
+
+.post__media-wrapper {
+  @include large {
+    @include grid-span(9);
+
+    clear: left;
+  }
 }
 
 .post__image {
   @include trailer(1);
 
   @include large {
-    @include grid-span(9);
+    margin-left: -2rem;
+  }
 
-    clear: left;
+  .img {
+    @include fill-parent;
   }
 }
 
@@ -39,22 +47,28 @@
 .post__subtitle,
 .post__date {
   @include large {
-    @include grid-span(8);
+    @include grid-span(9);
 
-    padding-left: 2rem;
     clear: left;
   }
+}
 
+.post__body {
   .paragraph__image {
     @include large {
-      @include grid-span(14);
       @include clearfix;
+      @include trailer(2);
 
       margin-left: -2rem;
     }
+
+    .img {
+      @include fill-parent;
+    }
   }
 
-  .paragraph__text {
+  .paragraph__text,
+  .paragraph__selected-content {
     @include grid-span(12);
   }
 }

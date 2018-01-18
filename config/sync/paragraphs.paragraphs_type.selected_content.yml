@@ -1,0 +1,9 @@
+uuid: a4340495-b93b-49dd-8858-b03d18538436
+langcode: en
+status: true
+dependencies: {  }
+id: selected_content
+label: 'selected content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Installation and uninstallation functions.
+ */
+
+/**
+ * Adds the "read next" block for posts.
+ */
+function gig_components_update_8001() {
+  $blockEntityManager = \Drupal::service('entity.manager')
+    ->getStorage('block_content');
+
+  $block = $blockEntityManager->create(array(
+    'type' => 'component_block',
+    'uuid' => 'fc2796a7-abc8-47e9-be5b-55c0bae0fa47',
+    'label_display' => 0,
+  ));
+
+  $block->info = "Read next block";
+
+  $paragraph = Drupal\paragraphs\Entity\Paragraph::create([
+    'type' => 'dynamic_content_block',
+    'field_heading' => [
+      'value' => 'Read next'
+    ],
+    'field_number_of_items' => [
+      'value' => '3'
+    ],
+  ]);
+
+  $paragraph->save();
+  $block->field_paragraph_reference->appendItem($paragraph);
+  $block->save();
+}

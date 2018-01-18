@@ -41,6 +41,20 @@
 {% set content_teaser_base_class = 'content-teaser' %}
 
 <div {{ bem(content_teaser_base_class, (content_teaser_modifiers), content_teaser_blockname) }}>
+  {% if content_teaser_title %}
+    {{ title_prefix }}
+    {% include "@atoms/02-text/00-headings/_heading.twig" with {
+      "heading_level": 2,
+      "heading": content_teaser_title,
+      "heading_url": content_teaser_title_link|default(content_teaser_link_url),
+      "heading_blockname": content_teaser_title_blockname|default(content_teaser_base_class),
+      "heading_modifiers": content_teaser_title_modifiers,
+      "heading_link_base_class": content_teaser_title_link_base_class|default('title__link'),
+      "heading_link_blockname": content_teaser_base_class,
+      "heading_base_class": content_teaser_title_base_class|default('title'),
+    } %}
+    {{ title_suffix }}
+  {% endif %}
   {% if content_teaser_img_src %}
     {% include "@atoms/04-images/00-image/image.twig" with {
       "img_url": content_teaser_img_url|default(content_teaser_link_url),
@@ -50,52 +64,36 @@
       "image_blockname": content_teaser_base_class,
     } %}
   {% endif %}
-  <div {{ bem(content_teaser_copy_base_class|default('content-teaser__copy'), (content_teaser_copy_modifiers), content_teaser_copy_blockname) }}>
-    {% if content_teaser_title %}
-      {{ title_prefix }}
-      {% include "@atoms/02-text/00-headings/_heading.twig" with {
-        "heading_level": 2,
-        "heading": content_teaser_title,
-        "heading_url": content_teaser_title_link|default(content_teaser_link_url),
-        "heading_blockname": content_teaser_title_blockname|default(content_teaser_base_class),
-        "heading_modifiers": content_teaser_title_modifiers,
-        "heading_link_base_class": content_teaser_title_link_base_class|default('title__link'),
-        "heading_link_blockname": content_teaser_base_class,
-        "heading_base_class": content_teaser_title_base_class|default('title'),
-      } %}
-      {{ title_suffix }}
-    {% endif %}
-    {% if content_teaser_date %}
-    <div class="content-teaser__date">
-      <span class="date">{{ content_teaser_date }}</span>
-    </div>
-    {% endif %}
-    {% if content_teaser_body %}
-      {% include "@atoms/02-text/text/01-paragraph.twig" with {
-        "paragraph_content": content_teaser_body,
-        "paragraph_blockname": content_teaser_body_base_class|default(content_teaser_base_class),
-        "paragraph_modifiers": content_teaser_body_modifiers,
-        "paragraph_base_class": content_teaser_body_base_class|default('body'),
-      } %}
-    {% endif %}
-    {% if content_teaser_link_url %}
-      {% include "@atoms/01-links/link/link.twig" with {
-        "link_content": content_teaser_link_text,
-        "link_url": content_teaser_link_url,
-        "link_attributes": content_teaser_link_attributes,
-        "link_blockname": content_teaser_link_blockname|default(content_teaser_base_class),
-        "link_base_class": content_teaser_link_base_class|default('link'),
-      } %}
-    {% endif %}
-    {% if content_teaser_button_url %}
-      {% include "@atoms/06-buttons/01-button.twig" with {
-        "button_content": content_teaser_button_content,
-        "button_url": content_teaser_button_url,
-        "button_base_class": content_teaser_button_base_class|default('button'),
-        "button_attributes": content_teaser_button_attributes,
-        "button_modifiers": content_teaser_button_modifiers,
-        "button_blockname": content_teaser_blockname|default(content_teaser_base_class),
-      } %}
-    {% endif %}
-  </div><!-- copy -->
+  {% if content_teaser_date %}
+  <div class="content-teaser__date">
+    <span class="date">{{ content_teaser_date }}</span>
+  </div>
+  {% endif %}
+  {% if content_teaser_body %}
+    {% include "@atoms/02-text/text/01-paragraph.twig" with {
+      "paragraph_content": content_teaser_body,
+      "paragraph_blockname": content_teaser_body_base_class|default(content_teaser_base_class),
+      "paragraph_modifiers": content_teaser_body_modifiers,
+      "paragraph_base_class": content_teaser_body_base_class|default('body'),
+    } %}
+  {% endif %}
+  {% if content_teaser_link_url %}
+    {% include "@atoms/01-links/link/link.twig" with {
+      "link_content": content_teaser_link_text,
+      "link_url": content_teaser_link_url,
+      "link_attributes": content_teaser_link_attributes,
+      "link_blockname": content_teaser_link_blockname|default(content_teaser_base_class),
+      "link_base_class": content_teaser_link_base_class|default('link'),
+    } %}
+  {% endif %}
+  {% if content_teaser_button_url %}
+    {% include "@atoms/06-buttons/01-button.twig" with {
+      "button_content": content_teaser_button_content,
+      "button_url": content_teaser_button_url,
+      "button_base_class": content_teaser_button_base_class|default('button'),
+      "button_attributes": content_teaser_button_attributes,
+      "button_modifiers": content_teaser_button_modifiers,
+      "button_blockname": content_teaser_blockname|default(content_teaser_base_class),
+    } %}
+  {% endif %}
 </div>

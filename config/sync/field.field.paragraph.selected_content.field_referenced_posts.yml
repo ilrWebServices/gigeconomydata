@@ -1,0 +1,28 @@
+uuid: ee4bd31b-60d3-45f5-8322-e23a73b393d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_referenced_posts
+    - node.type.post
+    - paragraphs.paragraphs_type.selected_content
+id: paragraph.selected_content.field_referenced_posts
+field_name: field_referenced_posts
+entity_type: paragraph
+bundle: selected_content
+label: Posts
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      post: post
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

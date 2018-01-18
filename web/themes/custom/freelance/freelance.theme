@@ -7,6 +7,21 @@ use Drupal\Component\Utility\Html;
  * Functions to support theming in the Pattern Lab theme.
  */
 
+/**
+ * Implements template_preporcess_views_view__VIEW_ID()
+ *
+ * Sets the row content for the view template.
+ * @see views-view--tagged-content.html.twig
+ */
+function freelance_preprocess_views_view__tagged_content(&$variables) {
+  $rows = $variables['rows'];
+  foreach ($rows as $id => $row) {
+    $variables['rows'][$id] = [];
+    $variables['rows'][$id]['content'] = $row;
+  }
+}
+
+
 
 /**
  * Preprocess variables for html templates.
@@ -56,6 +71,11 @@ function freelance_preprocess_paragraph__image(&$variables) {
       }
     }
   }
+}
+
+function freelance_preprocess_paragraph__tagged_content(&$variables) {
+  $current_node = \Drupal::request()->attributes->get('node');
+  $variables['nid'] = $current_node->id();
 }
 
 /**

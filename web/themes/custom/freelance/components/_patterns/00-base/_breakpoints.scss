@@ -11,13 +11,18 @@
 @include add-grid(12);
 @include add-gutter(1/4);
 
+// Due to vertical rhythm and the establish-baseline
+// mixin, a multiplier is used to set expected widths
+// And will need to be updated if the $base-font-size changes
+$multiplier: 0.9;
+
 // Breakpoints variables
-$xs: 25em;
-$small: 26em;
-$medium: 41em;
-$large: 60em;
-$xl: 75em;
-$max-width: $xl;
+$xs: 25em * $multiplier;
+$small: 26em * $multiplier;
+$medium: 41em * $multiplier;
+$large: 60em * $multiplier;
+$xl: 75em * $multiplier;
+$max-width: $xl * $multiplier;
 
 /// Mixin - xs Breakpoint
 /// Allows easier @include xs {} syntax

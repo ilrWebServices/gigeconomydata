@@ -1,0 +1,8 @@
+{% set heading = content.field_heading|field_raw('value') %}
+
+<div class="paragraph paragraph__selected-content">
+  {% include '@organisms/teaser-list/teaser-list.twig' with {
+    list_heading: heading,
+    teasers: content.field_referenced_posts,
+  } %}
+</div>

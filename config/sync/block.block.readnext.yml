@@ -1,0 +1,33 @@
+uuid: fc2796a7-abc8-47e9-be5b-55c0bae0fa47
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.posts
+  content:
+    - 'block_content:component_block:066feb9b-a29d-40f6-8eff-1b860e27adb6'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - freelance
+id: readnext
+theme: freelance
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:066feb9b-a29d-40f6-8eff-1b860e27adb6'
+settings:
+  id: 'block_content:066feb9b-a29d-40f6-8eff-1b860e27adb6'
+  label: 'Read next'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: posts
+    context_mapping: {  }

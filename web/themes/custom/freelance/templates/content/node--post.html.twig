@@ -3,13 +3,15 @@
   {% set authors = authors|merge([author['#title']]) %}
 {% endfor %}
 
+{% set img_src = img ? img.uri|image_style('teaser') : NULL %}
+
 {% embed "@pages/post/_post.twig"
   with {
     "post_date": content.field_publication_date,
     "post_title": label,
     "post_subtitle": content.field_subtitle|field_value,
     "post_body": content.field_content|render,
-    "post_img_src": img.uri|image_style('full_content'),
+    "post_img_src": img_src,
     "post_img_alt": img.alt,
   }
 %}

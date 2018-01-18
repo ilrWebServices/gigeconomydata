@@ -1,0 +1,5 @@
+name: GigEconomyData.org Component Support
+type: module
+description: 'Module for modifying the components for the site.'
+package: Administration
+core: 8.x

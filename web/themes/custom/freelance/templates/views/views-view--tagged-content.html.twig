@@ -1,0 +1,12 @@
+{% set content %}
+  {% for row in rows %}
+    {{ row.content }}
+  {% endfor %}
+{% endset %}
+
+{% set heading = view.args.3 %}
+
+{% include '@organisms/teaser-list/teaser-list.twig' with {
+  teasers: content,
+  list_heading: heading,
+} %}

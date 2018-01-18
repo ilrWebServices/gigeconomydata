@@ -1,3 +1,12 @@
+content_teaser_modifiers: ['with-image']
+# Image
+content_teaser_img_modifiers:
+content_teaser_img_blockname:
+content_teaser_img_src:
+  "https://placeimg.com/400/300/nature"
+content_teaser_img_alt:
+  "This is the teaser image's alt text"
+
 # Title
 content_teaser_label:
   "This is a Teaser Label"
@@ -8,8 +17,7 @@ content_teaser_title_modifiers:
   1:
     no-space
 content_teaser_title_blockname:
-content_teaser_date:
-  "February 17, 2018"
+
 # Body
 content_teaser_body:
   "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."

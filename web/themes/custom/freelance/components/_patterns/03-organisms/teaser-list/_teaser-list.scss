@@ -1,6 +1,10 @@
-.teaser-list__heading {
+.teaser-list__title {
+  @include heading-small($font-family: $font-body);
   @include alt-heading;
+  @include trailing-border(1px, 0);
   @include trailer(1);
 
-  @extend .h3;
+  border-color: $color-border;
+  margin-right: 50%;
 }
+

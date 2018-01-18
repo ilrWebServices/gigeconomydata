@@ -1,22 +1,16 @@
-{% set content_teaser_modifiers = [
-  node.isPromoted() ? 'promoted',
-  view_mode ? 'view-mode-' ~ view_mode|clean_class,
-  ]
-%}
-{% set authors = [] %}
-{% for author in content.field_author|field_value %}
-  {% set authors = authors|merge([author['#title']]) %}
-{% endfor %}
+{% set img_src = img ? img.uri|image_style('teaser') : NULL %}
+
+{% set modifiers = img ? ['with-image'] : [] %}
 
 {% embed "@molecules/content-teaser/content-teaser.twig"
   with {
-    "content_teaser_header": true,
+    "content_teaser_modifiers": modifiers,
     "content_teaser_date": content.field_publication_date,
     "content_teaser_title": label,
     "content_teaser_title_link": url,
     "content_teaser_link_url": url,
     "content_teaser_body": content.field_teaser_text|field_value|render|striptags,
-    "content_teaser_img_src": img.uri|image_style('teaser'),
+    "content_teaser_img_src": img_src,
     "content_teaser_img_alt": img.alt,
   }
 %}
