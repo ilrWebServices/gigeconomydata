@@ -1,8 +1,11 @@
-.teaser-list__title {
+.component__teaser-list {
+  @include leader(1);
+}
+
+.component__teaser-list__title {
   @include heading-small($font-family: $font-body);
   @include alt-heading;
   @include trailing-border(1px, 0);
-  @include trailer(1);
 
   border-color: $color-border;
   margin-right: 50%;

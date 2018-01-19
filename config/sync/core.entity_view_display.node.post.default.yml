@@ -24,9 +24,9 @@ mode: default
 content:
   field_author:
     weight: 4
-    label: above
+    label: hidden
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     type: entity_reference_label
     region: content

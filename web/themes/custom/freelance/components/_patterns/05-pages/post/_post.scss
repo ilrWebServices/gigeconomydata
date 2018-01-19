@@ -38,13 +38,20 @@
   }
 }
 
+.post__author {
+  @include type-scale(xs);
+  @include trailer(0.2);
+}
+
 .post__date {
   @include trailer(1);
+  @include type-scale(xs);
 }
 
 .post__body,
 .post__title,
 .post__subtitle,
+.post__author,
 .post__date {
   @include large {
     @include grid-span(9);
@@ -53,22 +60,8 @@
   }
 }
 
-.post__body {
-  .paragraph__image {
-    @include large {
-      @include clearfix;
-      @include trailer(2);
-
-      margin-left: -2rem;
-    }
-
-    .img {
-      @include fill-parent;
-    }
-  }
-
-  .paragraph__text,
-  .paragraph__selected-content {
-    @include grid-span(12);
+.post__sidebar {
+  @include large {
+    @include grid-span(3, 10);
   }
 }

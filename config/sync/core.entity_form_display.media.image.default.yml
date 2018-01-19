@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.image.field_caption
     - field.field.media.image.field_image
     - image.style.medium
     - media_entity.bundle.image
   module:
     - focal_point
-    - path
 _core:
   default_config_hash: Sp_l49V1k6X-t55swc_4D_7w_-6c7GES3FzhGaYRlww
 id: media.image.default
@@ -16,8 +16,16 @@ targetEntityType: media
 bundle: image
 mode: default
 content:
-  field_image:
+  field_caption:
     weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    weight: 2
     settings:
       preview_image_style: medium
       preview_link: true
@@ -34,12 +42,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   created: true
+  path: true
   uid: true

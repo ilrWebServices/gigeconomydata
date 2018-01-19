@@ -35,11 +35,14 @@
     {% endblock %}
   {% endembed %}
 {% else %}
-  <img
+  <figure class="figure">
+    <img
     {{ bem(image_base_class, (image_modifiers), image_blockname) }}
     src="{{ img_src }}"
     {% if img_alt %}
       alt="{{ img_alt }}"
     {% endif %}
   />
+    <figcaption class="figcaption">{{ img_caption }}</figcaption>
+  </figure>
 {% endif %}

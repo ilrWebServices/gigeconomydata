@@ -10,6 +10,13 @@ typekit:
   js:
     //use.typekit.net/bva6ofm.js: { every_page: true }
 
+toc:
+  js:
+    components/js/toc.js: {}
+    components/_patterns/02-molecules/toc/toc.js: {}
+  dependencies:
+    - core/underscore
+
 main_menu:
   js:
     components/_patterns/02-molecules/menus/main-menu/main-menu.js: {}

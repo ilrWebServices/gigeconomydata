@@ -1,0 +1,14 @@
+{% include '@molecules/toc/_toc.twig' %}
+
+<div class="pl-wrapper">
+  <div class="js-toc-source component-text">
+    {% for i in 1..4 %}
+      <h3 class="component__text__heading">{{ random(demo.texts) }}</h3>
+      <p>{{ excerpt.long }}</p>
+      <h3 class="component__text__heading">{{ random(demo.texts) }}</h3>
+      <p>{{ excerpt.long }}</p>
+      <p>{{ excerpt.long }}</p>
+      <p>{{ excerpt.long }}</p>
+    {% endfor %}
+  </div>
+</div>

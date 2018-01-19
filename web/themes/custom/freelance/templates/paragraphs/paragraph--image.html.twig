@@ -1,7 +1,5 @@
-{% set paragraph_base_class = 'paragraph__image' %}
-<div class="paragraph {{ paragraph_base_class }}">
-  {% include "@atoms/04-images/00-image/image.twig" with {
-    "img_src": img.uri|image_style('full_content'),
-    "img_alt": img.alt,
-  } %}
-</div>
+{% include "@molecules/components/_image.twig" with {
+  "img_src": img.uri|image_style('full_content'),
+  "img_alt": img.alt,
+  "img_caption": img.caption,
+} %}

@@ -2,8 +2,8 @@
   @include add-grid(12);
   @include add-gutter(1);
   @include clearfix;
-  @include trailer(2);
-  @include trailing-border(2px, 2);
+  @include trailer(1);
+  @include trailing-border(2px, 1);
 
   border-color: $color-border;
 }
@@ -18,11 +18,12 @@
 }
 
 .content-teaser__date {
-  @include trailer(0.5);
+  @include type-scale(xs);
+  @include trailer(.5);
 }
 
 .content-teaser__body {
-  @include trailer(1);
+  @include trailer(.5);
 }
 
 .content-teaser__link {

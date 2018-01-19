@@ -1,5 +1,5 @@
 {% set post_base_class = 'post' %}
-<div {{ bem(post_base_class, (post_modifiers), post_blockname) }}>
+<div {{ bem(post_base_class, (post_modifiers), post_blockname, ['js-toc-source']) }}>
   {{ title_prefix }}
   {% include "@atoms/02-text/00-headings/_heading.twig" with {
     "heading_level": 1,
@@ -36,11 +36,17 @@
         {% include "@atoms/04-images/00-image/image.twig" with {
           "img_src": post_img_src,
           "img_alt": post_img_alt,
+          "img_caption": post_img_caption,
         } %}
       </div>
     </div>
   {% endif %}
 
+  {% if post_author %}
+  <div class="post__author">
+    <span class="author">{{ post_author }}</span>
+  </div>
+  {% endif %}
   {% if post_date %}
   <div class="post__date">
     <span class="date">{{ post_date }}</span>
@@ -52,4 +58,7 @@
       {{ post_body }}
     </div>
   {% endif %}
+  <aside class="post__sidebar" role="complementary">
+    {% include '@molecules/toc/_toc.twig' %}
+  </aside>
 </div><!-- /post -->

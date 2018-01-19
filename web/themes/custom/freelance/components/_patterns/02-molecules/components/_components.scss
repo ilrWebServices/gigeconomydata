@@ -1,0 +1,24 @@
+.component {
+  @include trailer(1);
+  @include clearfix;
+}
+
+.component__text,
+.component__selected-content {
+  @include grid-span(12);
+}
+
+.component__image {
+  @include large {
+    margin-left: -2rem;
+  }
+
+  .img {
+    @include fill-parent;
+  }
+}
+
+.component__text__heading {
+  @include heading-medium;
+  @include alt-heading;
+}

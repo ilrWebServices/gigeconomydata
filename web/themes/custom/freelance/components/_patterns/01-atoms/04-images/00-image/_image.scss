@@ -8,6 +8,18 @@
   width: 100%;
 }
 
+.figure {
+  margin: 0;
+
+  .figcaption {
+    @include type-scale(xs);
+    @include padding-leader(0.5);
+
+    color: $color-caption;
+    padding-left: 5px;
+  }
+}
+
 .img,
 .image__img {
   @include img;
