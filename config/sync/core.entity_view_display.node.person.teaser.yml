@@ -5,9 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.person.body
-    - field.field.node.person.field_first_name
+    - field.field.node.person.field_image_reference
     - field.field.node.person.field_job_title
-    - field.field.node.person.field_last_name
     - field.field.node.person.field_organization
     - node.type.person
   module:
@@ -32,7 +31,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_first_name: true
+  field_image_reference: true
   field_job_title: true
-  field_last_name: true
   field_organization: true

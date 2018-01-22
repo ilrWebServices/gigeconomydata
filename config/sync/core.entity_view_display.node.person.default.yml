@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.person.body
-    - field.field.node.person.field_first_name
     - field.field.node.person.field_image_reference
     - field.field.node.person.field_job_title
-    - field.field.node.person.field_last_name
     - field.field.node.person.field_organization
     - node.type.person
   module:
@@ -25,14 +23,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_first_name:
-    weight: 1
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_image_reference:
     weight: 6
     label: above
@@ -43,14 +33,6 @@ content:
     region: content
   field_job_title:
     weight: 4
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_last_name:
-    weight: 2
     label: hidden
     settings:
       link_to_entity: false
