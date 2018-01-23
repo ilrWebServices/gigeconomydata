@@ -1,0 +1,4 @@
+name: GIG Custom Blocks Module
+type: module
+description: 'Module for custom blocks defined in code.'
+core: 8.x

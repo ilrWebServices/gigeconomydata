@@ -19,11 +19,11 @@
 
 .content-teaser__date {
   @include type-scale(xs);
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 .content-teaser__body {
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 .content-teaser__link {

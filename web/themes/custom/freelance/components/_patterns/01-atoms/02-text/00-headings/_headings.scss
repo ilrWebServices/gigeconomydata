@@ -25,31 +25,31 @@
 @mixin heading-xl($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 400) {
   @include heading($font-family, $color, $color-heading-link, $color-heading-link--hover, $font-weight);
   @include type-scale(xl);
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 @mixin heading-large($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 400) {
   @include heading($font-family, $color, $color-heading-link, $color-heading-link--hover, $font-weight);
   @include type-scale(large);
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 @mixin heading-medium($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 400) {
   @include heading($font-family, $color, $color-heading-link, $color-heading-link--hover, $font-weight);
   @include type-scale(medium);
-  @include trailer(.3);
+  @include trailer(0.3);
 }
 
 @mixin heading-small($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 300) {
   @include heading($font-family, $color, $color-heading-link, $color-heading-link--hover);
   @include type-scale(small);
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 @mixin heading-xs($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 300) {
   @include heading($font-family, $color, $color-heading-link, $color-heading-link--hover, $font-weight);
   @include type-scale(base);
-  @include trailer(.5);
+  @include trailer(0.5);
 }
 
 @mixin alt-heading($color: $color-heading--alt, $font-weight: 300) {

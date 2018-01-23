@@ -17,6 +17,10 @@ toc:
   dependencies:
     - core/underscore
 
+footnotes_combined:
+  js:
+    components/js/footnotes-combined.js: {}
+
 main_menu:
   js:
     components/_patterns/02-molecules/menus/main-menu/main-menu.js: {}

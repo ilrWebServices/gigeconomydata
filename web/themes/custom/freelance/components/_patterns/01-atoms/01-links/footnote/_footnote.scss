@@ -1,0 +1,61 @@
+.see-footnote {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+  padding: 0.2em 0.5em;
+  background-color: darken($gray-lightest, 5%);
+  text-decoration: none;
+  border: none;
+  line-height: 2em;
+  font-size: 10px;
+  color: $color-link;
+  // @include adjust-font-size-to(10px);
+
+  &:focus,
+  &:active,
+  &:target {
+    background-color: $color-footnote;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+}
+
+.footnotes {
+  @include leader(0);
+  @include trailer(2);
+  @include leading-border(2px);
+
+  border-color: $color-border;
+}
+
+.footnote {
+  display: none;
+
+  &:focus,
+  &:active,
+  &:target {
+    background-color: $color-footnote;
+  }
+
+  .footnotes--combined & {
+    display: block;
+  }
+}
+
+.footnote-label {
+  padding: 0 0.5em;
+  background-color: darken($gray-lightest, 5%);
+  text-decoration: none;
+  border: none;
+  color: $color-link;
+
+  &:focus,
+  &:active,
+  &:target {
+    background-color: $color-footnote;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+}

@@ -1,11 +1,6 @@
 .post {
   @include add-grid(12);
-  @include trailer(2);
   @include clearfix;
-
-  @include large {
-    @include trailer(3);
-  }
 }
 
 .post__title {

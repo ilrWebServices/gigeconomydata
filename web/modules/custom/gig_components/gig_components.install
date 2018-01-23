@@ -21,7 +21,7 @@ function gig_components_update_8001() {
   $block->info = "Read next block";
 
   $paragraph = Drupal\paragraphs\Entity\Paragraph::create([
-    'type' => 'dynamic_content_block',
+    'type' => 'tagged_content_block',
     'field_heading' => [
       'value' => 'Read next'
     ],
