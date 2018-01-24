@@ -4,6 +4,9 @@ global:
       dist/style.css: {}
   js:
     dist/scripts.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
 
 typekit:
   header: true
