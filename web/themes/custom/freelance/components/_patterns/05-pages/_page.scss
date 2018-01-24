@@ -12,8 +12,10 @@
 .main,
 .footer {
   @include wrapper;
+}
 
-  margin-bottom: 4em;
+#block-freelance-content {
+  padding: 0 1rem;
 }
 
 .main-sidebar {

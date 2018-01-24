@@ -1,0 +1,9 @@
+{% set img_src = img_src | default('../../../../images/svg/logo-gigeconomydata.svg') %}
+<div class="site-branding">
+  {% include "@atoms/04-images/00-image/image.twig" with {
+    img_src: img_src,
+    img_alt: 'Gig Economy Data Hub',
+    img_url: '/',
+    image_link_base_class: 'logo',
+  }%}
+</div><!-- /site-branding -->

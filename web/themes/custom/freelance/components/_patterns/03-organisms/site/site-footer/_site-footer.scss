@@ -1,1 +1,7 @@
-// Empty
+.footer {
+  @include padding-leader(1);
+  @include padding-trailer(1);
+
+  background: $color-footer-bg;
+  color: $gray-lightest;
+}

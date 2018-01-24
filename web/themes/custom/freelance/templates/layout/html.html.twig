@@ -23,6 +23,7 @@
  * @see template_preprocess_html()
  */
 #}
-{% set attributes = attributes.addClass(path_info.node_type_class) %}
+{% set front = is_front ? 'front': '' %}
+{% set attributes = attributes.addClass([path_info.node_type_class, front]) %}
 
 {% include "@pages/_html.twig" %}

@@ -1,1 +1,26 @@
-//  Empty
+header.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @include breakpoint($main-menu-medium) {
+    @include padding-leader(1);
+
+    body:not(.front) & {
+      @include trailing-border(5px, 0);
+      @include trailer(2);
+
+      border-color: $color-border;
+    }
+  }
+
+  .site-branding {
+    flex-grow: 1;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+
+    @include breakpoint($main-menu-medium) {
+      margin-top: 0;
+    }
+  }
+}

@@ -1,5 +1,9 @@
-<header class="header">
-  <div class="navigation">
-    {{ content }}
-  </div>
+<header class="header site-header">
+    {% if pl %}
+      {% include "@molecules/site-branding/site-branding.twig" %}
+      {% include "@molecules/menus/main-menu/main-menu.twig" %}
+      {% include "@molecules/search-block/search-block.twig" %}
+    {% else %}
+      {{ content }}
+    {% endif %}
 </header>

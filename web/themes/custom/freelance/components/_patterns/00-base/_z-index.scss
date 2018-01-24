@@ -1,0 +1,26 @@
+// Z-index map
+//
+// Z-indexes, listed from highest (closest to viewer) to lowest (furthest away
+// from viewer).
+//
+// Usage: @include z(foo);
+
+$z-index: (
+  overlay: 500,
+  featured-video-sidebar: 100,
+  full-width-image: 50,
+  select-item-dropdown: 10,
+  video-play-button: 5,
+);
+
+// Z-index function and mixin
+//
+// Used with the Z-index map, above.
+
+@function z($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z($key) {
+  z-index: z($key);
+}

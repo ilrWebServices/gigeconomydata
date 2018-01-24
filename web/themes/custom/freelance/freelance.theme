@@ -29,11 +29,19 @@ function freelance_preprocess_views_view__tagged_content(&$variables) {
  * Preprocess variables for html templates.
  * @param $variables
  */
-function freelance_preprocess_html(&$vars) {
-  $vars['path_info']['args'] = Html::cleanCssIdentifier(ltrim(\Drupal::request()->getPathInfo(), '/'));
-  if (!empty($vars['node_type'])) {
-    $vars['path_info']['node_type_class'] = "node-type__{$vars['node_type']}";
+function freelance_preprocess_html(&$variables) {
+  $variables['path_info']['args'] = Html::cleanCssIdentifier(ltrim(\Drupal::request()->getPathInfo(), '/'));
+  if (!empty($variables['node_type'])) {
+    $vars['path_info']['node_type_class'] = "node-type__{$variables['node_type']}";
   }
+
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+  catch (Exception $e) {
+    $variables['is_front'] = FALSE;
+  }
+  $variables['#cache']['contexts'][] = 'url.path.is_front';
 }
 
 /**

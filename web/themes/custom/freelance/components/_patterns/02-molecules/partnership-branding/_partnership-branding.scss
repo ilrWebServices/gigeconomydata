@@ -1,0 +1,64 @@
+.partnership-branding {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  @include trailer(2);
+}
+
+.partnership-branding__box {
+  @include type-scale(xs);
+
+  width: 100%;
+  background: $gray-lighter;
+  display: flex;
+  align-items: center;
+
+  @include medium {
+    flex: 1;
+    width: 33%;
+  }
+
+  p {
+    margin: 0;
+    padding: 1em 2em;
+    line-height: 1.2;
+    text-align: center;
+
+    @include large {
+      padding: 4em 3em;
+    }
+  }
+
+  .partnership-branding__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo__link {
+    text-align: center;
+  }
+
+  .logo__img {
+    max-width: 80%;
+  }
+
+  $padding: 2vw 0;
+
+  &--ilr {
+    background: $color-branding--ilr;
+    width: 50%;
+    padding: $padding;
+  }
+
+  &--aspen {
+    background: $color-branding--aspen;
+    width: 50%;
+    padding: $padding;
+
+    .logo__img {
+      max-width: 60%;
+    }
+  }
+}

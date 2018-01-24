@@ -1,0 +1,7 @@
+demo:
+  nav:
+    items:
+      - title: "About"
+      - title: "The Basics"
+      - title: "Research"
+      - title: "Blog"

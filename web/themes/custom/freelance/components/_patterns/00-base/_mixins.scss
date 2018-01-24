@@ -36,7 +36,6 @@
 @mixin wrapper {
   margin: 0 auto;
   max-width: $max-width;
-  padding: 0 1rem;
 
   @include clearfix;
 }
@@ -91,4 +90,75 @@
 /// Mixin - Standard Margin
 @mixin margin {
   margin-bottom: 1em;
+}
+
+/// svg-ir()
+///
+/// Image replacement for embedded SVGs.
+///
+/// @param {Length} $width - width in any valid CSS length
+/// @param {Length} $height - height in any valid CSS length
+/// @param {String} $image-source - full SVG source of the image
+/// @param {String} $display [block] - display type, such as inline-block
+/// @requires svg-url
+///
+/// @author Ivan Boothe
+@mixin svg-ir($width, $height, $image-source, $display: block) {
+  display: $display;
+  width: $width;
+  height: $height;
+  background-image: svg-url($image-source);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/// svg-url()
+///
+/// Create an optimized SVG URL for embedding.
+///
+/// @requires str-replace
+///
+/// @link http://codepen.io/tigt/post/optimizing-svgs-in-data-uris
+/// @author Jakob Eriksen
+@function svg-url($svg) {
+
+  // Chunk up string in order to avoid "stack level too deep" error
+  $encoded: '';
+  $slice: 2000;
+  $index: 0;
+  $loops: ceil(str-length($svg) /$slice);
+
+  @for $i from 1 through $loops {
+    $chunk: str-slice($svg, $index, $index + $slice - 1);
+
+    // Encode (may need a few extra replacements)
+    $chunk: str-replace($chunk, '"', '\'');
+    $chunk: str-replace($chunk, '<', '%3C');
+    $chunk: str-replace($chunk, '>', '%3E');
+    $chunk: str-replace($chunk, '&', '%26');
+    $chunk: str-replace($chunk, '#', '%23');
+    $encoded: #{$encoded}#{$chunk};
+    $index: $index + $slice;
+  }
+
+  @return url("data:image/svg+xml,#{$encoded}");
+}
+
+/// Replace characters in a string.
+///
+/// @link http://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris
+/// @author Jakob Eriksen
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
 }

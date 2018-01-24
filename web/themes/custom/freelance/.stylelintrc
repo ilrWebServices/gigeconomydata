@@ -8,7 +8,10 @@
         "extend",
         "if",
         "each",
-        "content"
+        "content",
+        "function",
+        "return",
+        "for"
       ]
     }]
   }
