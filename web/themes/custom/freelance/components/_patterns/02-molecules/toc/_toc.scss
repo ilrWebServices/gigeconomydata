@@ -24,6 +24,7 @@
     position: fixed;
     top: 25px;
     width: inherit;
+    @include z(toc);
 
     .toolbar-fixed & {
       top: 25px + 39px;
@@ -43,10 +44,6 @@
   &__header {
     @include heading-small;
     @include alt-heading;
-
-    // @include xl {
-    //   font-size: 24px;
-    // }
   }
 
   &__inner {
@@ -69,22 +66,19 @@
 
     > a {
       text-decoration: none;
-      margin-bottom: 7px;
+      margin-bottom: 14px;
       display: block;
       line-height: 19px;
-      color: $color-link;
+      color: lighten($color-heading--alt, 10%);
     }
 
     &--active {
       &::before {
-        content: '';
+        content: '>';
         display: inline-block;
-        background-color: $color-link;
-        width: 10px;
-        height: 10px;
-        border-radius: 10px;
+        color: $color-link;
         position: absolute;
-        top: 4px;
+        top: -5px;
         left: 0;
       }
 
