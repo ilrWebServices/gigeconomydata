@@ -1,10 +1,13 @@
-uuid: fc2796a7-abc8-47e9-be5b-55c0bae0fa47
+uuid: af9cdb35-31e8-4610-9383-a70ee669c349
 langcode: en
 status: true
 dependencies:
   config:
     - block_visibility_groups.block_visibility_group.posts
+  content:
+    - 'block_content:component_block:87534ef2-a8c6-4475-98d4-1584d9ec81ee'
   module:
+    - block_content
     - block_visibility_groups
   theme:
     - freelance
@@ -13,12 +16,12 @@ theme: freelance
 region: content
 weight: 2
 provider: null
-plugin: 'block_content:066feb9b-a29d-40f6-8eff-1b860e27adb6'
+plugin: 'block_content:87534ef2-a8c6-4475-98d4-1584d9ec81ee'
 settings:
-  id: 'block_content:066feb9b-a29d-40f6-8eff-1b860e27adb6'
+  id: 'block_content:87534ef2-a8c6-4475-98d4-1584d9ec81ee'
   label: 'Read next'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full
