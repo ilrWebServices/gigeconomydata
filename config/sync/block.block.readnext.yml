@@ -21,7 +21,7 @@ settings:
   id: 'block_content:87534ef2-a8c6-4475-98d4-1584d9ec81ee'
   label: 'Read next'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
