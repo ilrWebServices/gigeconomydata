@@ -21,10 +21,11 @@
   }
 
   &--fixed {
+    @include z(toc);
+
     position: fixed;
     top: 25px;
     width: inherit;
-    @include z(toc);
 
     .toolbar-fixed & {
       top: 25px + 39px;
