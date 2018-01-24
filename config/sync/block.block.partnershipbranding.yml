@@ -1,28 +1,28 @@
-uuid: c4ab038b-c0e4-45d5-9f43-ea0b67023d8d
+uuid: df4f2fda-fc23-4d06-93ff-ef734d5449f0
 langcode: en
 status: true
 dependencies:
   config:
-    - block_visibility_groups.block_visibility_group.posts
+    - block_visibility_groups.block_visibility_group.homepage
   module:
     - block_visibility_groups
     - gig_blocks
   theme:
     - freelance
-id: combinedfootnotes
+id: partnershipbranding
 theme: freelance
 region: content
-weight: 1
+weight: -6
 provider: null
-plugin: gig_blocks_footnotes_combined
+plugin: gig_blocks_partnership_branding
 settings:
-  id: gig_blocks_footnotes_combined
-  label: 'Combined footnotes'
+  id: gig_blocks_partnership_branding
+  label: 'Partnership Branding'
   provider: gig_blocks
   label_display: '0'
 visibility:
   condition_group:
     id: condition_group
     negate: false
-    block_visibility_group: posts
+    block_visibility_group: homepage
     context_mapping: {  }
