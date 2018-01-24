@@ -1,0 +1,38 @@
+.component__featured-promo {
+  position: relative;
+
+  @include large {
+    margin-left: 1rem;
+
+    @include trailer(2);
+  }
+
+  &__content {
+    padding: 1.5rem;
+    background: $color-bg-body;
+    background: darken($color-bg-body, 3%);
+
+    @include large {
+      position: absolute;
+      right: -2rem;
+      top: 30%;
+      width: 50%;
+    }
+
+    @include xl {
+      padding: 2rem;
+    }
+  }
+
+  &__heading {
+    @include heading-small; // @todo refactor this since ems are buggy
+  }
+
+  &__intro {
+    font-size: 0.8rem;
+  }
+
+  &__link {
+    @include button;
+  }
+}

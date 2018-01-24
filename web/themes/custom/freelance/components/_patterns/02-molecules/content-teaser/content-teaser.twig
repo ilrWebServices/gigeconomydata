@@ -86,14 +86,4 @@
       "link_base_class": content_teaser_link_base_class|default('link'),
     } %}
   {% endif %}
-  {% if content_teaser_button_url %}
-    {% include "@atoms/06-buttons/01-button.twig" with {
-      "button_content": content_teaser_button_content,
-      "button_url": content_teaser_button_url,
-      "button_base_class": content_teaser_button_base_class|default('button'),
-      "button_attributes": content_teaser_button_attributes,
-      "button_modifiers": content_teaser_button_modifiers,
-      "button_blockname": content_teaser_blockname|default(content_teaser_base_class),
-    } %}
-  {% endif %}
 </div>

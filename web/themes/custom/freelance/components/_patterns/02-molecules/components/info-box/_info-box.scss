@@ -1,0 +1,29 @@
+.component__info-box {
+  @include padding-leader(3);
+  @include padding-trailer(2);
+  @include trailer(2);
+
+  background-color: $color-info-box;
+  width: 100%;
+
+  &__title {
+    @include heading-xs($font-family: $font-body, $color: white);
+    @include trailer(0.5);
+
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__body {
+    @include heading-medium($color: white, $font-weight: normal);
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+
+    @include large {
+      max-width: 50%;
+    }
+  }
+}

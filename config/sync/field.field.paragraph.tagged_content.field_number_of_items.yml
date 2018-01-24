@@ -10,13 +10,13 @@ field_name: field_number_of_items
 entity_type: paragraph
 bundle: tagged_content
 label: 'Number of items'
-description: ''
+description: 'Choose "0" to include all.'
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  min: 1
+  min: null
   max: null
   prefix: ''
   suffix: ''

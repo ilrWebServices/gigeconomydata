@@ -75,7 +75,7 @@ function freelance_preprocess_search_result(&$variables) {
 /**
  * Implements hook_preprocess_entity().
  */
-function freelance_preprocess_paragraph__image(&$variables) {
+function freelance_preprocess_paragraph(&$variables) {
   $paragraph = &$variables['paragraph'];
   if ($paragraph->hasField('field_image')) {
     $variables['img'] = freelance_get_image_properties_from_media_reference($paragraph->get('field_image')->first());

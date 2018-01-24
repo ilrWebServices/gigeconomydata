@@ -1,0 +1,21 @@
+uuid: a080558c-a043-48a0-a405-400191e5a13f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.info_box
+  module:
+    - text
+id: paragraph.info_box.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: info_box
+label: Message
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

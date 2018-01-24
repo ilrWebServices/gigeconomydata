@@ -1,0 +1,17 @@
+uuid: 49ded3a0-1273-451c-98ba-e42b5bcfd28a
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: featured_promo
+label: 'Featured promo'
+effects:
+  2fb52949-fd02-44ea-8c21-0e6943aac170:
+    uuid: 2fb52949-fd02-44ea-8c21-0e6943aac170
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 560
+      crop_type: focal_point

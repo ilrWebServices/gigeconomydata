@@ -1,0 +1,31 @@
+{% set component_blockname = 'component__featured-promo' %}
+<div class="component component__featured-promo">
+  <div class="component__featured-promo__image">
+    {% include "@atoms/04-images/00-image/image.twig" with {
+      "img_src": img_src,
+      "img_alt": img.alt,
+      "img_caption": img.caption,
+    } %}
+  </div>
+  <div class="component__featured-promo__content">
+    <div class="component__featured-promo__heading">
+      {% include "@atoms/02-text/00-headings/_heading.twig" with {
+        "heading_level": 2,
+        "heading": heading,
+        "heading_blockname": component_blockname,
+        "heading_base_class": 'heading'
+      } %}
+    </div>
+    <div class="{{component_blockname}}__intro">
+      {{ intro }}
+    </div>
+    {% include "@atoms/01-links/link/link.twig" with {
+      "link_content": link_text,
+      "link_url": link_url,
+      "link_blockname": component_blockname,
+      "link_base_class": 'link',
+    } %}
+  </div>
+</div>
+
+{# "intro": content.field_content|field_value,z #}

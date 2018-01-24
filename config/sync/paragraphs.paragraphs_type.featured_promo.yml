@@ -1,0 +1,9 @@
+uuid: da89d9a1-732b-4cb0-b8b1-188490a5f751
+langcode: en
+status: true
+dependencies: {  }
+id: featured_promo
+label: 'a featured promo'
+icon_uuid: null
+description: 'Featured promos have an image, heading, text and button'
+behavior_plugins: {  }

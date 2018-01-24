@@ -1,0 +1,21 @@
+uuid: f3575454-a766-47b3-a1ab-4b60ad42be95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.featured_promo
+  module:
+    - text
+id: paragraph.featured_promo.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: featured_promo
+label: Intro
+description: 'The intro should be limited to a single, short paragraph.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

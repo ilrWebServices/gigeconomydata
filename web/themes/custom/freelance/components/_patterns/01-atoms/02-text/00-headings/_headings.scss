@@ -5,7 +5,7 @@
 
 @mixin heading($font-family: $font-heading, $color: $color-heading, $color-heading-link: inherit, $color-heading-link--hover: inherit, $font-weight: 400) {
   margin: 0;
-  color: #{$color};
+  color: $color;
   font-family: #{$font-family};
   font-weight: #{$font-weight};
   font-style: normal;

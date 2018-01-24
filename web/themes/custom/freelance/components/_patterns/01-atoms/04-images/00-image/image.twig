@@ -15,6 +15,7 @@
 #}
 {% set image_link_base_class = image_link_base_class|default('image') %}
 {% set image_base_class = image_base_class|default('img') %}
+{% set modifiers = img_caption ? ' figure--with-caption' : '' %}
 {% if img_url %}
   {% embed "@atoms/01-links/link/link.twig" with {
     "link_url": img_url,
@@ -24,7 +25,7 @@
     "link_blockname": image_link_blockname,
   } %}
     {% block link_content %}
-      <figure class="figure">
+      <figure class="figure{{modifiers}}">
         <img
         {{ bem(image_base_class, (image_modifiers), image_blockname) }}
         src="{{ img_src }}"
@@ -37,7 +38,7 @@
     {% endblock %}
   {% endembed %}
 {% else %}
-  <figure class="figure">
+  <figure class="figure{{modifiers}}">
     <img
     {{ bem(image_base_class, (image_modifiers), image_blockname) }}
     src="{{ img_src }}"
