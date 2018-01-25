@@ -75,11 +75,11 @@
 
     &--active {
       &::before {
-        content: '>';
+        content: '\21FE';
         display: inline-block;
         color: $color-link;
         position: absolute;
-        top: -5px;
+        top: -0.3rem;
         left: 0;
       }
 
