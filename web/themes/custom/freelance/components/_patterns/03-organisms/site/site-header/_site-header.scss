@@ -1,10 +1,16 @@
 header.site-header {
+  @include leader(-1);
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
 
+  @include small {
+    @include leader(-2);
+  }
+
   @include breakpoint($main-menu-medium) {
-    @include padding-leader(1);
+    margin-top: 0;
 
     body:not(.front) & {
       @include trailing-border(5px, 0);
