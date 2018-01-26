@@ -9,7 +9,6 @@
   line-height: 2em;
   font-size: 10px;
   color: $color-link;
-  // @include adjust-font-size-to(10px);
 
   &:focus,
   &:active,
@@ -30,6 +29,8 @@
 }
 
 .footnote {
+  @include contain-text;
+
   display: none;
 
   &:focus,
@@ -40,6 +41,10 @@
 
   .footnotes--combined & {
     display: block;
+  }
+
+  a {
+    color: $color-link;
   }
 }
 

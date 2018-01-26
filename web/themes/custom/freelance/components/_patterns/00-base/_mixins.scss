@@ -40,6 +40,33 @@
   @include clearfix;
 }
 
+/// Mixin - Ellipsis
+/// Adds ellipsis when text hits the container
+/// @see https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/// Mixin - Contain text
+/// Prevents long text from breaking parent layout
+/// @see https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
+@mixin contain-text {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
 /// Mixin - More Link
 /// Used in a number of views
 @mixin more-link {
