@@ -3,9 +3,9 @@
 // See https://github.com/fourkitchens/freelance/wiki/Drupal-Components#javascript-in-drupal for more details on using component javascript in Drupal.
 
 // Typekit Example
-// try {
-//   Typekit.load({ async: true });
-// }
-// catch (e) {
-//   alert('An error has occurred: ' + e.message);
-// }
+try {
+  Typekit.load({ async: true });
+}
+catch (e) {
+  alert('An error has occurred: ' + e.message);
+}
