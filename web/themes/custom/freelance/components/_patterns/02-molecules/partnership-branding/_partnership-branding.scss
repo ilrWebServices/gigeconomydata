@@ -1,7 +1,9 @@
 .partnership-branding {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+  @include full-width;
+
+  background: lighten($color-bg-body, 1%);
+  border-top:1px solid $gray-lighter;
+  border-bottom: 1px solid $gray-lighter;
 
   @include medium {
     @include trailer(1);
@@ -12,9 +14,22 @@
   }
 
   .footer & {
-    @include trailer(1);
+    background: transparent;
+    border: none;
+  }
 
-    justify-content: center;
+  &__wrapper {
+    @include wrapper;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    .footer & {
+      @include trailer(1);
+
+      justify-content: center;
+    }
   }
 }
 

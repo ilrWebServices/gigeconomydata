@@ -1,4 +1,6 @@
 .component__info-box {
+  @include full-width;
+
   @include padding-leader(1);
   @include padding-trailer(0.5);
   @include trailer(2);
@@ -12,7 +14,10 @@
   }
 
   background-color: $color-info-box;
-  width: 100%;
+
+  &__wrapper {
+    @include wrapper;
+  }
 
   &__title {
     @include heading-xs($font-family: $font-body, $color: white);

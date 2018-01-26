@@ -8,9 +8,7 @@ body {
   background: $color-bg-body;
 }
 
-.header,
-.main,
-.footer {
+.main {
   @include wrapper;
 }
 

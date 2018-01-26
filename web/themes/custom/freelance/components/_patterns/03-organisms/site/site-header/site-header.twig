@@ -1,5 +1,6 @@
 {% set modifier = is_front ? '--front' : '--not-front' %}
 <header class="header site-header site-header{{ modifier }}">
+  <div class="site-header__wrapper">
     {% if pl %}
       {% include "@molecules/site-branding/site-branding.twig" %}
       {% include "@molecules/menus/main-menu/main-menu.twig" %}
@@ -7,4 +8,5 @@
     {% else %}
       {{ content }}
     {% endif %}
+  </div>
 </header>

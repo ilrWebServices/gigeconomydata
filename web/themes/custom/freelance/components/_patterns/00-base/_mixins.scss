@@ -188,3 +188,17 @@
 
   @return $string;
 }
+
+// Full Width
+// Pulls in `./node_modules/sass-tools/lib/_full-width.scss`
+// Use `@include full-width()` to have any element break outside of a constraining container and span the full browser width
+@import "full-width";
+.full-width {
+  @include full-width();
+}
+
+@mixin full-width--offset($right-offset) {
+  @include full-width();
+  left: 50% + $right-offset;
+  right: 50% - $right-offset;
+}
