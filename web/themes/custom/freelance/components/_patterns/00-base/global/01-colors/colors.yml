@@ -19,6 +19,8 @@ items:
     value: black
   - name: $cornell-red
     value: '#b31b1b'
+  - name: $red
+    value: '#c12e23'
   - name: $strong-cyan
     value: '#2099b7'
   - name: $blue-dark

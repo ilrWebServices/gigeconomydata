@@ -13,6 +13,7 @@
 
   .footer & {
     @include trailer(1);
+
     justify-content: center;
   }
 }

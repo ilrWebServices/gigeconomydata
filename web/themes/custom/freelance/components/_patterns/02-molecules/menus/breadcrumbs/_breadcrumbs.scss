@@ -1,7 +1,8 @@
-$breadcrumb-active: #bbb;
-
 .breadcrumb {
   @include list-reset;
+  @include trailer(1);
+
+  padding-left: $space;
 }
 
 .breadcrumb__item,
@@ -9,24 +10,27 @@ $breadcrumb-active: #bbb;
 .breadcrumb__link:link,
 .breadcrumb__link:visited,
 .breadcrumb__link:focus {
-  color: $gray-light;
+  color: $color-breadcrumb;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .breadcrumb__link:hover {
-  color: $gray;
+  color: $color-breadcrumb--active;
 }
 
 .breadcrumb__item {
+  @include type-scale(base);
+
   display: inline-block;
-  font-size: 0.75rem;
+  margin-right: $space-one-half;
 
   &::after {
     content: "/";
   }
 
   &:last-child {
-    color: $breadcrumb-active;
+    color: $color-breadcrumb--active;
 
     &::after {
       content: "";
@@ -34,6 +38,10 @@ $breadcrumb-active: #bbb;
   }
 }
 
-.breadcrumb_link:active {
-  color: $breadcrumb-active;
+.breadcrumb__link {
+  padding-right: $space-one-half;
+
+  &:active {
+    color: $color-breadcrumb--active;
+  }
 }

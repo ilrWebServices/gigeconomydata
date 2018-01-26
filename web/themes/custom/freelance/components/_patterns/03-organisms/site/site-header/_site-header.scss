@@ -14,7 +14,7 @@ header.site-header {
 
     &.site-header--not-front {
       @include trailing-border(5px, 0);
-      @include trailer(2);
+      @include trailer(1);
 
       border-color: $color-border;
     }
