@@ -4,7 +4,7 @@
       var footnotes_html = '';
       var $i = 1;
       $('li.footnote').each(function () {
-        var $link = $(this).find('a');
+        var $link = $(this).find('a.footnote-label');
         var $href = $link.attr('href');
         $link.text($i+'.'); // Update the footnote li
         $('a'+$href).text($i); // Update the link text
