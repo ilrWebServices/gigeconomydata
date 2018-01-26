@@ -15,10 +15,20 @@ drush sql-sync @gigeconomydata.master @gig.dev --sanitize -y
 
 drush cr
 
-# import config
-drush cim -y
+# check whether to keep the prod config in place
+while :; do
+  case $1 in
+    -c|--config) CONFIG="YES"
+    ;;
+    *) break
+  esac
+  shift
+done
 
-# import local config
-drush csim -y
+if [ "$CONFIG" != "YES" ]; then
+  # import local config
+  drush cim -y
+  drush csim -y
+fi
 
 echo "Sync complete."
