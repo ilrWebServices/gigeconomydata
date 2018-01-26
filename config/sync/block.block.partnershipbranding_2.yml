@@ -1,4 +1,4 @@
-uuid: 018f3f85-ea25-4adb-96ca-07122e669926
+uuid: 5abad87d-3e32-4821-8d3b-7a0a8a4b24ec
 langcode: en
 status: true
 dependencies:
@@ -7,15 +7,15 @@ dependencies:
     - gig_blocks
   theme:
     - freelance
-id: copyright
+id: partnershipbranding_2
 theme: freelance
 region: footer
-weight: -5
+weight: -6
 provider: null
-plugin: gig_blocks_copyright
+plugin: gig_blocks_partnership_branding
 settings:
-  id: gig_blocks_copyright
-  label: Copyright
+  id: gig_blocks_partnership_branding
+  label: 'Partnership Branding'
   provider: gig_blocks
   label_display: '0'
 visibility:
