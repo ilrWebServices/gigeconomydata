@@ -23,7 +23,19 @@ function freelance_preprocess_views_view__tagged_content(&$variables) {
   }
 }
 
-
+/**
+ * Preprocess variables for html templates.
+ * @param $variables
+ */
+function freelance_preprocess(&$variables) {
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+  catch (Exception $e) {
+    $variables['is_front'] = FALSE;
+  }
+  $variables['#cache']['contexts'][] = 'url.path.is_front';
+}
 
 /**
  * Preprocess variables for html templates.
@@ -34,14 +46,6 @@ function freelance_preprocess_html(&$variables) {
   if (!empty($variables['node_type'])) {
     $vars['path_info']['node_type_class'] = "node-type__{$variables['node_type']}";
   }
-
-  try {
-    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
-  }
-  catch (Exception $e) {
-    $variables['is_front'] = FALSE;
-  }
-  $variables['#cache']['contexts'][] = 'url.path.is_front';
 }
 
 /**
@@ -85,6 +89,17 @@ function freelance_preprocess_paragraph(&$variables) {
 /**
  * Implements hook_preprocess_entity().
  */
+function freelance_preprocess_paragraph__selected_content(&$variables) {
+  $paragraph = &$variables['paragraph'];
+  if ($paragraph->get('field_display_type')->value == 'panel') {
+    $featured_teaser = freelance_prepare_featured_teaser($variables);
+    $variables['featured_teaser'] = $featured_teaser;
+  }
+}
+
+/**
+ * Implements hook_preprocess_entity().
+ */
 function freelance_preprocess_paragraph__tagged_content(&$variables) {
   if ($current_node = \Drupal::request()->attributes->get('node')) {
     $variables['nid'] = $current_node->id();
@@ -113,4 +128,25 @@ function freelance_get_image_properties_from_media_reference($media_reference) {
     }
   }
   return NULL;
+}
+
+/**
+ * Preprocesses the theme variables for
+ * selected content panel display type
+ *
+ * @see paragraph--selected-content.html.twig
+ */
+function freelance_prepare_featured_teaser(&$variables) {
+  $featured_teaser_reference = $variables['content']['field_referenced_posts'][0];
+  $featured_teaser = $featured_teaser_reference['#node'];
+  $options = ['absolute' => TRUE];
+  $url_object = Drupal\Core\Url::fromRoute('entity.node.canonical', ['node' => $featured_teaser->id()], $options);
+  $featured_teaser->url = $url_object->toString();
+  $featured_teaser->img = freelance_get_image_properties_from_media_reference($featured_teaser->get('field_image_reference')->first());
+  $shifted_count = count($variables['content']['field_referenced_posts']['#items']) - 1;
+  for ($i = 0; $i < $shifted_count; $i++) {
+    $variables['content']['field_referenced_posts'][$i] = $variables['content']['field_referenced_posts'][$i + 1];
+  }
+  unset($variables['content']['field_referenced_posts'][$shifted_count]);
+  return $featured_teaser;
 }

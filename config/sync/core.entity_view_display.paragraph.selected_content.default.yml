@@ -3,14 +3,24 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.selected_content.field_display_type
     - field.field.paragraph.selected_content.field_heading
     - field.field.paragraph.selected_content.field_referenced_posts
     - paragraphs.paragraphs_type.selected_content
+  module:
+    - options
 id: paragraph.selected_content.default
 targetEntityType: paragraph
 bundle: selected_content
 mode: default
 content:
+  field_display_type:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
   field_heading:
     weight: 0
     label: hidden

@@ -1,0 +1,23 @@
+uuid: 271be993-763c-4db9-a6c5-eb878aacfbf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_type
+    - paragraphs.paragraphs_type.selected_content
+  module:
+    - options
+id: paragraph.selected_content.field_display_type
+field_name: field_display_type
+entity_type: paragraph
+bundle: selected_content
+label: 'Display type'
+description: 'Lists display like tagged content. When using the panel display type, the first item added should include an image. The rest appear as titles with links. '
+required: true
+translatable: false
+default_value:
+  -
+    value: list
+default_value_callback: ''
+settings: {  }
+field_type: list_string

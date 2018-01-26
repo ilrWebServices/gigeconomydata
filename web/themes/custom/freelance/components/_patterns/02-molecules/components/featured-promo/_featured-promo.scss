@@ -1,21 +1,28 @@
 .component__featured-promo {
   position: relative;
 
-  @include large {
-    margin-left: 1rem;
+  @include medium {
+    @include trailer(1);
 
+    margin-left: $space;
+    margin-right: $space;
+  }
+
+  @include large {
     @include trailer(2);
+
+    margin-left: $space-double;
+    margin-right: $space-double;
   }
 
   &__content {
     padding: 1.5rem;
-    background: $color-bg-body;
-    background: darken($color-bg-body, 3%);
+    background: $color-bg-body-offset;
 
     @include large {
       position: absolute;
-      right: -2rem;
-      top: 30%;
+      right: -3rem;
+      top: 20%;
       width: 50%;
     }
 

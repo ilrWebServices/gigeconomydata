@@ -1,0 +1,17 @@
+uuid: 26096369-eb0e-49fe-8fcd-0593e4cef399
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: featured_teaser
+label: 'featured teaser'
+effects:
+  3acca7f7-023f-4203-81cc-b910c7c60ad5:
+    uuid: 3acca7f7-023f-4203-81cc-b910c7c60ad5
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300
+      crop_type: focal_point

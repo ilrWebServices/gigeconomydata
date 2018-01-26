@@ -38,7 +38,7 @@
  * - content_teaser_button_modifiers - array of modifiers to add to the base classname of the button
  */
 #}
-{% set content_teaser_base_class = 'content-teaser' %}
+{% set content_teaser_base_class = content_teaser_base_class|default('content-teaser') %}
 
 <div {{ bem(content_teaser_base_class, (content_teaser_modifiers), content_teaser_blockname) }}>
   {% if content_teaser_title %}

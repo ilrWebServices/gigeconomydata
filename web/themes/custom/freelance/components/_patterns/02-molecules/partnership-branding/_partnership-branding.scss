@@ -3,7 +3,13 @@
   flex-wrap: wrap;
   align-items: stretch;
 
-  @include trailer(2);
+  @include medium {
+    @include trailer(1);
+  }
+
+  @include large {
+    @include trailer(2);
+  }
 }
 
 .partnership-branding__box {

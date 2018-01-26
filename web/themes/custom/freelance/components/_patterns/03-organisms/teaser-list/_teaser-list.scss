@@ -1,13 +1,20 @@
 .component__teaser-list {
-  @include leader(1);
+  padding: 0 $space;
+
+  @include medium {
+    padding: $space $space-double 0 $space-double;
+  }
+
+  @include large {
+    padding: $space-double $space-triple 0 $space-triple;
+  }
 }
 
 .component__teaser-list__title {
-  @include heading-small($font-family: $font-body);
+  @include heading-small;
   @include alt-heading;
   @include trailing-border(1px, 0);
 
   border-color: $color-border;
   margin-right: 50%;
 }
-

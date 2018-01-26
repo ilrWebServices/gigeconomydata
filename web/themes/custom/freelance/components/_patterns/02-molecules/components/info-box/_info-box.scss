@@ -1,7 +1,15 @@
 .component__info-box {
-  @include padding-leader(3);
-  @include padding-trailer(2);
+  @include padding-leader(1);
+  @include padding-trailer(0.5);
   @include trailer(2);
+
+  @include medium {
+    padding: $space-double 0 $space;
+  }
+
+  @include large {
+    padding: $space-triple 0 $space-double;
+  }
 
   background-color: $color-info-box;
   width: 100%;
@@ -16,7 +24,15 @@
   }
 
   &__body {
-    @include heading-medium($color: white, $font-weight: normal);
+    @include heading-xs($color: white, $font-weight: normal);
+
+    @include medium {
+      @include type-scale(small);
+    }
+
+    @include large {
+      @include type-scale(medium);
+    }
 
     text-align: center;
     margin: 0 auto;

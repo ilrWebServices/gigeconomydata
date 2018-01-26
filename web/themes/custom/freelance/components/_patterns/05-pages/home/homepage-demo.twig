@@ -1,0 +1,35 @@
+{% set header %}
+  {% include "@organisms/site/site-header/site-header.twig" with { pl: true, is_front: true } %}
+{% endset %}
+
+{% set content %}
+  {% include "@molecules/partnership-branding/partnership-branding.twig" %}
+
+  {% include "@molecules/components/featured-promo/featured-promo-demo.twig" %}
+
+  {% include "@molecules/components/info-box/info-box.twig" with {
+    "infobox_title": '',
+    "infobox_text": '<p>The Gig Economy Data Hub provides an accessible, comprehensive analysis of available data sources to answer critical questions about independent and gig work in the United States.</p>',
+  } %}
+
+  {% include "@molecules/components/selected-content/selected-content-panel-demo.twig" %}
+
+  {% include "@organisms/teaser-list/teaser-list.twig" with {
+    imageless_teasers: [1, 2, 3, 4, 5],
+    list_heading: 'Gig Blog',
+  } %}
+{% endset %}
+
+{% set footer %}
+  {% include "@organisms/site/site-footer/site-footer.twig" only %}
+{% endset %}
+
+{% set page = {
+  header: header,
+  content: content,
+  footer: footer
+}%}
+
+{% include '@pages/_page.twig' with {
+  page: page
+}%}

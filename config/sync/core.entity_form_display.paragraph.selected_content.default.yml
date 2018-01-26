@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.selected_content.field_display_type
     - field.field.paragraph.selected_content.field_heading
     - field.field.paragraph.selected_content.field_referenced_posts
     - paragraphs.paragraphs_type.selected_content
@@ -11,6 +12,12 @@ targetEntityType: paragraph
 bundle: selected_content
 mode: default
 content:
+  field_display_type:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   field_heading:
     weight: 0
     settings:

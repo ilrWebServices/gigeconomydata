@@ -1,6 +1,21 @@
 {% set heading = content.field_heading|field_value %}
+{% set type = content.field_display_type|field_raw('value') %}
 
-{% include '@organisms/teaser-list/teaser-list.twig' with {
-  "list_heading": heading,
+{% if type == 'panel' %}
+  {% set featured_teaser_array = {
+    "content_teaser_base_class": 'component__selected-content__featured',
+    "content_teaser_img_src": featured_teaser.img.uri|image_style('featured_teaser'),
+    "content_teaser_img_alt": featured_teaser.img.alt,
+    "content_teaser_title": featured_teaser.label,
+    "content_teaser_body": featured_teaser.field_teaser_text.getValue()[0]['value'],
+    "content_teaser_link_url": featured_teaser.url,
+    "content_teaser_link_text": 'Read more',
+    "content_teaser_link_modifiers": ['more-link']
+  }%}
+{% endif %}
+
+{% include '@molecules/components/selected-content/_selected-content.twig' with {
+  "heading": heading,
   "teasers": content.field_referenced_posts,
+  'featured_teaser': featured_teaser_array,
 }%}

@@ -12,7 +12,7 @@ header.site-header {
   @include breakpoint($main-menu-medium) {
     margin-top: 0;
 
-    body:not(.front) & {
+    &.site-header--not-front {
       @include trailing-border(5px, 0);
       @include trailer(2);
 

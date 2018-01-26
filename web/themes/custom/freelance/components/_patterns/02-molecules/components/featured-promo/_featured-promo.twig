@@ -17,7 +17,7 @@
       } %}
     </div>
     <div class="{{component_blockname}}__intro">
-      {{ intro }}
+      {{ intro|raw }}
     </div>
     {% include "@atoms/01-links/link/link.twig" with {
       "link_content": link_text,

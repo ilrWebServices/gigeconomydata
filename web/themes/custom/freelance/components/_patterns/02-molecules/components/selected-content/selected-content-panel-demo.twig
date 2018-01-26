@@ -1,0 +1,21 @@
+{% set component_blockname = 'component__selected-content' %}
+{% set type = 'panel' %}
+
+{% include '@molecules/components/selected-content/_selected-content.twig' with {
+  "heading": "Gig Basics",
+  "teasers": demo.teasers,
+  "teaser_images": true,
+  'type': 'panel',
+  "featured_teaser": {
+    "content_teaser_base_class": component_blockname ~ '__featured',
+    "content_teaser_modifiers": ['with-image'],
+    "content_teaser_img_src":
+      "https://placeimg.com/500/300/nature",
+    "content_teaser_img_alt": "This is the teaser image's alt text",
+    "content_teaser_title": "This is another post title",
+    "content_teaser_body": "Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.",
+    "content_teaser_link_url": "#",
+    "content_teaser_link_text": 'Read more',
+    "content_teaser_link_modifiers": ['more-link']
+  }
+}%}
