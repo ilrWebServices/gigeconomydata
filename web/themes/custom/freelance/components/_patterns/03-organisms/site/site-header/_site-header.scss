@@ -22,11 +22,11 @@ header.site-header {
 
   .site-branding {
     flex-grow: 1;
-    margin-right: 2rem;
-    margin-top: 0.5rem;
+    margin: $space-one-half $space-double 0 $space;
 
     @include breakpoint($main-menu-medium) {
       margin-top: 0;
+      margin-left: $space-double;
     }
   }
 }

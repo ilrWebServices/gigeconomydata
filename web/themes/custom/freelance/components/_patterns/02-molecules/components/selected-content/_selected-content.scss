@@ -43,8 +43,9 @@
         @include heading-small($font-family: $font-body);
         @include alt-heading;
 
+        line-height: 1.3rem;
         order: 1;
-        margin-bottom: 0;
+        margin-bottom: 0.3rem;
       }
 
       &__link {
