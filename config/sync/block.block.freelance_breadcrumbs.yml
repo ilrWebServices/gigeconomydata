@@ -2,7 +2,10 @@ uuid: 95496d96-6ad0-42f6-92b1-434c659bb110
 langcode: en
 status: true
 dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.subpages
   module:
+    - block_visibility_groups
     - system
   theme:
     - freelance
@@ -19,4 +22,9 @@ settings:
   label: Breadcrumbs
   provider: system
   label_display: '0'
-visibility: {  }
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: subpages
+    context_mapping: {  }

@@ -1,0 +1,17 @@
+uuid: f67bdcad-2b9b-414f-baf8-6f7c1846a12d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: subpages
+label: Subpages
+logic: and
+conditions:
+  6fecd684-ddc3-44de-8f79-454b9d163d14:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
+    uuid: 6fecd684-ddc3-44de-8f79-454b9d163d14
+allow_other_conditions: false
