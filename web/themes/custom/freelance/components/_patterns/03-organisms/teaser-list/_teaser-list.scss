@@ -11,9 +11,10 @@
 }
 
 .component__teaser-list__title {
-  @include heading-small;
+  @include heading-medium;
   @include alt-heading;
   @include trailing-border(1px, 0);
+  @include trailer(1);
 
   border-color: $color-border;
   margin-right: 50%;

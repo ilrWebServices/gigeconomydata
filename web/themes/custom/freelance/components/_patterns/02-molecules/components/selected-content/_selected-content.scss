@@ -18,8 +18,8 @@
       padding: $space-double $space-triple;
     }
 
-    &__title {
-      @include heading-small;
+    .component__selected-content__title {
+      color: $color-heading;
     }
 
     .component__selected-content__featured {
