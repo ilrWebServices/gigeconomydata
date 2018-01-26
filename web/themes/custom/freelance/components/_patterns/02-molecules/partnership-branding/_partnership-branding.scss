@@ -2,7 +2,7 @@
   @include full-width;
 
   background: lighten($color-bg-body, 1%);
-  border-top:1px solid $gray-lighter;
+  border-top: 1px solid $gray-lighter;
   border-bottom: 1px solid $gray-lighter;
 
   @include medium {
