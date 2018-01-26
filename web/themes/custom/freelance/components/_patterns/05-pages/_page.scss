@@ -14,10 +14,6 @@ body {
   @include wrapper;
 }
 
-#block-freelance-content {
-  padding: 0 1rem;
-}
-
 .main-sidebar {
   @include xl {
     @include grid-span(3,1);

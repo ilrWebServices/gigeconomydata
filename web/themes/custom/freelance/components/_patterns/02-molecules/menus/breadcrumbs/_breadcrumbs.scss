@@ -1,8 +1,6 @@
 .breadcrumb {
   @include list-reset;
   @include trailer(1);
-
-  padding-left: $space;
 }
 
 .breadcrumb__item,

@@ -12,7 +12,7 @@ dependencies:
 id: partnershipbranding
 theme: freelance
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: gig_blocks_partnership_branding
 settings:

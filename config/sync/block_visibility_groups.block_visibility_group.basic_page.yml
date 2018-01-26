@@ -1,0 +1,26 @@
+uuid: 652164bb-adf6-4637-a8e2-d2ddd98aa771
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+id: basic_page
+label: 'Basic page'
+logic: and
+conditions:
+  16c19cdc-f684-4eb2-a19a-3e8c885feebb:
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uuid: 16c19cdc-f684-4eb2-a19a-3e8c885feebb
+  00724189-18fd-43b3-aed5-98bbccfcf717:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
+    uuid: 00724189-18fd-43b3-aed5-98bbccfcf717
+allow_other_conditions: false

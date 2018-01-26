@@ -20,7 +20,8 @@
 
     &:hover {
       color: $color-heading-link--hover;
-      background: transparent;
+      text-decoration: none;
+      background: white;
     }
   }
 }
