@@ -46,6 +46,11 @@ function freelance_preprocess_html(&$variables) {
   if (!empty($variables['node_type'])) {
     $vars['path_info']['node_type_class'] = "node-type__{$variables['node_type']}";
   }
+  // Prepare the html template for production-specific
+  // output like google tag manager
+  if (isset($_ENV['PLATFORM_BRANCH']) && $_ENV['PLATFORM_BRANCH'] == 'master') {
+    $variables['is_production'] = TRUE;
+  }
 }
 
 /**
