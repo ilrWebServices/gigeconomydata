@@ -32,6 +32,7 @@
         "drupal/entity_browser": "^1.4",
         "drupal/focal_point": "^1.0@beta",
         "drupal/footnotes": "^2.0",
+        "drupal/google_analytics": "^2.2",
         "drupal/inline_entity_form": "^1.0@beta",
         "drupal/media_entity": "^1.7",
         "drupal/media_entity_image": "^1.2",

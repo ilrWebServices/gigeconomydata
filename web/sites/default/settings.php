@@ -802,3 +802,16 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
+switch ($_SERVER['HTTP_HOST']) {
+  // This prod file is just for additional variable settings specific to production.
+  // Platform.sh has their own automatically generated files with db information.
+  case 'gigeconomydata.org':
+    if (file_exists($app_root . '/' . $site_path . '/settings.prod.php')) {
+      include $app_root . '/' . $site_path . '/settings.prod.php';
+    }
+    break;
+  default:
+    // Turn off mail send on non-prod environments.
+    $config['system.mail']['interface']['default'] = 'devel_mail_log';
+}
