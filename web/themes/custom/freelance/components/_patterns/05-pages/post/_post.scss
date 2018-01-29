@@ -68,7 +68,8 @@
 }
 
 .post__body {
-  .component__selected-content--list {
+  .component__selected-content--list,
+  .views-element-container { // This is the views wrapper for tagged_content
     @include large {
       @include grid-span(3, 10);
 
