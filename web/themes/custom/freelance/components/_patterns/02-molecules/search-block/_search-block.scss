@@ -1,6 +1,10 @@
 // sass-lint:disable quotes
+
+$search-width: 500px;
+$animation-transition: height 0.4s;
+
 .search-block {
-  @include overlay(&);
+  position: relative;
 
   @include breakpoint(large) {
     order: 10;
@@ -13,27 +17,50 @@
     cursor: pointer;
   }
 
-  &__content,
-  &__backdrop {
-    height: 0;
-    width: 0;
-    opacity: 0;
-    visibility: hidden;
+  &__toggle {
+    display: none;
+
+    &:checked ~ .search-block__content {
+      transition: $animation-transition;
+      height: 50px;
+
+      @include large {
+        height: 80px;
+      }
+    }
+  }
+
+  &__content {
+    position: absolute;
+    width: $search-width;
+    right: 0;
     overflow: hidden;
-    cursor: pointer;
-    transition: opacity 0.1s ease-in-out;
+    transition: $animation-transition;
+    height: 0;
+
+    @include large {
+      left: -$search-width + 100px;
+      padding-top: $space;
+    }
   }
 
   &__item {
     margin: 0;
-    padding-bottom: 33vh;
 
     .form-item__textfield {
       width: 100%;
+      background-color: $color-bg-body;
     }
 
     &--input {
-      width: 70%;
+      width: 30%;
+      float: right;
+
+      @include large {
+        width: 70%;
+        float: left;
+      }
+
 
       .form-item__textfield {
         padding: 0.1rem 0.5rem;
@@ -44,7 +71,13 @@
         color: $blue-darkest;
         background-color: transparent;
         border-width: 0;
-        border-bottom: 2px black solid;
+        border-bottom: 1px $color-border solid;
+        text-align: right;
+
+        @include large {
+          border-bottom-color: $color-link;
+          text-align: left;
+        }
 
         @include xs {
           font-size: calc(18px + 0.75vw);
@@ -65,13 +98,20 @@
     }
 
     &--submit {
-      width: 4rem;
-      margin-left: 1rem;
+      display: none;
+
+      @include large {
+        width: 4rem;
+        margin-left: 1rem;
+        float: left;
+        display: block;
+      }
 
       .form-item__textfield {
         padding: 0.25rem 0.5rem;
         font-family: $font-body;
         font-size: calc(10px + 0.75vw);
+        background-color: $color-link;
 
         @include xs {
           font-size: calc(11px + 0.75vw);
@@ -86,5 +126,8 @@
         }
       }
     }
+  }
+  &__close {
+    float: right;
   }
 }
