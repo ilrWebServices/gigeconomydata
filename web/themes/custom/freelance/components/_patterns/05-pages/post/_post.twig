@@ -55,10 +55,11 @@
 
   {% if post_body %}
     <div class="post__body">
+      <aside class="post__sidebar" role="complementary">
+        {% include '@molecules/toc/_toc.twig' %}
+      </aside>
+
       {{ post_body }}
     </div>
   {% endif %}
-  <aside class="post__sidebar" role="complementary">
-    {% include '@molecules/toc/_toc.twig' %}
-  </aside>
 </div><!-- /post -->

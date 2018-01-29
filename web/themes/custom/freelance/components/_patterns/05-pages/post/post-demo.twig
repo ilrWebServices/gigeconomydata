@@ -1,12 +1,14 @@
 {% include "@organisms/site/site-header/site-header.twig" with { pl: true } %}
 
+{% set long_exerpt = excerpt.long ~ excerpt.long ~ excerpt.long ~ excerpt.long %}
 {% set post_content %}
   {% for i in 1..4 %}
     {% include "@molecules/components/text.twig" with {
       heading: random(demo.texts),
-      text: excerpt.long
+      text: long_exerpt
     }%}
   {% endfor %}
+  {% include "@molecules/components/selected-content/selected-content-list-demo.twig" %}
 {% endset %}
 
 {% include '@pages/post/_post.twig' with {

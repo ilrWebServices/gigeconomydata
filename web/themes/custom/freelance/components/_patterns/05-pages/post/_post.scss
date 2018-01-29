@@ -1,6 +1,12 @@
 .post {
   @include add-grid(12);
   @include clearfix;
+
+  padding: 0 1rem;
+
+  @include large {
+    padding: 0;
+  }
 }
 
 .post__title {
@@ -43,7 +49,7 @@
   @include type-scale(xs);
 }
 
-.post__body,
+.post__body .component,
 .post__title,
 .post__subtitle,
 .post__author,
@@ -58,5 +64,57 @@
 .post__sidebar {
   @include large {
     @include grid-span(3, 10);
+  }
+}
+
+.post__body {
+  .component__selected-content--list {
+    @include large {
+      @include grid-span(3, 10);
+
+      clear: right;
+    }
+  }
+
+  .component__teaser-list {
+    margin-left: 0;
+    width: 100%;
+
+    @include large {
+      padding: 0;
+    }
+
+    &__title {
+      color: $color-heading;
+      width: 100%;
+    }
+
+    .content-teaser__title {
+      @include heading-small;
+      @include alt-heading;
+    }
+
+    .content-teaser__date,
+    .content-teaser__body {
+      display: none;
+    }
+
+    .content-teaser__image {
+      @include clearfix;
+
+      .content-teaser__img {
+        @include trailer(0.5);
+
+        width: 100%;
+      }
+    }
+
+    .content-teaser__link {
+      @include trailer(0.5);
+      @include type-scale(xs);
+
+      width: 100%;
+      float: left;
+    }
   }
 }

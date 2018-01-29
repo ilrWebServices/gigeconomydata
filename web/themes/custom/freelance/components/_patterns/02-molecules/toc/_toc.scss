@@ -1,11 +1,3 @@
-.pl-wrapper {
-  @include add-grid(12);
-
-  .js-toc-source {
-    @include grid-span(9);
-  }
-}
-
 .toc {
   background-color: white;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.24);
@@ -88,4 +80,19 @@
       }
     }
   }
+}
+
+//////////////////////
+// PatternLab Specific
+//////////////////////
+.pl-wrapper {
+  @include add-grid(12);
+
+  .js-toc-source {
+    @include grid-span(9);
+  }
+}
+
+.toc-demo__wrapper {
+  @include grid-span(3, 10);
 }
