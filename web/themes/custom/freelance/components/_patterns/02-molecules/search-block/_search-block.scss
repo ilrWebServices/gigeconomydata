@@ -61,7 +61,6 @@ $animation-transition: height 0.4s;
         float: left;
       }
 
-
       .form-item__textfield {
         padding: 0.1rem 0.5rem;
         font-family: $font-heading;
@@ -127,6 +126,7 @@ $animation-transition: height 0.4s;
       }
     }
   }
+
   &__close {
     float: right;
   }
