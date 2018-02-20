@@ -1,12 +1,15 @@
 .component__teaser-list {
-  padding: 0 $space;
 
-  @include medium {
-    padding: $space $space-double 0 $space-double;
-  }
+  .front & {
+    padding: 0 $space;
 
-  @include large {
-    padding: $space-double $space-triple 0 $space-triple;
+    @include medium {
+      padding: $space $space-double 0 $space-double;
+    }
+
+    @include large {
+      padding: $space-double $space-triple 0 $space-triple;
+    }
   }
 }
 
