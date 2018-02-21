@@ -61,7 +61,7 @@
   <main role="main" class="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="main-content{% if page.sidebar %}--with-sidebar{% endif %}">
+    <div class="main-content{% if page.sidebar %} main-content--with-sidebar{% endif %}">
       {{ page.content }}
     </div>{# /.layout-content #}
 

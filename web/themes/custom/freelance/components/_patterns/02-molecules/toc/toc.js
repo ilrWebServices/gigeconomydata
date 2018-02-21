@@ -12,6 +12,7 @@
       var ids = [];
       /** @type {Array<JQuery>} */
       var headings = [];
+      var paddingInit;
 
       /**
        * Copyright 2012, Digital Fusion
@@ -59,7 +60,10 @@
 
       // When an item becomes `position: fixed` and has a % width, it tends to become bigger as it's parent is no longer the page container, but is now the body. This fixes that.
       function setTocWidth() {
-        $toc.width($tocParent.width());
+        if ($toc.css('padding-left') !== undefined) {
+          paddingInit = parseInt($toc.css('padding-left'), 10);
+        }
+        $toc.width($tocParent.width() - 2 * paddingInit);
       }
 
       setTocWidth();
