@@ -27,6 +27,7 @@
         "drupal/core": "~8.4",
         "drupal/ctools": "^3.0",
         "drupal/current_page_crumb": "^1.2",
+        "drupal/custom_pub": "^1.0@alpha",
         "drupal/devel": "^1.2",
         "drupal/dropzonejs_eb_widget": "^1.0@alpha",
         "drupal/entity_browser": "^1.4",

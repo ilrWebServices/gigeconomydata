@@ -6,7 +6,7 @@
        * Which heading elements to turn into TOC items
        * @type {Array<String>}
        */
-      var headingsToUse = ['.component__text__heading'];
+      var headingsToUse = ['h2:not(.component__teaser-list *)','h3:not(.component__teaser-list *)'];
       var minimumHeaders = 2;
       /** @type {Array<String>} */
       var ids = [];

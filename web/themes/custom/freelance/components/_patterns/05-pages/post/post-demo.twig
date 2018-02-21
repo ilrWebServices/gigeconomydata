@@ -1,29 +1,33 @@
 {% include "@organisms/site/site-header/site-header.twig" with { pl: true } %}
 
-{% set long_exerpt = excerpt.long ~ excerpt.long ~ excerpt.long ~ excerpt.long %}
-{% set post_content %}
-  {% for i in 1..4 %}
-    {% include "@molecules/components/text.twig" with {
-      heading: random(demo.texts),
-      text: long_exerpt
-    }%}
-  {% endfor %}
-  {% include "@molecules/components/selected-content/selected-content-list-demo.twig" %}
-{% endset %}
+<div class="main-content main-content--with-sidebar">
+  {% set long_exerpt = excerpt.long ~ excerpt.long ~ excerpt.long ~ excerpt.long %}
+  {% set post_content %}
+    {% for i in 1..4 %}
+      {% include "@molecules/components/text.twig" with {
+        heading: random(demo.texts),
+        text: long_exerpt
+      }%}
+    {% endfor %}
+    {% include "@molecules/components/selected-content/selected-content-list-demo.twig" %}
+  {% endset %}
 
-{% include '@pages/post/_post.twig' with {
-  "content": content,
-  "post_date": "January 31, 2018",
-  "post_title": "Welcome to the New Site!",
-  "post_subtitle": "The ILR School partners with the Aspen Institue to explore the Gig Economy",
-  "post_body": post_content,
-  "post_img_src": "https://placeimg.com/800/445/people",
-  "post_img_alt": "Image alt text",
-}%}
+  {% include '@pages/post/_post.twig' with {
+    "content": content,
+    "post_date": "January 31, 2018",
+    "post_title": "Welcome to the New Site!",
+    "post_subtitle": "The ILR School partners with the Aspen Institue to explore the Gig Economy",
+    "post_body": post_content,
+    "post_img_src": "https://placeimg.com/800/445/people",
+    "post_img_alt": "Image alt text",
+  }%}
+  {% include "@organisms/teaser-list/teaser-list.twig" with {
+    imageless_teasers: [1, 2, 3],
+    list_heading: 'Read next',
+  } %}
+</div>{# /.layout-content #}
+<aside class="main-sidebar" role="complementary">
+  {% include '@molecules/toc/_toc.twig' %}
+</aside>
 
-{% include "@organisms/teaser-list/teaser-list.twig" with {
-  imageless_teasers: [1, 2, 3],
-  list_heading: 'Read next',
-} %}
-
-{% include "@organisms/site/site-footer/site-footer.twig" only %}
+{% include "@organisms/site/site-footer/site-footer.twig" %}

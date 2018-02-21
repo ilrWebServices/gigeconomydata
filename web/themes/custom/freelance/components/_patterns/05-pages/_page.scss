@@ -13,17 +13,19 @@ body {
 }
 
 .main-sidebar {
-  @include xl {
-    @include grid-span(3,1);
+  @include large {
+    @include grid-span(3,10);
   }
 }
 
 .main-content {
-  @include xl {
+  padding: 0 $space;
+
+  @include large {
     padding: 0;
 
     &--with-sidebar {
-      @include grid-span(9,4);
+      @include grid-span(9,1);
     }
   }
 }

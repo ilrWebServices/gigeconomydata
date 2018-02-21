@@ -1,5 +1,5 @@
 {% set post_base_class = 'post' %}
-<div {{ bem(post_base_class, (post_modifiers), post_blockname, ['js-toc-source']) }}>
+<div {{ bem(post_base_class, (post_modifiers), post_blockname) }}>
   {{ title_prefix }}
   {% include "@atoms/02-text/00-headings/_heading.twig" with {
     "heading_level": 1,
@@ -54,11 +54,7 @@
   {% endif %}
 
   {% if post_body %}
-    <div class="post__body">
-      <aside class="post__sidebar" role="complementary">
-        {% include '@molecules/toc/_toc.twig' %}
-      </aside>
-
+    <div class="post__body js-toc-source">
       {{ post_body }}
     </div>
   {% endif %}

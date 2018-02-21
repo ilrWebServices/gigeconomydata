@@ -1,3 +1,7 @@
+.js-toc-source {
+  @include clearfix;
+}
+
 .toc {
   background-color: white;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.24);
@@ -6,6 +10,7 @@
 
   @include large {
     display: block;
+    margin-top: $space-double;
   }
 
   &--not-ready {
@@ -16,22 +21,7 @@
     @include z(toc);
 
     position: fixed;
-    top: 25px;
     width: inherit;
-
-    .toolbar-fixed & {
-      top: 25px + 39px;
-    }
-
-    .toolbar-fixed.toolbar-tray-open & {
-      top: 25px + 79px;
-    }
-  }
-
-  &--stuck-to-bottom {
-    position: absolute;
-    top: auto;
-    bottom: 0;
   }
 
   &__header {

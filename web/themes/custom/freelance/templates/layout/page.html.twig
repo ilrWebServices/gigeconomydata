@@ -43,4 +43,9 @@
  * @see html.html.twig
  */
 #}
+{% if node.include_toc.value %}
+  {% set include_toc = true %}
+  {{ attach_library('freelance/toc') }}
+{% endif %}
+
 {% include "@pages/_page.twig" %}

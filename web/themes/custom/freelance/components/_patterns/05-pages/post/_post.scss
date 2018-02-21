@@ -1,12 +1,6 @@
 .post {
   @include add-grid(12);
   @include clearfix;
-
-  padding: 0 1rem;
-
-  @include large {
-    padding: 0;
-  }
 }
 
 .post__title {
@@ -17,14 +11,6 @@
   @include heading-medium;
 
   color: $color-heading--alt;
-}
-
-.post__media-wrapper {
-  @include large {
-    @include grid-span(9);
-
-    clear: left;
-  }
 }
 
 .post__image {
@@ -49,31 +35,23 @@
   @include type-scale(xs);
 }
 
-.post__body .component,
-.post__title,
-.post__subtitle,
-.post__author,
-.post__date {
-  @include large {
-    @include grid-span(9);
-
-    clear: left;
-  }
-}
-
-.post__sidebar {
-  @include large {
-    @include grid-span(3, 10);
-  }
-}
-
 .post__body {
+  position: relative;
+
   .component__selected-content--list,
   .views-element-container { // This is the views wrapper for tagged_content
-    @include large {
-      @include grid-span(3, 10);
+    @include large { // Create a content column off to the right
+      position: absolute;
+      width: 25%;
+      left: 110%;
+    }
 
-      clear: right;
+    .content-teaser__image {
+      display: none;
+
+      @include large {
+        display: block;
+      }
     }
   }
 

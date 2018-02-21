@@ -70,4 +70,9 @@
  *   in different view modes.
  */
 #}
+{% if node.include_toc.value %}
+  {% set include_toc = true %}
+  {% set content_attributes = content_attributes.addClass('js-toc-source') %}
+  {{ attach_library('freelance/toc') }}
+{% endif %}
 {% include "@organisms/_node.twig" %}
