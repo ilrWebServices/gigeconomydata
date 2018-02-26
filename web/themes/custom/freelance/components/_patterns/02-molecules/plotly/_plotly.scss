@@ -1,0 +1,40 @@
+.component__plotly {
+  @include trailer(2);
+
+  clear: both;
+}
+
+.plotly__iframe-wrapper {
+  @include clearfix;
+
+  @include large {
+    display: block;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+.plotly__iframe {
+  @include visually-hidden;
+
+  @include large {
+    @include visually-hidden--off("absolute");
+
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+.plotly__image {
+  display: block;
+  width: 100%;
+
+  @include large {
+    @include visually-hidden;
+  }
+}

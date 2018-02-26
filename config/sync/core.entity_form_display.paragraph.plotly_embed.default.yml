@@ -1,0 +1,24 @@
+uuid: 9ce4effc-1b7a-4add-86b3-8f20c280aa18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.plotly_embed.field_plotly_embed_code
+    - paragraphs.paragraphs_type.plotly_embed
+id: paragraph.plotly_embed.default
+targetEntityType: paragraph
+bundle: plotly_embed
+mode: default
+content:
+  field_plotly_embed_code:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

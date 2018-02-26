@@ -1,0 +1,19 @@
+uuid: 86b19a5d-c595-40bc-b847-a8f2ad5c5f7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_plotly_embed_code
+field_name: field_plotly_embed_code
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 62c61878-635f-4783-a0ef-46c6c7fabd96
+langcode: en
+status: true
+dependencies: {  }
+id: plotly_embed
+label: 'a plotly embed'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

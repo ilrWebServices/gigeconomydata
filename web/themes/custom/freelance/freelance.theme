@@ -155,3 +155,30 @@ function freelance_prepare_featured_teaser(&$variables) {
   unset($variables['content']['field_referenced_posts'][$shifted_count]);
   return $featured_teaser;
 }
+
+/**
+ * Preprocess variables for field templates.
+ *
+ *   - Configure Plot.ly variables.
+ */
+function freelance_preprocess_field(&$variables, $hook) {
+  if ($variables['field_name'] == 'field_plotly_embed_code') {
+    $embed = !empty($variables['items'][0]['content']['#context']['value']) ? $variables['items'][0]['content']['#context']['value'] : '';
+    if (!empty($embed)) {
+      foreach (Html::load($embed)->getElementsByTagName('iframe') as $iframe) {
+        $variables['iframe_src'] = $iframe->getAttribute('src');
+        $width = $iframe->getAttribute('width');
+        $height = $iframe->getAttribute('height');
+        $variables['img_src'] = str_replace('.embed', '.png', $variables['iframe_src']);
+        $variables['plotly_url'] = str_replace('.embed', '/', $variables['iframe_src']);
+        $variables['paddingTop'] =  $height / $width * 100;
+      }
+      if (empty($width) || empty($height) || empty($variables['iframe_src'] || empty($variables['img_src']))) {
+        drupal_set_message('Oops! There\'s something wrong with your embed code. The code needs height, width, and source (src).', 'error');
+      }
+    }
+    else {
+      drupal_set_message('Sorry! No value found for your embed code.', 'error');
+    }
+  }
+}
