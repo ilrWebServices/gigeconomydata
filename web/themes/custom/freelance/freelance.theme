@@ -147,7 +147,10 @@ function freelance_prepare_featured_teaser(&$variables) {
   $options = ['absolute' => TRUE];
   $url_object = Drupal\Core\Url::fromRoute('entity.node.canonical', ['node' => $featured_teaser->id()], $options);
   $featured_teaser->url = $url_object->toString();
-  $featured_teaser->img = freelance_get_image_properties_from_media_reference($featured_teaser->get('field_image_reference')->first());
+  $primary_image = $featured_teaser->get('field_image_reference');
+  if (!empty($primary_image)) {
+    $featured_teaser->img = freelance_get_image_properties_from_media_reference($primary_image->first());
+  }
   $shifted_count = count($variables['content']['field_referenced_posts']['#items']) - 1;
   for ($i = 0; $i < $shifted_count; $i++) {
     $variables['content']['field_referenced_posts'][$i] = $variables['content']['field_referenced_posts'][$i + 1];
