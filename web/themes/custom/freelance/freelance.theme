@@ -153,7 +153,9 @@ function freelance_prepare_featured_teaser(&$variables) {
   }
   $shifted_count = count($variables['content']['field_referenced_posts']['#items']) - 1;
   for ($i = 0; $i < $shifted_count; $i++) {
-    $variables['content']['field_referenced_posts'][$i] = $variables['content']['field_referenced_posts'][$i + 1];
+    if (!empty($variables['content']['field_referenced_posts'][$i + 1])) {
+      $variables['content']['field_referenced_posts'][$i] = $variables['content']['field_referenced_posts'][$i + 1];
+    }
   }
   unset($variables['content']['field_referenced_posts'][$shifted_count]);
   return $featured_teaser;
