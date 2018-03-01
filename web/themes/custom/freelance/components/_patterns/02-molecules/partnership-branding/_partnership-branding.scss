@@ -55,6 +55,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .logo__link {
@@ -97,11 +98,11 @@
     padding: $padding;
 
     .logo__img {
-      max-width: 40%;
+      max-width: 100%;
 
       .footer & {
         margin-top: -4px;
-        max-width: 50%;
+        max-width: 100%;
       }
     }
   }
