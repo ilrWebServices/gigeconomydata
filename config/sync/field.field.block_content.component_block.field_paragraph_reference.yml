@@ -5,7 +5,6 @@ dependencies:
   config:
     - block_content.type.component_block
     - field.storage.block_content.field_paragraph_reference
-    - paragraphs.paragraphs_type.tagged_content
   module:
     - entity_reference_revisions
 id: block_content.component_block.field_paragraph_reference
@@ -22,12 +21,11 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     negate: 0
-    target_bundles:
-      tagged_content: tagged_content
+    target_bundles: null
     target_bundles_drag_drop:
       tagged_content:
-        enabled: true
         weight: 4
+        enabled: false
       image:
         weight: 5
         enabled: false
@@ -36,5 +34,20 @@ settings:
         enabled: false
       text:
         weight: 8
+        enabled: false
+      featured_promo:
+        weight: 10
+        enabled: false
+      info_box:
+        weight: 12
+        enabled: false
+      plotly_embed:
+        weight: 14
+        enabled: false
+      selected_content:
+        weight: 15
+        enabled: false
+      video:
+        weight: 18
         enabled: false
 field_type: entity_reference_revisions

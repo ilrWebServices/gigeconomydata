@@ -24,7 +24,7 @@ content:
       autocollapse: all
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: tagged_content
+      default_paragraph_type: _none
     third_party_settings: {  }
   info:
     type: string_textfield
