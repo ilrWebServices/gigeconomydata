@@ -26,3 +26,15 @@
 .image__img {
   @include img;
 }
+
+.media__image {
+  @include trailer(1);
+
+  @include large {
+    margin-left: -2rem;
+  }
+
+  .img {
+    @include fill-parent;
+  }
+}
