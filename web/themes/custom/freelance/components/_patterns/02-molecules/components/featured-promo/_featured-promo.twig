@@ -1,5 +1,6 @@
 {% set component_blockname = 'component__featured-promo' %}
 <div class="component component__featured-promo">
+  {{ content.contextual_links }}
   <div class="component__featured-promo__image">
     {% include "@atoms/04-images/00-image/image.twig" with {
       "img_src": img_src,

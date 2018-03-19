@@ -2,6 +2,7 @@
 {% set type = featured_teaser ? 'panel' : 'list' %}
 
 <div class="component {{component_blockname}} {{component_blockname}}--{{type}}">
+  {{ content.contextual_links }}
   {% if featured_teaser %}
 
     {% if heading %}

@@ -1,5 +1,6 @@
 {% set component_blockname = 'component__info-box' %}
 <div class="component {{component_blockname}}">
+  {{ content.contextual_links }}
   <div class="{{component_blockname}}__wrapper">
     {% include "@atoms/02-text/00-headings/_heading.twig" with {
       "heading_level": 3,

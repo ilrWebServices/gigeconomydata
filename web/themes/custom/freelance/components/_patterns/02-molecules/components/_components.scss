@@ -1,6 +1,8 @@
 .component {
   @include trailer(1);
   @include clearfix;
+
+  position: relative;
 }
 
 .component__image,
