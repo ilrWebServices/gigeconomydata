@@ -1,5 +1,7 @@
-// Responsive Video using CSS only
-.video {
+// Responsive Video relies on the display mode for the video_embed_field
+// these are for PL only
+
+.pl .video {
   height: 0;
   overflow: hidden;
   padding-top: 35px;

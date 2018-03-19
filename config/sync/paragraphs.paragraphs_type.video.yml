@@ -1,0 +1,9 @@
+uuid: 682424ea-91e1-4aaf-b606-0416755b29de
+langcode: en
+status: true
+dependencies: {  }
+id: video
+label: 'a video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

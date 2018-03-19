@@ -3,12 +3,8 @@
   @include clearfix;
 }
 
-.component__text,
-.component__selected-content {
-  @include grid-span(12);
-}
-
-.component__image {
+.component__image,
+.component__video {
   @include large {
     margin-left: -2rem;
   }
