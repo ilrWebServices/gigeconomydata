@@ -6,7 +6,7 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - media_entity
+    - media
     - user
 _core:
   default_config_hash: 3N9-8xkH5dn6033hNnoJu_pGvw5fzPzE3OLjdvWF_jU

@@ -6,7 +6,7 @@ dependencies:
     - field.field.media.image.field_caption
     - field.field.media.image.field_image
     - image.style.medium
-    - media_entity.bundle.image
+    - media.type.image
   module:
     - focal_point
 _core:

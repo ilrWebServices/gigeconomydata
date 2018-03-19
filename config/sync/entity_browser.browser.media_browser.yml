@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.image
+    - media.type.image
     - views.view.media_browser
   module:
     - dropzonejs_eb_widget
     - entity_browser_entity_form
-    - media_entity
+    - media
     - views
 _core:
   default_config_hash: lRX3LGb0xRqTq3yzxOVQR_BRs5TIV7T6a5uFnoOoSgA
@@ -48,14 +48,14 @@ widgets:
   f8ff2725-7c5a-4257-ab16-68b970aa421a:
     settings:
       form_mode: default
-      media_entity_bundle: image
+      media_type: image
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
       dropzone_description: 'Drop files here to upload them'
       max_filesize: 128M
       extensions: 'png gif jpg jpeg'
       clientside_resize: false
-      resize_width: null
-      resize_height: null
+      resize_width: 0
+      resize_height: 0
       resize_quality: !!float 1
       resize_method: contain
       thumbnail_method: contain

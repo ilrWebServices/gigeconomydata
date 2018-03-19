@@ -45,8 +45,8 @@ module:
   inline_entity_form: 0
   link: 0
   linkit: 0
-  media_entity: 0
-  media_entity_image: 0
+  media: 0
+  media_entity_actions: 0
   media_essentials: 0
   menu_ui: 0
   metatag: 0
