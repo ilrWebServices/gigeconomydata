@@ -100,7 +100,6 @@
         $toc.removeClass('toc--not-ready');
         var tocTop = $toc.offset().top;
         var tocHeight = $toc.height();
-        var tocOffset = tocTop - tocHeight;
         var tocSourceTop = $tocSource.offset().top;
         var tocSourceHeight = $tocSource.height();
         var sourceOffsetBottom = tocSourceTop + tocSourceHeight;
@@ -110,7 +109,7 @@
           var newTocHeight = $toc.height();
           if (newTocHeight > tocHeight) {
             tocHeight = newTocHeight;
-            tocOffset = tocTop - tocHeight;
+            tocTop = $toc.position().top;
             clearInterval(checker);
           }
         }, 1000);
@@ -118,8 +117,7 @@
         // Trigger fixed positioning - can't use debouncing as even a very low number doesn't "feel" right; I believe it waits that long till scroll events stop firing and since you can continuously scroll it makes it feel laggy.
         window.addEventListener('scroll', function (e) {
           var scrolledDistance = $('html').scrollTop() || $('body').scrollTop();
-
-          if (tocOffset < scrolledDistance) {
+          if (tocTop < scrolledDistance) {
             $toc.addClass('toc--fixed');
           } else {
             $toc.removeClass('toc--fixed');
