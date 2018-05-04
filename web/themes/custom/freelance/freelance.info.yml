@@ -8,6 +8,7 @@ core: 8.x
 libraries:
   - 'freelance/global'
   - 'freelance/typekit'
+  - 'freelance/pullquotes'
 
 # Libraries override allows you to remove libraries added by other projects.
 # libraries-override:

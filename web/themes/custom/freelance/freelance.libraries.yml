@@ -24,6 +24,10 @@ footnotes_combined:
   js:
     components/js/footnotes-combined.js: {}
 
+pullquotes:
+  js:
+    components/_patterns/01-atoms/pullquotes/pullquotes.js: {}
+
 main_menu:
   js:
     components/_patterns/02-molecules/menus/main-menu/main-menu.js: {}
