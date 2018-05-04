@@ -3,7 +3,7 @@
     attach: function (context) {
       var count = 1;
       var $pullquotes = $('span.pullquote', context);
-      var template = '<div class="pullquote pullquote--_align_"><p>_quote_</p></div>';
+      var template = '<aside class="pullquote pullquote--_align_"><p>_quote_</p></aside>';
 
       function createPullquotes() {
         $pullquotes.each(function(){

@@ -6,8 +6,7 @@
   }
 }
 
-div.pullquote {
-  float: right;
+aside.pullquote {
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.4rem;
@@ -19,6 +18,7 @@ div.pullquote {
   border-bottom: 1px solid $color-border;
 
   @include medium {
+    float: right;
     max-width: 33%;
     min-width: 300px;
     margin-left: $space-double;
