@@ -1,5 +1,9 @@
 .cke_editable_themed span.pullquote {
   background: yellow;
+
+  &::selection { // so you can tell when highlighted
+    background: pink;
+  }
 }
 
 div.pullquote {

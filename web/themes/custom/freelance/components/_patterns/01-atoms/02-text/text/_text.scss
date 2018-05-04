@@ -21,6 +21,7 @@ p,
   @include paragraph;
 }
 
+blockquote,
 .blockquote {
   font-style: italic;
   border-left: solid 3px $color-border;
