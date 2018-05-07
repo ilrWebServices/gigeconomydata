@@ -10,6 +10,10 @@
 
   @include large {
     padding: $space-triple 0 $space-double;
+
+    .main-content--with-sidebar & {
+      @include full-width--offset(17.5%);
+    }
   }
 
   background-color: $color-info-box;
