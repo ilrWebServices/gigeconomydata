@@ -1,7 +1,7 @@
 <?php
 
 $aliases['dev'] = array(
-  'uri' => 'http://gigeconomydata.dev',
+  'uri' => 'http://gigeconomydata.test',
   'root' => getcwd(),
   'site' => 'gigeconomydata',
   'env' => 'local',
