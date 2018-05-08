@@ -1,0 +1,22 @@
+uuid: 7f47fdb6-a51c-43a7-90a3-d7051650b377
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: data_source
+label: 'Data source'
+type: 'canonical_entities:node'
+pattern: 'research/data-sources/[node:title]'
+selection_criteria:
+  c21c5131-91f8-4384-a8b8-e8b219202c43:
+    id: node_type
+    bundles:
+      data_source: data_source
+    negate: false
+    context_mapping:
+      node: node
+    uuid: c21c5131-91f8-4384-a8b8-e8b219202c43
+selection_logic: and
+weight: -5
+relationships: {  }

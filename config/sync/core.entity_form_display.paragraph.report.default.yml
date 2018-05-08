@@ -1,0 +1,62 @@
+uuid: 2abbf37f-d8ea-468e-9663-85d287a45ac5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.report.field_action
+    - field.field.paragraph.report.field_author
+    - field.field.paragraph.report.field_publisher
+    - field.field.paragraph.report.field_title
+    - field.field.paragraph.report.field_year
+    - paragraphs.paragraphs_type.report
+  module:
+    - link
+id: paragraph.report.default
+targetEntityType: paragraph
+bundle: report
+mode: default
+content:
+  field_action:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_author:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_publisher:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_year:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

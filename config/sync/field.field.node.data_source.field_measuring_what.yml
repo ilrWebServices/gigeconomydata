@@ -1,0 +1,22 @@
+uuid: 85f851e5-8f9c-4e1e-8870-9136cb0866f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_measuring_what
+    - node.type.data_source
+  module:
+    - text
+id: node.data_source.field_measuring_what
+field_name: field_measuring_what
+entity_type: node
+bundle: data_source
+label: 'What is it measuring?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

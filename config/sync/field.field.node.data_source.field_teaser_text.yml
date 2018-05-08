@@ -1,0 +1,19 @@
+uuid: 4747cab2-fb4e-48f6-9795-3cf2b51d77ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_text
+    - node.type.data_source
+id: node.data_source.field_teaser_text
+field_name: field_teaser_text
+entity_type: node
+bundle: data_source
+label: 'Teaser text'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

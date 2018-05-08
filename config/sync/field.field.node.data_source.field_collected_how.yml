@@ -1,0 +1,22 @@
+uuid: e3890f12-12a9-42cc-815e-67bcef473db0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_collected_how
+    - node.type.data_source
+  module:
+    - text
+id: node.data_source.field_collected_how
+field_name: field_collected_how
+entity_type: node
+bundle: data_source
+label: 'How is it collected?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,136 @@
+uuid: 3457afb3-d639-41be-964c-fa543ffab0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.data_source.field_collected_how
+    - field.field.node.data_source.field_collected_who
+    - field.field.node.data_source.field_considerations
+    - field.field.node.data_source.field_data_resources
+    - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_reports
+    - field.field.node.data_source.field_significance
+    - field.field.node.data_source.field_study_tags
+    - field.field.node.data_source.field_teaser_text
+    - node.type.data_source
+  module:
+    - link
+    - paragraphs
+    - path
+    - text
+id: node.data_source.default
+targetEntityType: node
+bundle: data_source
+mode: default
+content:
+  field_collected_how:
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_collected_who:
+    weight: 4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_considerations:
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_data_resources:
+    weight: 8
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_measuring_what:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_reports:
+    type: paragraphs
+    weight: 7
+    settings:
+      title: Report
+      title_plural: Reports
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: report
+    third_party_settings: {  }
+    region: content
+  field_significance:
+    weight: 5
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_study_tags:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_teaser_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  path:
+    type: path
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  include_toc: true
+  promote: true
+  sticky: true
+  uid: true

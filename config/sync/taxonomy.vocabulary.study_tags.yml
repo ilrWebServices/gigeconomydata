@@ -1,0 +1,9 @@
+uuid: aaa5db1b-86fd-4ea1-a771-f0efadbc32f7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Study tags'
+vid: study_tags
+description: 'Study tags are used for data sources'
+hierarchy: 0
+weight: 0

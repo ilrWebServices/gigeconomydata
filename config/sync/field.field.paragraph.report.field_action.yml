@@ -1,0 +1,23 @@
+uuid: f95d2fa0-78d5-4d76-9620-49b8fbe26127
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_action
+    - paragraphs.paragraphs_type.report
+  module:
+    - link
+id: paragraph.report.field_action
+field_name: field_action
+entity_type: paragraph
+bundle: report
+label: 'Publication URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

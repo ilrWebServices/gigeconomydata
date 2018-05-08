@@ -1,0 +1,29 @@
+uuid: b1769e6c-4d15-4134-8b5d-3136a2d29b65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_study_tags
+    - node.type.data_source
+    - taxonomy.vocabulary.study_tags
+id: node.data_source.field_study_tags
+field_name: field_study_tags
+entity_type: node
+bundle: data_source
+label: 'Study tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      study_tags: study_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

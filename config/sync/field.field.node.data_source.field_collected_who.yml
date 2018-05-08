@@ -1,0 +1,22 @@
+uuid: 11a0f32e-11a8-4015-83c7-242db1aad4bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_collected_who
+    - node.type.data_source
+  module:
+    - text
+id: node.data_source.field_collected_who
+field_name: field_collected_who
+entity_type: node
+bundle: data_source
+label: 'Who collects it?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: 55ef4e14-1095-492a-9325-3bd2949a1b7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_considerations
+    - node.type.data_source
+  module:
+    - text
+id: node.data_source.field_considerations
+field_name: field_considerations
+entity_type: node
+bundle: data_source
+label: Considerations
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,9 @@
+uuid: a7c155a2-841e-4293-9d16-692e5ad7322f
+langcode: en
+status: true
+dependencies: {  }
+id: report
+label: report
+icon_uuid: null
+description: 'Reports include a Title, Year, Author(s), and Publisher'
+behavior_plugins: {  }

@@ -1,0 +1,96 @@
+uuid: 33b48aff-08f0-4cbf-89fb-cee2d26b0052
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.data_source.field_collected_how
+    - field.field.node.data_source.field_collected_who
+    - field.field.node.data_source.field_considerations
+    - field.field.node.data_source.field_data_resources
+    - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_reports
+    - field.field.node.data_source.field_significance
+    - field.field.node.data_source.field_study_tags
+    - field.field.node.data_source.field_teaser_text
+    - node.type.data_source
+  module:
+    - entity_reference_revisions
+    - link
+    - text
+    - user
+id: node.data_source.default
+targetEntityType: node
+bundle: data_source
+mode: default
+content:
+  field_collected_how:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_collected_who:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_considerations:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_data_resources:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_measuring_what:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_reports:
+    type: entity_reference_revisions_entity_view
+    weight: 8
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_significance:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_study_tags:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_teaser_text: true

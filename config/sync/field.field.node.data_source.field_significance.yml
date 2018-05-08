@@ -1,0 +1,22 @@
+uuid: 328f9f9c-aa6c-4b39-b413-387ec45934e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_significance
+    - node.type.data_source
+  module:
+    - text
+id: node.data_source.field_significance
+field_name: field_significance
+entity_type: node
+bundle: data_source
+label: 'What does it tell us?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: 33ad0de6-9eb8-4648-a8eb-1785b87b95eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_measuring_what
+field_name: field_measuring_what
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

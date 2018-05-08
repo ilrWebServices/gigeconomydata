@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_content
     - node.type.page
+    - paragraphs.paragraphs_type.report
   module:
     - entity_reference_revisions
 id: node.page.field_content
@@ -20,13 +21,38 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
-    target_bundles: null
+    negate: 1
+    target_bundles:
+      report: report
     target_bundles_drag_drop:
       image:
         weight: 3
         enabled: false
       text:
         weight: 4
+        enabled: false
+      report:
+        enabled: true
+        weight: 11
+      featured_promo:
+        weight: 12
+        enabled: false
+      info_box:
+        weight: 14
+        enabled: false
+      people:
+        weight: 15
+        enabled: false
+      plotly_embed:
+        weight: 16
+        enabled: false
+      selected_content:
+        weight: 17
+        enabled: false
+      tagged_content:
+        weight: 18
+        enabled: false
+      video:
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions

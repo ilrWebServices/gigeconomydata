@@ -1,0 +1,44 @@
+uuid: 68dbe605-e084-470e-9f33-559cb6ee59d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.data_source.field_collected_how
+    - field.field.node.data_source.field_collected_who
+    - field.field.node.data_source.field_considerations
+    - field.field.node.data_source.field_data_resources
+    - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_reports
+    - field.field.node.data_source.field_significance
+    - field.field.node.data_source.field_study_tags
+    - field.field.node.data_source.field_teaser_text
+    - node.type.data_source
+  module:
+    - user
+id: node.data_source.teaser
+targetEntityType: node
+bundle: data_source
+mode: teaser
+content:
+  field_teaser_text:
+    type: basic_string
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_collected_how: true
+  field_collected_who: true
+  field_considerations: true
+  field_data_resources: true
+  field_measuring_what: true
+  field_reports: true
+  field_significance: true
+  field_study_tags: true
