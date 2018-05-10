@@ -1,0 +1,12 @@
+{% include "@organisms/site/site-header/site-header.twig" with { pl: true } %}
+
+<div class="main-content">
+  <h1 class="h1">Data Sources</h1>
+  <div class="data-source-grid__overview">
+    <p>Sed eu accumsan nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec bibendum diam in metus varius facilisis. Aliquam bibendum volutpat orci, sed iaculis felis congue nec. Cras tristique accumsan erat ac dapibus. Nulla justo nunc, consequat ac neque bibendum, porttitor tincidunt neque. Sed ut urna felis. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean et egestas metus, id malesuada eros. Mauris quis turpis metus.</p>
+  </div>
+  {% include "@organisms/data-source-grid/data-source-grid.twig" with {
+    data_sources: [0,1,2,3,4,5,6,7,8,9,10]
+  }%}
+</div>{# /.layout-content #}
+{% include "@organisms/site/site-footer/site-footer.twig" %}

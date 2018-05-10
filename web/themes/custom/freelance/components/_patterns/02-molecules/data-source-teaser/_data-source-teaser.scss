@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   background: $color-data-source-tile;
-  transition: 0.3s;
+  transition: 0.4s;
   background-size: 200% auto;
   transform: skewY(-30deg) rotate(60deg);
   color: white;
@@ -28,7 +28,7 @@
 
   &:hover {
     background-position: right center;
-    background-image: linear-gradient(to bottom right, $color-data-source-tile--hover 0%, $color-data-source-tile 45%, $color-data-source-tile--hover 100%);
+    background-image: linear-gradient(to bottom right, $color-data-source-tile--hover 0%, $color-data-source-tile 20%, $color-data-source-tile--hover 100%);
   }
 }
 

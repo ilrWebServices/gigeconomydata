@@ -1,4 +1,8 @@
 .data-source-grid {
+  @include leader(2);
+  @include trailer(5);
+  @include clearfix;
+
   .data-source-teaser__wrapper {
     &:nth-of-type(3n+2) {
       margin: 0 1%;
