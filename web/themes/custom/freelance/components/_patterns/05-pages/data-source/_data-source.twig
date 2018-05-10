@@ -1,0 +1,23 @@
+{# {% set data_source_parameters = [
+  'measuring_what',
+  'collected_how',
+  'collected_who',
+  'significance',
+  'considerations'
+] %} #}
+<div{{ content_attributes }}>
+  {% for parameter in data_source_parameters %}
+    <div class="data-source-parameter">
+      <h2 class="data-source-parameter__heading">{{ parameter.label }}</h2>
+      <p>{{ parameter.content }}</p>
+    </div>
+  {% endfor %}
+  <div class="data-source-parameter">
+    <h2 class="data-source-parameter__heading">{{ resource_link_heading }}</h2>
+    <ul class="data-source__links">
+      {% for link in resource_links %}
+        <li class="data-source__link">{{ link }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+demo:
+  data_sources:
+    -
+      data_source_name: "General Social Survey"
+    -
+      data_source_name: "JPMorgan Chase Institute Administrative Data"
+    -
+      data_source_name: "RAND ALS CWS Replication"
+    -
+      data_source_name: "Survey of Household Economic Decisionmaking "
+    -
+      data_source_name: "McKinsey Global Institute Survey"
+    -
+      data_source_name: "Pew American Trends Panel "
+    -
+      data_source_name: "Administrative Tax Data: Schedule SE/C"
+    -
+      data_source_name: "MBO Survey"
+    -
+      data_source_name: "Prudential Survey "
+    -
+      data_source_name: "Freelancing in America"
+    -
+      data_source_name: "Internet Association Accounts"

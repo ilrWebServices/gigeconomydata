@@ -44,7 +44,8 @@ function freelance_preprocess(&$variables) {
 function freelance_preprocess_html(&$variables) {
   $variables['path_info']['args'] = Html::cleanCssIdentifier(ltrim(\Drupal::request()->getPathInfo(), '/'));
   if (!empty($variables['node_type'])) {
-    $vars['path_info']['node_type_class'] = "node-type__{$variables['node_type']}";
+    $type = str_replace('_', '-', $variables['node_type']);
+    $variables['path_info']['node_type_class'] = "node-type__{$type}";
   }
   // Prepare the html template for production-specific
   // output like google tag manager

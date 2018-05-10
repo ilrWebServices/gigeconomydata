@@ -4,8 +4,8 @@
 
 .toc {
   background-color: white;
-  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.24);
-  padding: 50px 21px 21px;
+  border-top: 8px solid $color-info-box;
+  padding: 16px;
   display: none;
 
   @include large {
@@ -31,7 +31,6 @@
 
   &__inner {
     max-height: 70vh;
-    padding-left: 6px;
     overflow: auto;
   }
 
@@ -50,6 +49,7 @@
     > a {
       text-decoration: none;
       margin-bottom: 14px;
+      padding-left: 5px;
       display: block;
       line-height: 19px;
       color: lighten($color-heading--alt, 10%);
@@ -57,12 +57,14 @@
 
     &--active {
       &::before {
-        content: '\21FE';
+        content: url(/themes/custom/freelance/images/svg/hex--vertical.svg);
         display: inline-block;
         color: $color-link;
         position: absolute;
-        top: -0.3rem;
+        top: -4px;
         left: 0;
+        width: 15px;
+        height: 15px;
       }
 
       > a {

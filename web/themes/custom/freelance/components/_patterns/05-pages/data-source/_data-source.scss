@@ -1,0 +1,7 @@
+.node-type__data-source {
+  @include trailer(2);
+
+  .data-source-parameter {
+    @include trailer(2);
+  }
+}

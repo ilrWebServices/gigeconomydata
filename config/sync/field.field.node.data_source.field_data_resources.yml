@@ -11,7 +11,7 @@ id: node.data_source.field_data_resources
 field_name: field_data_resources
 entity_type: node
 bundle: data_source
-label: 'Data resources'
+label: 'How to access this data?'
 description: ''
 required: false
 translatable: false

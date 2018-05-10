@@ -205,6 +205,12 @@
   right: 50% - $right-offset;
 }
 
+@import "center";
+
+.centered {
+  @include center;
+}
+
 // visually-hidden()
 //
 // Make an element visually hidden, but accessible to screen readers, etc.
