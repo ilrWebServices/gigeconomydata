@@ -3,6 +3,18 @@
   @include trailer(5);
   @include clearfix;
 
+  @include medium {
+    @include breakout-container(80);
+  }
+
+  @include large {
+    @include breakout-container(70);
+  }
+
+  @include xl {
+    @include breakout-container(60);
+  }
+
   .data-source-teaser__wrapper {
     &:nth-of-type(3n+2) {
       margin: 0 1%;

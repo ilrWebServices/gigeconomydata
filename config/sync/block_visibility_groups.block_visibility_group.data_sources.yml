@@ -10,7 +10,7 @@ logic: or
 conditions:
   30ae5fa9-e2d4-4d91-a9d6-528067b651b2:
     id: request_path
-    pages: /resources/data-sources
+    pages: /research/data-sources
     negate: false
     context_mapping: {  }
     uuid: 30ae5fa9-e2d4-4d91-a9d6-528067b651b2

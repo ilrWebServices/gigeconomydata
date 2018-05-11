@@ -205,6 +205,16 @@
   right: 50% - $right-offset;
 }
 
+@mixin breakout-container($viewport-percent) {
+  width: $viewport-percent + vw;
+  max-width: $viewport-percent + vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -$viewport-percent/2 + vw;
+  margin-right: -$viewport-percent/2 + vw;
+}
+
 @import "center";
 
 .centered {

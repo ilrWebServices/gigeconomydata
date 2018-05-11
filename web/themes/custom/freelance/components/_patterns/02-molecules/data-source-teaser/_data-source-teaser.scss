@@ -29,6 +29,7 @@
   &:hover {
     background-position: right center;
     background-image: linear-gradient(to bottom right, $color-data-source-tile--hover 0%, $color-data-source-tile 20%, $color-data-source-tile--hover 100%);
+    transform: scaleZ(42px);
   }
 }
 
