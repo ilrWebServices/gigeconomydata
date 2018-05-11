@@ -1,0 +1,9 @@
+{% set url = content.field_action|field_value[0]['#title'] %}
+
+{% include '@molecules/components/report/report.twig' with {
+  'title': content.field_title|field_value,
+  'url': url,
+  'year': content.field_year|field_value,
+  'author': content.field_author|field_value,
+  'publisher': content.field_publisher|field_value,
+}%}
