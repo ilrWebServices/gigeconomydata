@@ -13,7 +13,7 @@ _core:
 id: freelance_footer
 theme: freelance
 region: footer
-weight: -7
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

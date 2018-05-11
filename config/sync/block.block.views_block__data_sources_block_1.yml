@@ -1,0 +1,31 @@
+uuid: 879ff7f5-899e-4e67-9751-b24347687ae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.data_sources
+    - views.view.data_sources
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - freelance
+id: views_block__data_sources_block_1
+theme: freelance
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:data_sources-block_1'
+settings:
+  id: 'views_block:data_sources-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: data_sources
+    context_mapping: {  }

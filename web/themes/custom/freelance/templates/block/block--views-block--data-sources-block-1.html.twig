@@ -1,0 +1,5 @@
+{% set view = drupal_view('data_sources', 'block_1') %}
+
+{% include '@organisms/data-source-grid/data-source-grid.twig' with {
+  data_sources: view
+}%}

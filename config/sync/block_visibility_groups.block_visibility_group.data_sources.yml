@@ -1,0 +1,17 @@
+uuid: 0ac3c5f3-bc7a-48f1-a47f-302267366ef7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: data_sources
+label: 'Data sources'
+logic: or
+conditions:
+  30ae5fa9-e2d4-4d91-a9d6-528067b651b2:
+    id: request_path
+    pages: /resources/data-sources
+    negate: false
+    context_mapping: {  }
+    uuid: 30ae5fa9-e2d4-4d91-a9d6-528067b651b2
+allow_other_conditions: false
