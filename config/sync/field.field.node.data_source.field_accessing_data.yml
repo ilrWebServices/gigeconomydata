@@ -1,14 +1,14 @@
-uuid: 70f06e29-2ba8-4e5c-8031-f1674ade1064
+uuid: d03cbfb6-2490-45d0-a47a-8013bab44ca3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_data_resources
+    - field.storage.node.field_accessing_data
     - node.type.data_source
   module:
-    - link
-id: node.data_source.field_data_resources
-field_name: field_data_resources
+    - text
+id: node.data_source.field_accessing_data
+field_name: field_accessing_data
 entity_type: node
 bundle: data_source
 label: 'How to access this data?'
@@ -17,7 +17,5 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  link_type: 16
-  title: 2
-field_type: link
+settings: {  }
+field_type: text_long

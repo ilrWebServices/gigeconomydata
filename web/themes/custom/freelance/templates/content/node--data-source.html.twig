@@ -6,6 +6,7 @@
   'collected_who',
   'significance',
   'considerations',
+  'accessing_data',
   'reports'
 ] %}
 
@@ -18,19 +19,10 @@
   {% set parameters = parameters|merge([param]) %}
 {% endfor %}
 
-{% set resource_links = content.field_data_resources|field_value %}
-
-{% set links = [] %}
-{% for resource_link in resource_links %}
-  {% set link = resource_link|render %}
-  {% set links = links|merge([link]) %}
-{% endfor %}
-
 {% embed "@pages/data-source/_data-source.twig"
   with {
     data_source_parameters: parameters,
-    resource_link_heading: content.field_data_resources|field_label,
-    resource_links: links
+    resource_link_heading: content.field_data_resources|field_label
   }
 %}
 {% endembed %}

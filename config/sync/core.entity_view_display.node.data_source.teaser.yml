@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.data_source.field_accessing_data
     - field.field.node.data_source.field_collected_how
     - field.field.node.data_source.field_collected_who
     - field.field.node.data_source.field_considerations
-    - field.field.node.data_source.field_data_resources
     - field.field.node.data_source.field_measuring_what
     - field.field.node.data_source.field_reports
     - field.field.node.data_source.field_significance
@@ -34,10 +34,10 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_accessing_data: true
   field_collected_how: true
   field_collected_who: true
   field_considerations: true
-  field_data_resources: true
   field_measuring_what: true
   field_reports: true
   field_significance: true
