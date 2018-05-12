@@ -9,9 +9,10 @@ $table-gray: #f8f8f8;
 }
 
 .table__heading-cell {
+  background-color: $color-table-heading;
   border: none;
   border-left: 1px solid $gray-lightest;
-  color: $black;
+  color: white;
   font-weight: 700;
   padding: 1.2em;
   text-align: left;
@@ -47,6 +48,12 @@ $table-gray: #f8f8f8;
   &:last-child {
     border-right: none;
   }
+
+  &.check {
+    color: green;
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 .table__footer-cell,
@@ -57,9 +64,20 @@ $table-gray: #f8f8f8;
 
 // TODO: BEM selectors should be applied to wysiwyg-created content
 
-.text-long {
+.text-long,
+.component__text__text {
   table {
     @extend .table;
+
+    &.wide {
+      @include breakout-container(80);
+      @include leader(2);
+    }
+  }
+
+  thead.sticky {
+    position: sticky;
+    top: 0;
   }
 
   th {
@@ -68,6 +86,10 @@ $table-gray: #f8f8f8;
 
   td {
     @extend .table__cell;
+
+    &.check {
+
+    }
   }
 
   tbody tr {

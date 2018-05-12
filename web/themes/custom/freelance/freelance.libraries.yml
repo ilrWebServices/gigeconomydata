@@ -2,6 +2,7 @@ global:
   css:
     theme:
       dist/style.css: {}
+      components/css/responsive-tables.css: {}
   js:
     dist/scripts.js: {}
   dependencies:
@@ -27,6 +28,12 @@ footnotes_combined:
 pullquotes:
   js:
     components/_patterns/01-atoms/pullquotes/pullquotes.js: {}
+
+responsive_tables:
+  js:
+    components/js/responsive-tables.js: {}
+  dependencies:
+    - core/jquery
 
 main_menu:
   js:

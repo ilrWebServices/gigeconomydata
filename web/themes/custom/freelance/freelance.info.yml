@@ -9,6 +9,7 @@ libraries:
   - 'freelance/global'
   - 'freelance/typekit'
   - 'freelance/pullquotes'
+  - 'freelance/responsive_tables'
 
 # Libraries override allows you to remove libraries added by other projects.
 # libraries-override:
