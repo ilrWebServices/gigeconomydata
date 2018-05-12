@@ -15,15 +15,16 @@
 
 (function ($) {
   var switched = false;
+  var triggerWidth = 1259;
   var updateTables = function() {
-    if (($(window).width() < 767) && !switched){
+    if (($(window).width() < triggerWidth) && !switched){
       switched = true;
       $("table.responsive").each(function(i, element) {
         splitTable($(element));
       });
       return true;
     }
-    else if (switched && ($(window).width() > 767)) {
+    else if (switched && ($(window).width() > triggerWidth)) {
       switched = false;
       $("table.responsive").each(function(i, element) {
         unsplitTable($(element));
@@ -41,7 +42,7 @@ function splitTable(original)
 
   var copy = original.clone();
   copy.find("td:not(:first-child), th:not(:first-child)").css("display", "none");
-  copy.removeClass("responsive");
+  copy.removeClass("responsive wide");
 
   original.closest(".table-wrapper").append(copy);
   copy.wrap("<div class='pinned' />");
