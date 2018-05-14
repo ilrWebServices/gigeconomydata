@@ -1,14 +1,23 @@
+$hex-width: 40%;
+
 .data-source-teaser__wrapper {
   position: relative;
   float: left;
-  width: 27.85714285714286%;
-  padding: 0 0 32.16760145166612%;
+  width: $hex-width;
+  padding-bottom: $hex-width / 0.8666;
   transform: rotate(-60deg) skewY(30deg);
   overflow: hidden;
   visibility: hidden;
 
   * {
     visibility: visible;
+  }
+
+  @include medium {
+    $hex-width: 27%;
+
+    width: $hex-width;
+    padding-bottom: $hex-width / 0.8666;
   }
 }
 
@@ -37,8 +46,16 @@
   @include center($absolute: true);
 
   margin-top: 0%;
-  font-size: 2.5vmin;
   line-height: 1.2;
+  font-size: 3vmin;
+
+  @include medium {
+    font-size: 2.5vmin;
+  }
+
+  @include medium {
+    font-size: 2vmin;
+  }
 
   a {
     color: white;

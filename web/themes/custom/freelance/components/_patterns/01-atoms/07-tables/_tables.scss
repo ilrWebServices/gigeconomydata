@@ -2,7 +2,6 @@ $table-gray: #f8f8f8;
 
 .table-wrapper {
   @include leader(2);
-  // @include full-width--offset(15%);
 }
 
 .table {
@@ -75,7 +74,7 @@ $table-gray: #f8f8f8;
       visibility: hidden;
     }
 
-    &:before {
+    &::before {
       content: '\2713';
       font-size: 2rem;
     }
@@ -107,10 +106,6 @@ $table-gray: #f8f8f8;
 
   td {
     @extend .table__cell;
-
-    &.check {
-
-    }
   }
 
   tbody tr {
