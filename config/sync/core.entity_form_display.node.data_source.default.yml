@@ -3,10 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.image_browser
     - field.field.node.data_source.field_accessing_data
     - field.field.node.data_source.field_collected_how
     - field.field.node.data_source.field_collected_who
     - field.field.node.data_source.field_considerations
+    - field.field.node.data_source.field_image_reference
     - field.field.node.data_source.field_measuring_what
     - field.field.node.data_source.field_reports
     - field.field.node.data_source.field_significance
@@ -14,6 +16,7 @@ dependencies:
     - field.field.node.data_source.field_teaser_text
     - node.type.data_source
   module:
+    - entity_browser
     - paragraphs
     - path
     - text
@@ -23,7 +26,7 @@ bundle: data_source
 mode: default
 content:
   field_accessing_data:
-    weight: 9
+    weight: 8
     settings:
       rows: 5
       placeholder: ''
@@ -56,6 +59,20 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea_with_summary
+    region: content
+  field_image_reference:
+    weight: 9
+    settings:
+      entity_browser: image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: thumbnail
+      open: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
     region: content
   field_measuring_what:
     weight: 2

@@ -19,10 +19,14 @@
   {% set parameters = parameters|merge([param]) %}
 {% endfor %}
 
+
+{% set logo = img ? img.uri|image_style('scaled_thumbnail') : NULL %}
+
 {% embed "@pages/data-source/_data-source.twig"
   with {
     data_source_parameters: parameters,
-    resource_link_heading: content.field_data_resources|field_label
+    resource_link_heading: content.field_data_resources|field_label,
+    logo: logo
   }
 %}
 {% endembed %}

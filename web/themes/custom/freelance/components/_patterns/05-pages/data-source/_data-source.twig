@@ -7,6 +7,14 @@
       'rel': 'bookmark'
     },
   } %}
+  {% if logo %}
+    <div class="data-source__logo">
+      {% include "@molecules/components/_image.twig" with {
+        "img_src": logo,
+        "img_alt": 'Logo for #{label}'
+      } %}
+    </div>
+  {% endif %}
 
   <div{{ content_attributes }}>
     {% for parameter in data_source_parameters %}
@@ -16,6 +24,4 @@
       </div>
     {% endfor %}
   </div>
-
-
 </article>

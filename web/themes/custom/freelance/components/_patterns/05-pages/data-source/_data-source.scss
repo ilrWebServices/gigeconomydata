@@ -5,3 +5,22 @@
     @include trailer(2);
   }
 }
+
+.data-source__logo {
+  max-width: 225px;
+
+  .component__image {
+    @include leader(1);
+    @include trailer(1);
+
+    margin-left: 0;
+
+    @include large { // Create a content column off to the right
+      position: absolute;
+      width: 25%;
+      left: 110%;
+      top: 15px;
+      margin: 0;
+    }
+  }
+}
