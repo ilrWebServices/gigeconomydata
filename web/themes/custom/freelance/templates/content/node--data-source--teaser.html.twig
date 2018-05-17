@@ -1,7 +1,10 @@
+{% set logo = img ? img.uri|image_style('scaled_thumbnail') : NULL %}
+
 {% embed "@molecules/data-source-teaser/data-source-teaser.twig"
   with {
-    "data_source_name": label,
-    "data_source_path": url
+    "data_source_name": node.label,
+    "data_source_path": url,
+    "logo": logo
   }
 %}
 {% endembed %}
