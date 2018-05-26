@@ -1,8 +1,13 @@
 .copyright {
   @include type-scale(xs);
+  @include wrapper;
 
   line-height: 1rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
   text-align: center;
   color: $gray-light;
+
+  p {
+    max-width: 100%; // Override
+  }
 }

@@ -10,12 +10,17 @@ body {
 
 .main {
   @include wrapper;
+  @include trailer(2);
 }
 
 .main-sidebar {
+  padding-left: 1rem;
+
   @include large {
-    @include grid-span(3,10);
+    @include grid-span(3);
     @include leader(2.5);
+
+    padding-left: 0;
   }
 }
 
@@ -28,7 +33,7 @@ body {
     padding: 0;
 
     &--with-sidebar {
-      @include grid-span(9,1);
+      @include grid-span(9,4);
     }
   }
 }

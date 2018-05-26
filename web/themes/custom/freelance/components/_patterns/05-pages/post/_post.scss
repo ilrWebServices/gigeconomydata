@@ -42,8 +42,8 @@
   .views-element-container { // This is the views wrapper for tagged_content
     @include large { // Create a content column off to the right
       position: absolute;
-      width: 25%;
-      left: 110%;
+      width: 29%;
+      left: -35%;
     }
 
     .content-teaser__image {

@@ -27,11 +27,11 @@
 
   .site-branding {
     flex-grow: 1;
-    margin: $space-one-half $space-double 0 $space;
+    margin: $space-one-half $space-double 0 0;
 
     @include breakpoint($main-menu-medium) {
       margin-top: 0;
-      margin-left: $space-double;
+      margin-left: 15px; // Aligns to grid content below
     }
   }
 }
