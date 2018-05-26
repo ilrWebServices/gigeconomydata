@@ -9,7 +9,6 @@
       function createPullquotes() {
         $pullquotes.each(function(){
           $quote = $(this).text();
-          console.log($quote);
           $parent = $(this).closest('p');
           $parent.prepend(template.replace('_quote_',$quote).replace('_align_', isOdd(count) ? 'right' : 'left'));
           count++;

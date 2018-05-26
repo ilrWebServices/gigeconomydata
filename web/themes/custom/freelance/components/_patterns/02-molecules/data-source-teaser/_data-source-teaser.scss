@@ -33,7 +33,12 @@ $hex-width: 40%;
   transform: skewY(-30deg) rotate(60deg);
   color: white;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
+
+  @include large {
+    padding: 3rem;
+  }
+
 
   &:hover {
     background-position: right center;

@@ -1,3 +1,4 @@
 data_source_name:
   "General Social Survey"
-
+logo:
+  '/sites/default/files/styles/scaled_thumbnail/public/2018-05/gss.png'

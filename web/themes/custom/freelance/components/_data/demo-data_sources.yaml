@@ -2,23 +2,34 @@ demo:
   data_sources:
     -
       data_source_name: "General Social Survey"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/gss.png'
     -
       data_source_name: "JPMorgan Chase Institute Administrative Data"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/jpmorgan.jpg'
     -
       data_source_name: "RAND ALS CWS Replication"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/rand.png'
     -
       data_source_name: "Survey of Household Economic Decisionmaking "
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/the%20fed'
     -
       data_source_name: "McKinsey Global Institute Survey"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/mckinsey.png'
     -
       data_source_name: "Pew American Trends Panel "
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/pew.png'
     -
       data_source_name: "Administrative Tax Data: Schedule SE/C"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/irs.png'
     -
       data_source_name: "MBO Survey"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/mbo.png'
     -
       data_source_name: "Prudential Survey "
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/prudential.png'
     -
       data_source_name: "Freelancing in America"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/freelancers.png'
     -
       data_source_name: "Internet Association Accounts"
+      logo: '/sites/default/files/styles/scaled_thumbnail/public/2018-05/internet%20assoc.png'
