@@ -11,7 +11,7 @@ _core:
 id: freelance_help
 theme: freelance
 region: content
-weight: -6
+weight: -8
 provider: null
 plugin: help_block
 settings:

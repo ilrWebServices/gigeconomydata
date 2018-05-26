@@ -13,7 +13,7 @@ dependencies:
 id: views_block__data_sources_block_1
 theme: freelance
 region: content
-weight: 0
+weight: 1
 provider: null
 plugin: 'views_block:data_sources-block_1'
 settings:
