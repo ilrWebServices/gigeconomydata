@@ -1,5 +1,5 @@
 // Menu Breakpoint
-$main-menu-medium: 62em;
+$main-menu-medium: 57em;
 
 // Nav
 .main-nav {
@@ -17,7 +17,8 @@ $main-menu-medium: 62em;
 }
 
 // UL
-.main-menu {
+.main-menu,
+ul.sf-main.menu {
   @include list-reset;
 
   background: $color-mobile-nav-bg;
@@ -30,5 +31,13 @@ $main-menu-medium: 62em;
     position: relative;
     width: auto;
     background: transparent;
+    margin-right: 2rem;
   }
 }
+
+ul.sf-menu.sf-horizontal ul,
+ul.sf-menu.sf-vertical ul,
+ul.sf-menu.sf-navbar ul ul {
+  background: white;
+}
+
