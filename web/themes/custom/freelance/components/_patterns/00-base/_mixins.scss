@@ -264,3 +264,7 @@
     color: $color-heading;
   }
 }
+
+@mixin centered-text {
+  text-align: center !important;
+}

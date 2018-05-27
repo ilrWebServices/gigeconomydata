@@ -22,6 +22,10 @@ p,
   @include paragraph;
 }
 
+.centered-text {
+  @include centered-text;
+}
+
 blockquote,
 .blockquote {
   font-style: italic;
