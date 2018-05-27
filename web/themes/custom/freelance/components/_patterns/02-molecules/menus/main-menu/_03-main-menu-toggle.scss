@@ -51,3 +51,25 @@
     visibility: hidden;
   }
 }
+
+// Superfish specific
+.sf-accordion-toggle {
+  a {
+    &::before {
+      @include sprite-menu;
+      @include with-icon;
+
+      font-size: 1.6rem;
+      fill: yellow;
+    }
+  }
+
+  span {
+    width: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0 auto;
+
+    @include visually-hidden;
+  }
+
+}

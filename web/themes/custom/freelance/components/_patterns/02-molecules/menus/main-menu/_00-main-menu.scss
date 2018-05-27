@@ -1,9 +1,10 @@
 // Menu Breakpoint
-$main-menu-medium: 57em;
+$main-menu-medium: 900px;
 
 // Nav
 .main-nav {
   display: none;
+  position: relative;
 
   @include breakpoint($main-menu-medium) {
     display: flex;
@@ -23,9 +24,8 @@ ul.sf-main.menu {
 
   background: $color-mobile-nav-bg;
   position: absolute;
-  left: 1rem;
-  width: 90%;
   z-index: 10;
+  top: 0;
 
   @include breakpoint($main-menu-medium) {
     position: relative;
@@ -39,5 +39,11 @@ ul.sf-menu.sf-horizontal ul,
 ul.sf-menu.sf-vertical ul,
 ul.sf-menu.sf-navbar ul ul {
   background: white;
+}
+
+#superfish-main-accordion {
+  position: absolute;
+  top: 150px !important;
+  left: auto;
 }
 

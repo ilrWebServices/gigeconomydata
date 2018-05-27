@@ -26,18 +26,29 @@
   }
 }
 
-.sf-menu li a {
-  color: $color-link--alt;
-  font-family: $font-heading;
-  padding: 1em;
+.sf-menu li {
+  a {
+    color: $color-link--alt;
+    font-family: $font-heading;
+    padding: 1em;
 
-  &.sf-depth-1 {
-    font-size: 1rem;
+    &.sf-depth-1 {
+      font-size: 1rem;
+    }
+
+    &.sf-depth-2 {
+      @include sub-menu-link;
+
+      border-bottom: 0;
+    }
   }
 
-  &.sf-depth-2 {
-    @include sub-menu-link;
+  &.sf-clone-parent {
+    a.sf-depth-1 {
+      @include sub-menu-link;
 
-    border-bottom: 0;
+      font-size: 0.9rem;
+      border-bottom: 0;
+    }
   }
 }
