@@ -1,0 +1,30 @@
+uuid: 723585c8-490c-4c64-9a95-af226a8e4894
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.data_sources
+    - views.view.data_sources
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - freelance
+id: exposedformdata_sourcesblock_1
+theme: freelance
+region: sidebar
+weight: -8
+provider: null
+plugin: 'views_exposed_filter_block:data_sources-block_1'
+settings:
+  id: 'views_exposed_filter_block:data_sources-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: 'Filter Data Sources'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: data_sources
+    context_mapping: {  }

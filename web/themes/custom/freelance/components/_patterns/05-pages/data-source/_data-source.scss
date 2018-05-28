@@ -6,6 +6,17 @@
   }
 }
 
+.data-source-parameter__heading {
+  @include heading-small($font-family: $font-body);
+  @include trailing-border($width: 1px, $lines: 0.5);
+  // color: $color-heading--alt;
+  background: $color-heading--alt;
+  color: $white;
+  font-weight: normal;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+}
+
 .data-source__logo {
   max-width: 225px;
 
@@ -18,7 +29,7 @@
     @include large { // Create a content column off to the right
       position: absolute;
       width: 25%;
-      left: 110%;
+      right: 115%;
       top: 15px;
       margin: 0;
     }

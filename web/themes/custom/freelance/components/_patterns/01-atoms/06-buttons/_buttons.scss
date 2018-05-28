@@ -19,7 +19,16 @@
 }
 
 @mixin button-alt {
-  text-transform: uppercase;
+  background-color: transparent;
+  padding: 0.25rem 0.5rem;
+  color: $color-button;
+  font-size: 0.7rem;
+  border: 1px solid $color-button;
+
+  &:hover {
+    color: $white;
+    background-color: $color-button;
+  }
 }
 
 .button {

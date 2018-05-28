@@ -30,3 +30,25 @@
 a {
   @include link;
 }
+
+.bef-links {
+  a {
+    text-transform: capitalize;
+    position: relative;
+
+    &.bef-link-active {
+      @include link-alt;
+
+      &::before {
+        content: url(/themes/custom/freelance/images/svg/hex--vertical.svg);
+        display: inline-block;
+        color: $color-link;
+        position: absolute;
+        top: 2px;
+        right: -25px;
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}

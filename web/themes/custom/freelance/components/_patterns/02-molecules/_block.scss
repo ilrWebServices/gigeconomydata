@@ -1,0 +1,12 @@
+.views-exposed-form,
+.bef-exposed-form {
+  @include leader(2);
+
+  label {
+    @include heading-small;
+  }
+
+  .button {
+    @include button-alt;
+  }
+}

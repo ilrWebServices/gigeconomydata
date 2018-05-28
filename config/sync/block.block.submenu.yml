@@ -13,7 +13,7 @@ dependencies:
 id: submenu
 theme: freelance
 region: sidebar
-weight: 0
+weight: -9
 provider: null
 plugin: 'system_menu_block:main'
 settings:
