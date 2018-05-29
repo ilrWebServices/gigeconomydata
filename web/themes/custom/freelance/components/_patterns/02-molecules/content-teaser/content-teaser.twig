@@ -64,6 +64,11 @@
       "image_blockname": content_teaser_base_class,
     } %}
   {% endif %}
+  {% if content_teaser_author %}
+    <div class="content-teaser__author">
+      <span class="author">{{ content_teaser_author }}</span>
+    </div>
+  {% endif %}
   {% if content_teaser_date %}
     <div class="content-teaser__date">
       <span class="date">{{ content_teaser_date }}</span>

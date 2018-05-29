@@ -17,6 +17,10 @@
   @include fill-parent;
 }
 
+.content-teaser__author {
+  @include type-scale(xs);
+}
+
 .content-teaser__date {
   @include type-scale(xs);
   @include trailer(0.5);
@@ -51,6 +55,7 @@
   }
 
   .content-teaser__body,
+  .content-teaser__author,
   .content-teaser__date,
   .content-teaser__link {
     @include medium {

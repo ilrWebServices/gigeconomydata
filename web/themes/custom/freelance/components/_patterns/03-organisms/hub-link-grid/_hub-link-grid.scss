@@ -4,7 +4,6 @@
   @include medium {
     @include leader(3);
     @include add-grid(12);
-    @include breakout-container(60);
 
     $grid-gutter: 0.2;
 
@@ -37,5 +36,13 @@
         }
       }
     }
+  }
+
+  @include large {
+    @include full-width--offset(-20%);
+  }
+
+  @include xl {
+    @include breakout-container(60);
   }
 }

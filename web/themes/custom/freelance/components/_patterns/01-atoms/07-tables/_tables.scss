@@ -14,9 +14,16 @@ $table-gray: #f8f8f8;
   background-color: $table-gray;
   width: 100%;
   line-height: 1.2;
+  font-size: 0.8rem;
 
   .table-wrapper & {
     margin-top: 0;
+  }
+
+  &.wide {
+    @include large {
+      @include breakout-container(75);
+    }
   }
 }
 
@@ -32,6 +39,10 @@ $table-gray: #f8f8f8;
 
   &:first-child {
     border: none;
+  }
+
+  a {
+    color: white;
   }
 }
 
@@ -76,7 +87,7 @@ $table-gray: #f8f8f8;
 
     &::before {
       content: '\2713';
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
 }

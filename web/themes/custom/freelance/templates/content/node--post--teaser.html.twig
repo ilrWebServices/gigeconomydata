@@ -2,10 +2,30 @@
 
 {% set modifiers = img ? ['with-image'] : [] %}
 
+
+{% set authors = content.field_author|field_value %}
+{% if authors|length >= 3 %}
+  {% set author_output = [] %}
+  {% for author in authors %}
+    {% if loop.index == 1 %}
+      {% set author_output = author_output|merge([author['#plain_text']~", "]) %}
+    {% elseif loop.index == 2 %}
+      {% set author_output = author_output|merge([author['#plain_text']~" and "]) %}
+    {% else %}
+      {% set author_output = author_output|merge([author['#plain_text']]) %}
+    {% endif %}
+  {% endfor %}
+  {% set author_output = author_output|safe_join(' ') %}
+{% else %}
+  {% set author_output = authors|safe_join(' and ') %}
+{% endif %}
+
+
 {% embed "@molecules/content-teaser/content-teaser.twig"
   with {
     "content_teaser_modifiers": modifiers,
     "content_teaser_date": content.field_publication_date,
+    "content_teaser_author": author_output,
     "content_teaser_title": label,
     "content_teaser_title_link": url,
     "content_teaser_link_url": url,

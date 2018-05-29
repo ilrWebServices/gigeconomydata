@@ -16,6 +16,12 @@
     </div>
   {% endif %}
 
+  {% if tags %}
+    <div class="data-source__tags">
+      {{ tags }}
+    </div>
+  {% endif %}
+
   <div{{ content_attributes }}>
     {% for parameter in data_source_parameters %}
       <div class="data-source-parameter">
