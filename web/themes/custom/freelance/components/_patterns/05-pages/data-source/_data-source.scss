@@ -1,8 +1,12 @@
 .node-type__data-source {
   @include trailer(2);
+  @include add-grid(12);
 
   .data-source-parameter {
     @include trailer(2);
+    @include grid-span(9);
+
+    clear: left;
   }
 }
 
@@ -31,6 +35,46 @@
       right: 115%;
       top: 15px;
       margin: 0;
+    }
+  }
+}
+
+.data-source__tags {
+  @include grid-span(3, 10);
+
+  text-transform: capitalize;
+  text-align: right;
+
+  div:first-child > div:first-child {
+    @include heading-small;
+    @include alt-heading;
+  }
+}
+
+// For the data sources view. Should be in its own file
+#block-views-block-data-sources-block-1 {
+  @include medium {
+    @include add-grid(12);
+
+    .bef-exposed-form {
+      @include grid-span(4, 9);
+    }
+
+    .views-row {
+      @include grid-span(8);
+
+      clear: left;
+    }
+  }
+
+  .views-row {
+    @include trailing-border(1px, 0.5);
+    @include leader(0.5);
+
+    border-color: $color-border;
+
+    a {
+      @include heading-small;
     }
   }
 }
