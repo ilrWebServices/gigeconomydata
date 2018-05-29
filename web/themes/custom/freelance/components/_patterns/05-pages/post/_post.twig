@@ -19,17 +19,6 @@
     } %}
   {% endif %}
 
-  {% if card_subtitle %}
-    {% include "@atoms/02-text/00-headings/_heading.twig" with {
-      "heading_level": 3,
-      "heading": card_subtitle,
-      "heading_url": card_subtitle_link,
-      "heading_blockname": card_subtitle_blockname|default(card_base_class),
-      "heading_modifiers": card_subtitle_modifiers,
-      "heading_base_class": card_subtitle_base_class|default('subtitle'),
-    } %}
-  {% endif %}
-
   {% if post_img_src %}
     <div class="post__media-wrapper">
       <div class="post__image">
