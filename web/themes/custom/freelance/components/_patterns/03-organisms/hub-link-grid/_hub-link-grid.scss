@@ -1,0 +1,41 @@
+.hub-link__grid {
+  position: relative;
+
+  @include medium {
+    @include leader(3);
+    @include add-grid(12);
+    @include breakout-container(60);
+
+    $grid-gutter: 0.2;
+
+    .hub-link {
+      &:nth-of-type(1n) {
+        @include grid-span(6, $gutter: $grid-gutter);
+      }
+
+      &:nth-of-type(2n) {
+        @include grid-span(4, 6, $gutter: $grid-gutter);
+
+        margin-top: -6%;
+      }
+
+      &:nth-of-type(3n) {
+        @include grid-span(4, 6, $gutter: $grid-gutter);
+
+        margin-top: 22.5%;
+      }
+
+      &:nth-of-type(4n) {
+        @include grid-span(4, 9, $gutter: $grid-gutter);
+
+        margin-top: 8.5%;
+      }
+
+      &__title {
+        @include large {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

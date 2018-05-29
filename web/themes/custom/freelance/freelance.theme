@@ -102,6 +102,16 @@ function freelance_preprocess_paragraph(&$variables) {
 
 /**
  * Implements hook_preprocess_entity().
+ * Removes the contextual links, which were messing with nth-of-type css
+ */
+function freelance_preprocess_paragraph__hub_grid(&$variables) {
+  if (isset($variables['content']['contextual_links'])) {
+    unset($variables['content']['contextual_links']);
+  }
+}
+
+/**
+ * Implements hook_preprocess_entity().
  */
 function freelance_preprocess_paragraph__selected_content(&$variables) {
   $paragraph = &$variables['paragraph'];

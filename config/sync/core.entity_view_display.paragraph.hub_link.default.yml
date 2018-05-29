@@ -1,0 +1,45 @@
+uuid: 2b4f2fa2-bd50-4ade-902d-d4fdc3509200
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hub_link.field_action
+    - field.field.paragraph.hub_link.field_heading
+    - field.field.paragraph.hub_link.field_subtitle
+    - paragraphs.paragraphs_type.hub_link
+  module:
+    - link
+id: paragraph.hub_link.default
+targetEntityType: paragraph
+bundle: hub_link
+mode: default
+content:
+  field_action:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_heading:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_subtitle:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

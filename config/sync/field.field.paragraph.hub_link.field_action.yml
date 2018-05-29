@@ -1,0 +1,23 @@
+uuid: 62b12237-eb11-4e39-aadf-94563dfd800b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_action
+    - paragraphs.paragraphs_type.hub_link
+  module:
+    - link
+id: paragraph.hub_link.field_action
+field_name: field_action
+entity_type: paragraph
+bundle: hub_link
+label: Link
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 0
+field_type: link

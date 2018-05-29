@@ -1,0 +1,9 @@
+uuid: 13ad875b-2dd8-414c-945d-1639e76d99bb
+langcode: en
+status: true
+dependencies: {  }
+id: hub_link
+label: 'a hub link'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

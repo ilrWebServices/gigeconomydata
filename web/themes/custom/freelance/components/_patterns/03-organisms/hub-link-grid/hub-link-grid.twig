@@ -1,0 +1,12 @@
+<div class="hub-link__grid">
+  {% if pl %}
+    {% for link in links %}
+      {% include '@molecules/hub-link/hub-link.twig' with {
+        title: link.title,
+        subtitle: link.subtitle
+      } %}
+    {% endfor %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</div>

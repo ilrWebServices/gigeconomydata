@@ -1,0 +1,5 @@
+{% include "@molecules/hub-link/hub-link.twig"  with {
+  "title": content.field_heading|field_value,
+  "subtitle": content.field_subtitle|field_value,
+  "url": content.field_action[0]['#url']
+} %}

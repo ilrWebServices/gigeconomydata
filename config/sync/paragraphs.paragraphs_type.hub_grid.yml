@@ -1,0 +1,9 @@
+uuid: 0d9229a0-3fd8-400c-a60d-ebc244003ae1
+langcode: en
+status: true
+dependencies: {  }
+id: hub_grid
+label: 'a hub grid'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_content
     - node.type.page
+    - paragraphs.paragraphs_type.hub_link
     - paragraphs.paragraphs_type.report
   module:
     - entity_reference_revisions
@@ -24,6 +25,7 @@ settings:
     negate: 1
     target_bundles:
       report: report
+      hub_link: hub_link
     target_bundles_drag_drop:
       image:
         weight: 3
@@ -37,9 +39,15 @@ settings:
       featured_promo:
         weight: 12
         enabled: false
+      hub_grid:
+        weight: 13
+        enabled: false
       info_box:
         weight: 14
         enabled: false
+      hub_link:
+        enabled: true
+        weight: 15
       people:
         weight: 15
         enabled: false

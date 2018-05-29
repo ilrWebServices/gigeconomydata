@@ -1,0 +1,59 @@
+.hub-link {
+  position: relative;
+  line-height: 1;
+
+  &__bg-wrapper {
+    // Image ratio hack using the % for a hexagon
+    position: relative;
+    padding: 0; /* reset */
+    padding-bottom: calc(100% * 100 / 87.5);
+    height: 0;
+    overflow: hidden;
+  }
+
+  &__bg {
+    $hexagon: '<svg id="color-fill" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 350 350" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon class="hex" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon></svg>';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    mask-image: svg-url($hexagon);
+    -webkit-mask-image: svg-url($hexagon);
+    mask-size: cover;
+    // mask-position: 50% 50%;
+    background-color: $color-data-source-tile;
+  }
+}
+
+.hub-link__content {
+  @include center($absolute: true);
+  color: white;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.hub-link__title {
+  font-size: 1.8rem;
+
+  @include breakpoint($medium-only) {
+    font-size: 1em;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.hub-link__subtitle {
+  font-size: 1rem;
+
+  @include breakpoint($medium-only) {
+    font-size: 0.9em;
+  }
+}

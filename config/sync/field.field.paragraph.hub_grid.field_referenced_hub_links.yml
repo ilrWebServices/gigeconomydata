@@ -1,20 +1,18 @@
-uuid: b43d2796-05e0-460b-aa92-676b0a88db2d
+uuid: db538bc9-117d-4b5e-b82d-0a9063dbcb66
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
-    - node.type.post
+    - field.storage.paragraph.field_referenced_hub_links
+    - paragraphs.paragraphs_type.hub_grid
     - paragraphs.paragraphs_type.hub_link
-    - paragraphs.paragraphs_type.people
-    - paragraphs.paragraphs_type.report
   module:
     - entity_reference_revisions
-id: node.post.field_content
-field_name: field_content
-entity_type: node
-bundle: post
-label: Content
+id: paragraph.hub_grid.field_referenced_hub_links
+field_name: field_referenced_hub_links
+entity_type: paragraph
+bundle: hub_grid
+label: Links
 description: ''
 required: true
 translatable: false
@@ -23,46 +21,44 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
+    negate: 0
     target_bundles:
-      report: report
       hub_link: hub_link
-      people: people
     target_bundles_drag_drop:
-      text:
-        weight: 2
-        enabled: false
-      report:
-        enabled: true
-        weight: 11
-      featured_promo:
-        weight: 12
-        enabled: false
       hub_grid:
         weight: 13
         enabled: false
-      image:
-        weight: 13
-        enabled: false
-      info_box:
+      featured_promo:
         weight: 14
         enabled: false
       hub_link:
         enabled: true
         weight: 15
-      people:
-        enabled: true
-        weight: 15
-      plotly_embed:
+      image:
         weight: 16
         enabled: false
-      selected_content:
+      info_box:
         weight: 17
         enabled: false
-      tagged_content:
+      people:
         weight: 18
         enabled: false
-      video:
+      plotly_embed:
+        weight: 19
+        enabled: false
+      report:
         weight: 20
+        enabled: false
+      selected_content:
+        weight: 21
+        enabled: false
+      tagged_content:
+        weight: 22
+        enabled: false
+      text:
+        weight: 23
+        enabled: false
+      video:
+        weight: 24
         enabled: false
 field_type: entity_reference_revisions

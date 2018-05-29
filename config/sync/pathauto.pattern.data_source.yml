@@ -7,16 +7,16 @@ dependencies:
 id: data_source
 label: 'Data source'
 type: 'canonical_entities:node'
-pattern: 'research/[node:title]'
+pattern: 'research/data-sources/[node:title]'
 selection_criteria:
-  36c0aa31-8cd3-4751-8004-1471def8a948:
+  1ebb79c8-68f1-40d5-a767-d4b9e0f5cec2:
     id: node_type
     bundles:
       data_source: data_source
     negate: false
     context_mapping:
       node: node
-    uuid: 36c0aa31-8cd3-4751-8004-1471def8a948
+    uuid: 1ebb79c8-68f1-40d5-a767-d4b9e0f5cec2
 selection_logic: and
 weight: -5
 relationships: {  }
