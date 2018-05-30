@@ -3,20 +3,20 @@ http://{default}/:
   redirects:
     expires: -1s
     paths: {}
-  to: https://{default}/
+  to: https://www.{default}/
 http://www.{default}/:
   type: redirect
   redirects:
     expires: -1s
     paths: {}
-  to: https://{default}/
-https://www.{default}/:
+  to: https://www.{default}/
+https://{default}/:
   type: redirect
   redirects:
     expires: -1s
     paths: {}
-  to: https://{default}/
-https://{default}/:
+  to: https://www.{default}/
+https://www.{default}/:
   type: upstream
   redirects:
     expires: -1s
