@@ -8,7 +8,7 @@ use \Drupal\Core\Breadcrumb\Breadcrumb;
 function gig_components_system_breadcrumb_alter(\Drupal\Core\Breadcrumb\Breadcrumb &$breadcrumb, \Drupal\Core\Routing\RouteMatchInterface $route_match, array $context) {
   if ($breadcrumb) {
     $node = $route_match->getParameter('node');
-    if ($node && $node->bundle() == 'post') {
+    if (is_object($node) && $node->bundle() == 'post') {
       $links = $breadcrumb->getLinks();
       unset($links[count($links) - 1]);
       $breadcrumb = new Breadcrumb();
