@@ -2,6 +2,9 @@ $table-gray: #f8f8f8;
 
 .table-wrapper {
   @include leader(2);
+  @include large {
+    @include full-width--offset(-15%);
+  }
 }
 
 .table {
@@ -22,6 +25,10 @@ $table-gray: #f8f8f8;
 
   &.wide {
     @include large {
+      @include full-width--offset(-15%);
+    }
+
+    @include xl {
       @include breakout-container(75);
     }
   }
@@ -37,12 +44,17 @@ $table-gray: #f8f8f8;
   padding: 0.8em;
   text-align: left;
 
-  &:first-child {
-    border: none;
+  &[rowspan] {
+    border-top: 1px solid $color-border;
+    background-color: $blue-dark;
   }
 
   a {
     color: white;
+  }
+
+  .pinned & {
+    // overflow: hidden;
   }
 }
 
@@ -81,6 +93,7 @@ $table-gray: #f8f8f8;
     text-align: center;
     color: #00b200;
 
+    p,
     span {
       visibility: hidden;
     }
@@ -106,7 +119,8 @@ $table-gray: #f8f8f8;
     @extend .table;
   }
 
-  thead.sticky {
+  thead.sticky,
+  .sticky th {
     position: sticky;
     top: 0;
   }
