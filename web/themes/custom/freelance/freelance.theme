@@ -69,7 +69,9 @@ function freelance_preprocess_node(&$variables) {
 }
 
 function freelance_preprocess_media(&$variables) {
-  $variables['img'] = freelance_get_image_properties_from_media_entity($variables['media']);
+  if ($variables['media']->bundle() == 'image') {
+    $variables['img'] = freelance_get_image_properties_from_media_entity($variables['media']);
+  }
 }
 
 /**
@@ -153,7 +155,7 @@ function freelance_get_media_entity_from_reference($media_reference=NULL) {
  * @return array containing a file, image, and media entity or null
  */
 function freelance_get_image_properties_from_media_entity($media_entity) {
-  if(empty($media_entity->getName())) {
+  if ($media_entity) {
     if ($img_entity = $media_entity->get('field_image')->first()) {
       if ($file_entity = $img_entity->get('entity')->getTarget()) {
         return [
