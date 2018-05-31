@@ -784,27 +784,12 @@ $config['google_analytics.settings']['account'] = '';
 // Turn off local config split by default. Enable in settings.local.php
 $config['config_split.config_split.local']['status'] = FALSE;
 
-/**
- * Load local development override configuration, if available.
- *
- * Use settings.local.php to override variables on secondary (staging,
- * development, etc) installations of this site. Typically used to disable
- * caching, JavaScript/CSS compression, re-routing of outgoing emails, and
- * other things that should not happen on development and testing sites.
- *
- * Keep this code block at the end of this file to take full effect.
- */
-
+// Automatic Platform.sh settings.
 if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
   include $app_root . '/' . $site_path . '/settings.platformsh.php';
 }
 
+// Local settings. These come last so that they can override anything.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
-}
-
-if (isset($PLATFORM_BRANCH) && $PLATFORM_BRANCH == 'master') {
-  if (file_exists($app_root . '/' . $site_path . '/settings.prod.php')) {
-    include $app_root . '/' . $site_path . '/settings.prod.php';
-  }
 }
