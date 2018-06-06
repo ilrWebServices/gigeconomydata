@@ -4,9 +4,11 @@
 
   .data-source-parameter {
     @include trailer(2);
-    @include grid-span(9);
 
-    clear: left;
+    @include large {
+      @include grid-span(9);
+      clear: left;
+    }
   }
 }
 
@@ -40,14 +42,19 @@
 }
 
 .data-source__tags {
-  @include grid-span(3, 10);
+  @include trailer(2);
 
   text-transform: capitalize;
-  text-align: right;
 
   div:first-child > div:first-child {
     @include heading-small;
     @include alt-heading;
+  }
+
+  @include large {
+    @include grid-span(3, 10);
+
+    text-align: right;
   }
 }
 
