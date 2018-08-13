@@ -1,0 +1,22 @@
+uuid: f7c1e7fe-f8d1-4df3-9111-b9de5bdcd1bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.post
+id: node.post.include_toc
+field_name: include_toc
+entity_type: node
+bundle: post
+label: 'Include TOC'
+description: 'Select to include a table of contents on this page'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
