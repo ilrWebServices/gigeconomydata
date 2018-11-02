@@ -1,4 +1,4 @@
-{% set img_src = img ? img.uri|image_style('full_content') : NULL %}
+{% set img_src = img.original_size ? file_url(img.uri) : (img) ? img.uri|image_style('full_content') : NULL %}
 
 {% set authors = content.field_author|field_value %}
 {% if authors|length >= 3 %}

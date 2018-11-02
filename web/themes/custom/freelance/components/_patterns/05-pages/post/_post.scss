@@ -15,14 +15,6 @@
 
 .post__image {
   @include trailer(1);
-
-  @include large {
-    margin-left: -2rem;
-  }
-
-  .img {
-    @include fill-parent;
-  }
 }
 
 .post__author {

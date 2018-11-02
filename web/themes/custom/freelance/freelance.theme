@@ -163,6 +163,7 @@ function freelance_get_image_properties_from_media_entity($media_entity) {
           'alt' => $img_entity->get('alt')->getString(),
           'title' => $img_entity->get('title')->getString(),
           'caption' => $media_entity->get('field_caption')->value,
+          'original_size' => $media_entity->get('field_original_size')->getValue(),
         ];
       }
     }
