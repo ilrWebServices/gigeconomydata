@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.media.image.field_caption
     - field.field.media.image.field_image
+    - field.field.media.image.field_media_image_1
+    - field.field.media.image.field_original_size
     - media.type.image
   module:
     - image
@@ -32,8 +34,19 @@ content:
     third_party_settings: {  }
     region: content
     type: image
+  field_original_size:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
 hidden:
   created: true
+  field_media_image_1: true
   name: true
   thumbnail: true
   uid: true

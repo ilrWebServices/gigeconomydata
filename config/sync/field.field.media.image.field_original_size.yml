@@ -1,0 +1,23 @@
+uuid: e8dd84a9-0da0-4ab4-bb09-a85d74315560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_original_size
+    - media.type.image
+id: media.image.field_original_size
+field_name: field_original_size
+entity_type: media
+bundle: image
+label: 'Original size'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
