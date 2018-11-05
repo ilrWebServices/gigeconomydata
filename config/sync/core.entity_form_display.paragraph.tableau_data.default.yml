@@ -1,0 +1,24 @@
+uuid: 14658233-679f-4708-9b20-623013b21f7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tableau_data.field_tableau_embed
+    - paragraphs.paragraphs_type.tableau_data
+id: paragraph.tableau_data.default
+targetEntityType: paragraph
+bundle: tableau_data
+mode: default
+content:
+  field_tableau_embed:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
