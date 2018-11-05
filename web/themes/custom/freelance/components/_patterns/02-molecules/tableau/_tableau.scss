@@ -1,0 +1,11 @@
+.component__tableau {
+  @include trailer(2);
+  @include full-width;
+
+  clear: both;
+}
+
+.tableau__wrapper {
+  @include clearfix;
+  @include wrapper;
+}
