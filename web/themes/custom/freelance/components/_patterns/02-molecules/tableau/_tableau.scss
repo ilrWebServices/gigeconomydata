@@ -1,8 +1,15 @@
 .component__tableau {
   @include trailer(2);
-  @include full-width;
 
   clear: both;
+
+  @include xl {
+    margin-right: -2rem;
+  }
+
+  @include breakpoint(1350px) {
+    margin-right: -15%;
+  }
 }
 
 .tableau__wrapper {
