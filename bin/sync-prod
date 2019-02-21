@@ -1,19 +1,12 @@
 #!/bin/bash
 
-# check running from the web root
-CURRENT_DIR=${PWD##*/}
-if [ ! "$CURRENT_DIR" = "web" ]; then
-  echo 'Please be sure that you are running this command from the web root.'
-  exit 2
-fi
-
-# remove the local db
-drush sql-drop -y
+cd `git rev-parse --show-toplevel`
 
 # download the prod db
-drush sql-sync @gigeconomydata.master @gig.dev --sanitize -y
-
-drush cr
+./vendor/bin/drush sql:sync @gigeconomydata.master @gigeconomydata._local --structure-tables-list=cache,cache_* -y
+./vendor/bin/drush cr
+./vendor/bin/drush sql:sanitize -y
+./vendor/bin/drush uli
 
 # check whether to keep the prod config in place
 while :; do
@@ -27,8 +20,8 @@ done
 
 if [ "$CONFIG" != "YES" ]; then
   # import local config
-  drush cim -y
-  drush csim -y
+  ./vendor/bin/drush cim -y
+  ./vendor/bin/drush csim -y
 fi
 
 echo "Sync complete."
