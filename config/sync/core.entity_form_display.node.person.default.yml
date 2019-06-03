@@ -85,6 +85,7 @@ content:
     region: content
 hidden:
   created: true
+  include_toc: true
   promote: true
   sticky: true
   uid: true
