@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Study tags'
 vid: study_tags
 description: 'Study tags are used for data sources'
-hierarchy: 0
 weight: 0
