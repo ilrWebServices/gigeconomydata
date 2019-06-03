@@ -1,0 +1,9 @@
+uuid: a95df0ab-40b2-433e-a37a-e0e70bee0803
+langcode: en
+status: true
+dependencies: {  }
+id: tableau_data
+label: 'tableau data'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

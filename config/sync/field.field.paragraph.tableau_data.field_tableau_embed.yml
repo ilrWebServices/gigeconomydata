@@ -1,0 +1,19 @@
+uuid: ed057b53-9455-4e0b-93e7-89fa3ac9f4a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tableau_embed
+    - paragraphs.paragraphs_type.tableau_data
+id: paragraph.tableau_data.field_tableau_embed
+field_name: field_tableau_embed
+entity_type: paragraph
+bundle: tableau_data
+label: 'Tableau embed'
+description: 'Click on the "share" icon in the bottom right of the visualization, copy the embed code from the popup and paste it here.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
