@@ -2,6 +2,7 @@
   @include trailer(2);
 
   clear: both;
+  overflow-x: scroll;
 
   @include xl {
     margin-right: -2rem;
