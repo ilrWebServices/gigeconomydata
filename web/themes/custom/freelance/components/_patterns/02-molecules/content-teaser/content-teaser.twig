@@ -39,6 +39,7 @@
  */
 #}
 {% set content_teaser_base_class = content_teaser_base_class|default('content-teaser') %}
+{% set headingId = random(range(0, 900000)) + random(range(0, 900000)) %}
 
 <div {{ bem(content_teaser_base_class, (content_teaser_modifiers), content_teaser_blockname) }}>
   {% if content_teaser_title %}
@@ -52,6 +53,7 @@
       "heading_link_base_class": content_teaser_title_link_base_class|default('title__link'),
       "heading_link_blockname": content_teaser_base_class,
       "heading_base_class": content_teaser_title_base_class|default('title'),
+      "heading_id": headingId,
     } %}
     {{ title_suffix }}
   {% endif %}
@@ -86,7 +88,9 @@
     {% include "@atoms/01-links/link/link.twig" with {
       "link_content": content_teaser_link_text,
       "link_url": content_teaser_link_url,
-      "link_attributes": content_teaser_link_attributes,
+      "link_attributes": content_teaser_link_attributes,      
+      "need_arialabelledby": true,
+      "link_aria_reference": headingId,
       "link_blockname": content_teaser_link_blockname|default(content_teaser_base_class),
       "link_base_class": content_teaser_link_base_class|default('link'),
     } %}
