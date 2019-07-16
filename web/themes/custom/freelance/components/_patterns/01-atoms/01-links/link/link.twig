@@ -7,6 +7,8 @@
  * - link_base_class - the base class name
  * - link_modifiers - array of modifiers to add to the base classname
  * - link_blockname - blockname prepended to the base classname
+ * - need_arialabelledby - true if needs aria-labelledby
+ * - link_aria_reference - ID reference for Aria-labelledby
  *
  * Available blocks:
  * - link_content - used to replace the content of the link
@@ -21,6 +23,9 @@
     {{ attribute }}="{{ value }}"
   {% endfor %}
   href="{{ link_url }}"
+  {% if need_arialabelledby == true %}
+    aria-labelledby="{{ link_aria_reference }}"
+  {% endif %}
 >
   {% block link_content %}
     {{ link_content }}
