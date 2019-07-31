@@ -22,7 +22,7 @@ items:
   - name: $red
     value: '#c12e23'
   - name: $strong-cyan
-    value: '#2099b7'
+    value: '#1B7F98'
   - name: $blue-dark
     value: '#00497b'
   - name: $blue-darkest

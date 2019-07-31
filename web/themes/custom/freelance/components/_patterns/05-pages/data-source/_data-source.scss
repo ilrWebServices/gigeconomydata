@@ -82,6 +82,8 @@
 
     a {
       @include heading-small;
+
+      text-decoration: none;
     }
   }
 }
