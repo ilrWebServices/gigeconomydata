@@ -31,16 +31,10 @@
  * http://www.w3.org/TR/WCAG-TECHS/H42.html for more information.
  */
 #}
-
-{# Label. If not displayed, we still provide it for screen readers. #}
-{% if not configuration.label_display %}
-  {% set title_attributes = title_attributes.addClass('visually-hidden') %}
-{% endif %}
+{% set title_attributes = title_attributes.addClass('visually-hidden') %}
 {{ title_prefix }}
-{% include "@atoms/02-text/00-headings/_heading.twig" with {
-  "heading_level": 2,
-  "heading": label,
-} %}
+{# Hard code the main navigation heading, but hide it from screen readers #}
+<h2 id="block-mainnavigation" class="h2 contextual-region visually-hidden">Main navigation</h2>
 {{ title_suffix }}
 
 {# Menu. #}
