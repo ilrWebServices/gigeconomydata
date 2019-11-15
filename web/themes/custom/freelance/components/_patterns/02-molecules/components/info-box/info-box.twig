@@ -2,12 +2,14 @@
 <div class="component {{component_blockname}}">
   {{ content.contextual_links }}
   <div class="{{component_blockname}}__wrapper">
-    {% include "@atoms/02-text/00-headings/_heading.twig" with {
-      "heading_level": 3,
-      "heading": infobox_title,
-      "heading_blockname": component_blockname,
-      "heading_base_class": 'title',
-    } %}
+    {% if infobox_title %}
+      {% include "@atoms/02-text/00-headings/_heading.twig" with {
+        "heading_level": 3,
+        "heading": infobox_title,
+        "heading_blockname": component_blockname,
+        "heading_base_class": 'title',
+      } %}
+    {% endif %}
     <div class="{{component_blockname}}__body">
       {{ infobox_text|raw }}
     </div>
