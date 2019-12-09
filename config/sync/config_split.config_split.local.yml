@@ -4,6 +4,7 @@ status: false
 dependencies: {  }
 id: local
 label: Local
+description: ''
 folder: ../config/local
 module:
   devel: 0

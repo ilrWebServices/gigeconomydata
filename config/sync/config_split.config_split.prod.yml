@@ -4,6 +4,7 @@ status: false
 dependencies: {  }
 id: prod
 label: Prod
+description: ''
 folder: ../config/prod
 module:
   google_analytics: 0

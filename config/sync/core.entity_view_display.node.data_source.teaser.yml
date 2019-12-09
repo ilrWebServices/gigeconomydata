@@ -38,6 +38,7 @@ hidden:
   field_collected_how: true
   field_collected_who: true
   field_considerations: true
+  field_image_reference: true
   field_measuring_what: true
   field_reports: true
   field_significance: true
