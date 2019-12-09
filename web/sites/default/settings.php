@@ -769,7 +769,7 @@ $settings['file_scan_ignore_directories'] = [
  */
 $settings['entity_update_batch_size'] = 50;
 
-$config_directories['sync'] = '../config/sync';
+$settings['config_sync_directory'] = '../config/sync';
 
 $settings['file_scan_ignore_directories'] = [
   'node_modules',
