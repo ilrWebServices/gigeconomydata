@@ -30,3 +30,5 @@ content:
     third_party_settings: {  }
 hidden:
   field_content: true
+  field_image_reference: true
+  field_meta_tags: true
