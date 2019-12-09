@@ -778,6 +778,8 @@ $settings['file_scan_ignore_directories'] = [
 
 $settings['install_profile'] = 'config_installer';
 
+$settings["file_temp_path"] = "/app/tmp";
+
 // Unset google tracking code. Override in settings.prod.php when ready
 $config['google_analytics.settings']['account'] = '';
 
@@ -793,3 +795,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
