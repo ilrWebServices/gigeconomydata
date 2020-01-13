@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.data_source.field_considerations
     - field.field.node.data_source.field_image_reference
     - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_organization
     - field.field.node.data_source.field_reports
     - field.field.node.data_source.field_significance
     - field.field.node.data_source.field_study_tags
@@ -26,7 +27,7 @@ bundle: data_source
 mode: default
 content:
   field_accessing_data:
-    weight: 8
+    weight: 9
     settings:
       rows: 5
       placeholder: ''
@@ -34,16 +35,6 @@ content:
     type: text_textarea
     region: content
   field_collected_how:
-    weight: 3
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
-  field_collected_who:
     weight: 4
     settings:
       rows: 9
@@ -53,55 +44,7 @@ content:
     third_party_settings: {  }
     type: text_textarea_with_summary
     region: content
-  field_considerations:
-    weight: 6
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
-  field_image_reference:
-    weight: 9
-    settings:
-      entity_browser: image_browser
-      field_widget_display: rendered_entity
-      field_widget_edit: true
-      field_widget_remove: true
-      selection_mode: selection_append
-      field_widget_display_settings:
-        view_mode: thumbnail
-      open: false
-    third_party_settings: {  }
-    type: entity_browser_entity_reference
-    region: content
-  field_measuring_what:
-    weight: 2
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
-    type: text_textarea_with_summary
-    region: content
-  field_reports:
-    type: paragraphs
-    weight: 7
-    settings:
-      title: Report
-      title_plural: Reports
-      edit_mode: closed
-      closed_mode: summary
-      autocollapse: none
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: report
-    third_party_settings: {  }
-    region: content
-  field_significance:
+  field_collected_who:
     weight: 5
     settings:
       rows: 9
@@ -111,8 +54,79 @@ content:
     third_party_settings: {  }
     type: text_textarea_with_summary
     region: content
-  field_study_tags:
+  field_considerations:
+    weight: 7
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_image_reference:
     weight: 10
+    settings:
+      entity_browser: image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: thumbnail
+      open: false
+      field_widget_replace: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_measuring_what:
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_organization:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_reports:
+    type: paragraphs
+    weight: 8
+    settings:
+      title: Report
+      title_plural: Reports
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: report
+      closed_mode_threshold: 0
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+    third_party_settings: {  }
+    region: content
+  field_significance:
+    weight: 6
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_study_tags:
+    weight: 11
     settings:
       match_operator: CONTAINS
       size: 60
@@ -122,7 +136,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_teaser_text:
-    weight: 1
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
@@ -131,7 +145,7 @@ content:
     region: content
   path:
     type: path
-    weight: 12
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -139,7 +153,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 12
     region: content
     third_party_settings: {  }
   title:
@@ -151,8 +165,10 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 14
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   include_toc: true

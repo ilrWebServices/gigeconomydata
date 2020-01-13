@@ -8,7 +8,9 @@ dependencies:
     - field.field.node.data_source.field_collected_how
     - field.field.node.data_source.field_collected_who
     - field.field.node.data_source.field_considerations
+    - field.field.node.data_source.field_image_reference
     - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_organization
     - field.field.node.data_source.field_reports
     - field.field.node.data_source.field_significance
     - field.field.node.data_source.field_study_tags
@@ -21,9 +23,17 @@ targetEntityType: node
 bundle: data_source
 mode: teaser
 content:
+  field_organization:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_teaser_text:
     type: basic_string
-    weight: 1
+    weight: 2
     region: content
     label: hidden
     settings: {  }

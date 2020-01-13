@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.data_source.field_considerations
     - field.field.node.data_source.field_image_reference
     - field.field.node.data_source.field_measuring_what
+    - field.field.node.data_source.field_organization
     - field.field.node.data_source.field_reports
     - field.field.node.data_source.field_significance
     - field.field.node.data_source.field_study_tags
@@ -24,7 +25,7 @@ bundle: data_source
 mode: default
 content:
   field_accessing_data:
-    weight: 7
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -52,7 +53,7 @@ content:
     type: text_default
     region: content
   field_image_reference:
-    weight: 10
+    weight: 9
     label: above
     settings:
       view_mode: default
@@ -69,7 +70,7 @@ content:
     region: content
   field_reports:
     type: entity_reference_revisions_entity_view
-    weight: 9
+    weight: 8
     label: above
     settings:
       view_mode: default
@@ -84,7 +85,7 @@ content:
     type: text_default
     region: content
   field_study_tags:
-    weight: 8
+    weight: 7
     label: above
     settings:
       link: true
@@ -97,4 +98,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_organization: true
   field_teaser_text: true
