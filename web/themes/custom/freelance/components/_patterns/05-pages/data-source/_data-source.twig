@@ -25,8 +25,12 @@
   <div{{ content_attributes }}>
     {% for parameter in data_source_parameters %}
       <div class="data-source-parameter">
-        <h2 class="data-source-parameter__heading">{{ parameter.label }}</h2>
-        <p>{{ parameter.content }}</p>
+        {% if parameter.label %}
+          <h2 class="data-source-parameter__heading">{{ parameter.label }}</h2>
+        {% endif %}
+        {% if parameter.content %}
+          <p>{{ parameter.content }}</p>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
