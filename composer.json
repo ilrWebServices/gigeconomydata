@@ -1,12 +1,18 @@
 {
-    "name": "drupal-composer/drupal-project",
+    "name": "ilrwebservices/gigeconomy-site",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Aaron Froehlich",
+            "email": "aaronfroehlich@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Jeff Amaral",
+            "email": "jeff.amaral@cornell.edu",
+            "role": "Developer"
         }
     ],
     "repositories": [
@@ -69,7 +75,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/console-extend-plugin": true,
+            "drupal/core-composer-scaffold": true,
+            "zaporylie/composer-drupal-optimizations": true,
+            "oomphinc/composer-installers-extender": true
+        }
     },
     "autoload": {
         "classmap": [
