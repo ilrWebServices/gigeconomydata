@@ -38,6 +38,7 @@
         "drupal/custom_pub": "^1.0@alpha",
         "drupal/dropzonejs": "^2.0",
         "drupal/dropzonejs_eb_widget": "^2.0",
+        "drupal/entity": "^1.2",
         "drupal/entity_browser": "^2.0",
         "drupal/focal_point": "^1.0@beta",
         "drupal/footnotes": "^2.0",
