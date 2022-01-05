@@ -59,6 +59,7 @@
         "drush/drush": "^9.7.1 | ^10.0.0",
         "enyo/dropzone": "^5.1",
         "fourkitchens/emulsify": "^2.2",
+        "platformsh/config-reader": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
