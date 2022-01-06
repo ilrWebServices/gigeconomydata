@@ -120,6 +120,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "patches": {
+            "drupal/core": {
+                "Add hook_requirements_alter()": "https://www.drupal.org/files/issues/2021-08-13/309040-add_hook_requirements_alter-25.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

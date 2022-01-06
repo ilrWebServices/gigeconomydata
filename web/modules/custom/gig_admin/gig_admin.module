@@ -35,3 +35,20 @@ function gig_admin_form_node_form_alter(&$form, \Drupal\Core\Form\FormStateInter
     }
   }
 }
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function gig_admin_library_info_alter(&$libraries, $extension) {
+  if ($extension === 'dropzonejs' && isset($libraries['dropzonejs'])) {
+    $libraries['dropzonejs']['js'] = ['https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js' => ['minified' => TRUE]];
+    $libraries['dropzonejs']['css']['component'] = ['https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css' => ['minified' => TRUE]];
+  }
+}
+
+/**
+ * Implements hook_requirements_alter().
+ */
+function gig_admin_requirements_alter(array &$requirements) {
+  unset($requirements['dropzonejs_library']);
+}
