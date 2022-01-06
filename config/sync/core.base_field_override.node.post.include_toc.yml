@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - node.type.post
+    - custom_pub.custom_publishing_option.include_toc
 id: node.post.include_toc
 field_name: include_toc
 entity_type: node
