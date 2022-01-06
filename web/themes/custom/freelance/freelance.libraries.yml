@@ -3,8 +3,6 @@ global:
     theme:
       dist/style.css: {}
       components/css/responsive-tables.css: {}
-  js:
-    dist/scripts.js: {}
   dependencies:
     - core/drupal
     - core/jquery
