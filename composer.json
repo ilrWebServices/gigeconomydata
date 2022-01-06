@@ -103,6 +103,16 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "sync-prod": [
+            "drush sql:drop -y",
+            "drush sql:sync @gigeconomydata.master @self -y"
+        ],
+        "sync-update": [
+            "drush cr",
+            "drush updatedb --no-post-updates -y",
+            "drush config:import -y",
+            "drush updatedb -y"
         ]
     },
     "extra": {
