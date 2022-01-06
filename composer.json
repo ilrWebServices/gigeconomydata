@@ -27,11 +27,11 @@
         "drupal/adminimal_admin_toolbar": "^1.5",
         "drupal/better_exposed_filters": "^5.0",
         "drupal/block_visibility_groups": "^1.1",
-        "drupal/config_installer": "^1.5",
+        "drupal/components": "^1.0",
         "drupal/config_split": "^1.3",
         "drupal/console": "^1.0.2",
-        "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-recommended": "^8.9",
+        "drupal/core-composer-scaffold": "^9.0",
+        "drupal/core-recommended": "^9.0",
         "drupal/crop": "2.x",
         "drupal/ctools": "^3.0",
         "drupal/current_page_crumb": "^1.2",
@@ -44,30 +44,29 @@
         "drupal/footnotes": "^2.0",
         "drupal/google_analytics": "^2.2",
         "drupal/inline_entity_form": "^1.0@beta",
-        "drupal/linkit": "^4.3",
-        "drupal/media_entity_actions": "^1.0@alpha",
-        "drupal/media_entity_image": "1.x-dev",
+        "drupal/linkit": "^6.0",
         "drupal/metatag": "^1.4",
         "drupal/paragraphs": "^1.5",
         "drupal/paragraphs_edit": "^2.0@alpha",
         "drupal/pathauto": "^1.0",
         "drupal/redirect": "^1.2",
         "drupal/superfish": "^1.2",
-        "drupal/twig_field_value": "^1.1",
+        "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^2.0",
         "drupal/video_embed_field": "2.x",
         "drupal/views_block_filter_block": "^1.0@beta",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "enyo/dropzone": "^5.1",
-        "fourkitchens/emulsify": "^2.2",
+        "fourkitchens/emulsify": "^3.0",
         "platformsh/config-reader": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8.0",
-        "drupal/devel": "^2.1",
-        "drupal/stage_file_proxy": "^1.0@RC"
+        "drupal/core-dev": "^9.0",
+        "drupal/devel": "^4.1",
+        "drupal/stage_file_proxy": "^1.0@RC",
+        "drupal/twig_vardumper": "^3.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -125,22 +124,20 @@
                 "Add hook_requirements_alter()": "https://www.drupal.org/files/issues/2021-08-13/309040-add_hook_requirements_alter-25.patch"
             }
         },
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
             }
-        },
-        "installer-types": ["library"],
-        "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": [
-              "type:drupal-library",
-              "enyo/dropzone"
-            ],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
         }
     }
 }
