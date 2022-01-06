@@ -39,11 +39,8 @@ build:
 # The hooks executed at various points in the lifecycle of the application.
 hooks:
     build: |
-      curl -sS https://platform.sh/cli/installer | php
       set -e
-      cd web/themes/custom/freelance
-      npm install
-      npm run build
+      curl -sS https://platform.sh/cli/installer | php
     # The deploy hook runs after your application has been deployed and started.
     deploy: |
       cd web

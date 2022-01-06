@@ -1,0 +1,2 @@
+'use strict';(function(a,b){b.behaviors.pullquote={attach:function attach(b){function c(a){return'number'==typeof a?!!(a%2):'NaN'}var d,e,f=1,g=a('span.pullquote',b);(function(){g.each(function(){d=a(this).text(),e=a(this).closest('p'),e.prepend('<aside class="pullquote pullquote--_align_"><p>_quote_</p></aside>'.replace('_quote_',d).replace('_align_',c(f)?'right':'left')),f++})})()}}})(jQuery,Drupal);
+//# sourceMappingURL=pullquotes.js.map
