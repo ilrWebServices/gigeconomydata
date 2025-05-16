@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+  <channel>
+    <title>tax status</title>
+    <link>https://www.gigeconomydata.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Schedule SE/C Tax Returns</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/schedule-sec-tax-returns</link>
+  <description>&lt;span&gt;Schedule SE/C Tax Returns&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 14:57&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Findings are based on a sample of 2014 individual tax returns, including a 10-percent sample of individuals who file a Schedule SE or Schedule C, which are used to report self-employment income and sole-proprietorships, and a 1-percent sample of W2 wage earners without self-employment income.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The Office of Tax Analysis of the U.S. Department of Treasury.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The number of workers with self-employment income.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;12 percent of all tax filers with earnings filed returns reporting self-employment income or the operation of a nonfarm sole-proprietorship, up 32 percent since 2001. 0.7 percent filed a return reporting income from an online intermediary.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;This count includes only self-employed workers, and so excludes many other independent arrangements, like temp-agency, on-call, and contract-company work. In addition, although it considers comprehensively all tax returns filed, workers may not always be filing the appropriate forms.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;The full returns are not publicly available, but much administrative tax data is available via the &lt;a href="https://www.irs.gov/statistics"&gt;IRS Tax Statistics page&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/6" hreflang="en"&gt;administrative data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/24" hreflang="en"&gt;tax status&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/8" hreflang="en"&gt;public&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/WP-114.pdf"&gt;&lt;span class="report__title"&gt;The Rise of Alternative Work Arrangements: Evidence and Implications for Tax Filing and Benefit Coverage&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2017&lt;/span&gt;; &lt;span class="report__author"&gt;Emilie Jackson, Adam Looney, and Shanthi Ramnath&lt;/span&gt;; &lt;span class="report__publisher"&gt;Dpt of Treasury Office of Tax Analysis&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/irs.png?h=1ba501fd&amp;itok=cCzFOwmI" alt="IRS logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 18:57:03 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">35 at https://www.gigeconomydata.org</guid>
+    </item>
+
+  </channel>
+</rss>

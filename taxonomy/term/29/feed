@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+  <channel>
+    <title>satisfaction</title>
+    <link>https://www.gigeconomydata.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Independent Work: Choice, Necessity, and the Gig Economy</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/independent-work-choice-necessity-and-gig-economy</link>
+  <description>&lt;span&gt;Independent Work: Choice, Necessity, and the Gig Economy&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 15:00&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey in six countries, including the U.S. The survey was administered to a panel selected to be demographically representative, with 8,131 respondents globally and 1,804 in the U.S.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;McKinsey Global Institute, the business and economics research arm of McKinsey.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;This survey asks a broad range of questions about work, including arrangements, experiences, motivations, and satisfaction. Rather than measuring independent work through a single question, researchers identify respondents whose work is characterized by independence regardless of formal arrangement. The traits used to define independence are having high levels of worker autonomy, payment by task, assignment, or sales, and a short-term relationship between workers and customers.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;In the U.S., 27 percent of workers are engaged in work of an independent nature on a primary or supplementary basis, including some online sellers and property renters.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The process used to identify independent work includes some activities that are excluded by other measures, including renting property online through capital platforms. In addition, online panels are not fully representative, and tend to undersample low-income populations.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by McKinsey Global Institute&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/29" hreflang="en"&gt;satisfaction&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="http://www.mckinsey.com/global-themes/employment-and-growth/independent-work-choice-necessity-and-the-gig-economy"&gt;&lt;span class="report__title"&gt;Independent Work: Choice, Necessity, and the Gig Economy Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2016&lt;/span&gt;; &lt;span class="report__author"&gt;James Manyika, Susan Lund, Jacques Bughin, Kelsey Robinson, Jan Mischke, Deepa Mahajan&lt;/span&gt;; &lt;span class="report__publisher"&gt;McKinsey Global Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/mckinsey.png?h=5446506c&amp;itok=p9pJHIMU" alt="McKinsey Global Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 19:00:11 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">37 at https://www.gigeconomydata.org</guid>
+    </item>
+
+  </channel>
+</rss>

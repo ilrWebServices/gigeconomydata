@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+  <channel>
+    <title>on-call</title>
+    <link>https://www.gigeconomydata.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Contingent Worker Supplement (CWS)</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/contingent-worker-supplement-cws</link>
+  <description>&lt;span&gt;Contingent Worker Supplement (CWS)&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/13" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Shelly Steward&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Wed, 06/06/2018 - 23:27&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The CWS is a supplement to the monthly Current Population Survey (CPS) by the Census Bureau for BLS. The CPS in collected via telephone and in person among all non-institutionalized persons age 16 and over. About 60,000 households are sampled each month. The supplement was administered to a sample of respondents who reported working for pay in the past week.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The CWS is administered by the Census Bureau for the Bureau of Labor Statistics.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The Contingent Worker Supplement (CWS) estimates the number of American workers in contingent and alternative arrangements as their main job in the past week. Contingent arrangements are short-term or temporary jobs. Alternative arrangements are particular types of relationships between workers and the individual or company who pays them: independent contractors, temporary help agency workers, on-call workers, and workers provided by contract firms. It also gathers information on demographics, industry, access to benefits, and preference for contingent and alternative work.&lt;/p&gt;
+
+&lt;p&gt;In 2017, respondents were asked if they used online platforms to arrange jobs or tasks, either online or offline.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;In 2017, 10.1 percent of the workforce was engaged in alternative arrangements. 3.8 percent was engaged in contingent arrangements. There was slight overlap between the two categories.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;About 1 percent of the workforce used apps to arrange work. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2005, 10.7 percent of the workforce was engaged in an alternative work arrangement as their main job in the past week. 4.1 percent of the workforce was engaged in a contingent work arrangement. There was some overlap between the two categories, totaling just over 1 percent of the workforce.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The CWS is one of the most rigorous studies of alternative work. However, it only asks about workers' main jobs&lt;span&gt;&lt;span&gt;—the job for which they worked the most hours—meaning it leaves out any supplemental or occasional work.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;Read &lt;a href="https://www.bls.gov/news.release/conemp.htm"&gt;Summary tables from 2017&lt;/a&gt;. Review the &lt;a href="https://thedataweb.rm.census.gov/ftp/cps_ftp.html"&gt;Microdata&lt;/a&gt;. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/8" hreflang="en"&gt;public&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.bls.gov/news.release/conemp.htm"&gt;&lt;span class="report__title"&gt;Contingent and Alternative Employment Arrangements - May 2017&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2018&lt;/span&gt;; &lt;span class="report__author"&gt;Bureau of Labor Statistics&lt;/span&gt;; &lt;span class="report__publisher"&gt;US Department of Labor&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+</description>
+  <pubDate>Thu, 07 Jun 2018 03:27:56 +0000</pubDate>
+    <dc:creator>Shelly Steward</dc:creator>
+    <guid isPermaLink="false">52 at https://www.gigeconomydata.org</guid>
+    </item>
+<item>
+  <title>General Social Survey</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/general-social-survey</link>
+  <description>&lt;span&gt;General Social Survey&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 15:11&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The GSS uses a probability sample of the American population and consists primarily of in-person interviews. It is conducted biennially, with a sample of approximately 3,000. Different modules, or sets of questions, are asked in different years. The Quality of Working Life Module was most recently collected in 2010 and 2014. In 2014, the response rate was 69.2 percent.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The National Opinion Research Center (NORC) at the University of Chicago, with support from the National Science Foundation.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The General Social Survey (GSS) collects a wide range of information on the characteristics, attitudes, and behaviors of Americans. The Quality of Working Life Module asks questions about work arrangements, asking respondents if they are independent contractors/consultants/freelancers, temp-agency workers, on-call workers, contract-company workers, or regular, permanent employees. The module also asks a range of questions about work conditions and experiences, satisfaction, and earnings and benefits.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;In 2014, 20.3 percent of the population was engaged in independent contracting, on-call, temp-agency, or contract-company work as their main job.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The GSS is designed to gauge attitudes, behaviors, and relative counts, rather than to estimate the overall size of particular groups. In addition, questions about work arrangements are only asked among respondents who identified as employed, and so self-employed individuals are not included in the above numbers.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;GSS data are available via the &lt;a href="http://gss.norc.org/get-the-data"&gt;GSS website&lt;/a&gt; directly, the &lt;a href="https://gssdataexplorer.norc.org/"&gt;GSS Data Explorer&lt;/a&gt;, the &lt;a href="https://ropercenter.cornell.edu/CFIDE/cf/action/home/index.cfm"&gt;Roper Center&lt;/a&gt;, and &lt;a href="https://www.icpsr.umich.edu/icpsrweb/index.jsp"&gt;ICPSR&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.gao.gov/assets/670/669766.pdf"&gt;&lt;span class="report__title"&gt;Contingent Workforce: Size, Characteristics, Earnings, and Benefits&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2015&lt;/span&gt;; &lt;span class="report__author"&gt;GAO&lt;/span&gt;; &lt;span class="report__publisher"&gt;GAO&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.americanactionforum.org/research/gig-economy-research-policy-implications-regional-economic-demographic-trends/"&gt;&lt;span class="report__title"&gt;The Gig Economy: Research and Policy Implications of Regional, Economic, and Demographic Trends&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2017&lt;/span&gt;; &lt;span class="report__author"&gt;Ben Gitis, Douglas Holtz-Eakin, and Will Rinehart&lt;/span&gt;; &lt;span class="report__publisher"&gt;American Action Forum and Aspen Institute Future of Work Initiative&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/gss.png?h=5e88e16c&amp;itok=pwRWl_0J" alt="GSS Data Explorer logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 19:11:11 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">41 at https://www.gigeconomydata.org</guid>
+    </item>
+<item>
+  <title>American Life Panel</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/rand-alp-cws-replication</link>
+  <description>&lt;span&gt;American Life Panel&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 15:08&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The survey was administered through the RAND American Life Panel, an online panel recruited using a compilation of methods, including a group recruited for the University of Michigan Internet panel, a random-digit-dial sample, and a snowball sample. There were 3,850 responses, and a response rate of 63.9 percent. Results were weighted to increase representativeness.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Economists Lawrence Katz of Harvard and Alan Krueger of Princeton contracted RAND to collect the data as part of its American Life Panel.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The number of workers who report being engaged in alternative work arrangements as their main job, including temp-agency, on-call, contract-company and freelancing work. In addition, the survey asks about online platform participation, industry, and income level.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The original analysis estimated that 15.8 percent of the workforce held an independent work arrangement as their main job the prior week, including freelancing, temp-agency, contract-company, and on-call work. In 2019, the authors released a revised paper, adjusting for cyclical effects and methodological differences, and estimated that the rise in alternative arrangements between 2005 and 2015 was 1 to 2 percentage points, rather than 5.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The results are not fully comparable to the BLS CWS, due to differences in sampling and response, as discussed by the authors in the 2019 working paper.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;a href="https://alpdata.rand.org/index.php?page=data"&gt;RAND ALP data&lt;/a&gt;&lt;span&gt; &lt;/span&gt;are available to registered researchers.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.nber.org/papers/w25425"&gt;&lt;span class="report__title"&gt;Understanding Trends in Alternative Work Arrangements in the United States&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2019&lt;/span&gt;; &lt;span class="report__author"&gt;Lawrence Katz and Alan Krueger&lt;/span&gt;; &lt;span class="report__publisher"&gt;NBER&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="http://www.nber.org/papers/w22667"&gt;&lt;span class="report__title"&gt;The Rise and Nature of Alternative Work Arrangements in the United States, 1995-2015&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2016&lt;/span&gt;; &lt;span class="report__author"&gt;Lawrence Katz and Alan Krueger&lt;/span&gt;; &lt;span class="report__publisher"&gt;NBER&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/rand.png?h=b044a8f9&amp;itok=tNlf7x_M" alt="Rand Corporation logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 19:08:12 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">39 at https://www.gigeconomydata.org</guid>
+    </item>
+<item>
+  <title>The State of Independence in America</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/state-independence-america</link>
+  <description>&lt;span&gt;The State of Independence in America&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 14:54&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey administered by Emergent Research and Rockbridge Associates, with 3,687 respondents in 2020. Responses were weighted demographically to represent the population. 2021 was the eleventh year the State of Independence survey has been administered.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;MBO Partners, a business services company marketed toward independent professionals, contracts Emergent Research and Rockbridge Associates to conduct the annual survey.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The number of workers with independent arrangements, including consultants, freelancers, contractors, temporary, and on-call workers. It also asks about their experiences and satisfaction.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;In 2021, 51.1 million adult Americans overall participated in independent arrangements - up from 38.2 million in 2020 - representing about 34.6 percent of the workforce. The survey has reported consistent increases in its measure of independent arrangements from 2011 to 2019, before a considerable decline in 2020, which authors attributed to the pandemic-related disruptions.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Online surveys are unlikely to be representative of the population, with educated and higher-income workers likely to be overrepresented. Although many consider full-time to mean 40 hours per week, this survey counts anything above 15 hours per week as full-time.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by MBO Partners&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.mbopartners.com/state-of-independence"&gt;&lt;span class="report__title"&gt;The State of Independence in America Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2021&lt;/span&gt;; &lt;span class="report__author"&gt;Emergent Research&lt;/span&gt;; &lt;span class="report__publisher"&gt;MBO Partners&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/mbo.png?h=053b8fe3&amp;itok=IPRytmK0" alt="MBO partners logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 18:54:15 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">34 at https://www.gigeconomydata.org</guid>
+    </item>
+
+  </channel>
+</rss>

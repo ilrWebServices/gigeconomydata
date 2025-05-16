@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+  <channel>
+    <title>income</title>
+    <link>https://www.gigeconomydata.org/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>The Online Platform Economy</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/online-platform-economy</link>
+  <description>&lt;span&gt;The Online Platform Economy&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 15:09&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Bank account records were completely anonymized prior to being released to JPMorgan Chase Institute researchers. Transaction histories from October 2012 to June 2021 were analyzed in order to track participation in platform work, as well as earnings and the relation of earnings to other income streams.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;JPMorgan Chase Institute, a think tank affiliated with JPMorgan Chase aimed at increasing understanding of the global economic system.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Participation and income streams from 128 distinct online platforms, extracted from JPMorgan Chase bank accounts. The most recent report focuses on the period between 2018 and 2021, including the COVID-19 pandemic. It considers households who earned income through the online platform economy. The report examines four designated sectors of the platform economy: transportation work (which includes ridesharing and delivery), non-transportation work (including both in-person and virtual services), selling goods, and leasing assets.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Prior to the pandemic, participation in the online platform economy had been growing steadily. The percentage of households who had earned income on platforms peaked at 2.5 percent in early 2020 before dropping by a quarter to 1.9 percent shortly after the onset of the pandemic. By June 2021, participation had risen back to near-peak pre-pandemic levels.&lt;/p&gt;
+
+&lt;p&gt;During the pandemic, participation in transportation and leasing platform work dropped most significantly, while non-transportation work remained stable and selling platforms continued to grow. Compared to the general population, platform workers - particularly those involved in the transportation sector - were more likely to receive Unemployment Insurance under the Pandemic Unemployment Assistance program. Among active platform participants, platform income as a share of total income declined, though median earnings have remained constant.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The data are limited to JPMorgan Chase account holders, who are not fully representative of US workers; they are more likely to be men, to be between 25 and 54, live in the West, and have higher incomes than the average American. In addition, the reliance on account transactions means that hours worked and expenses are unknowns, so information on earnings is limited.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by JPMorgan Chase Institute&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/6" hreflang="en"&gt;administrative data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/26" hreflang="en"&gt;income volatility&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.jpmorganchase.com/corporate/institute/document/institute-ope-2018.pdf"&gt;&lt;span class="report__title"&gt;The Online Platform Economy in 2018&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2018&lt;/span&gt;; &lt;span class="report__author"&gt;Diana Farrell, Fiona Greig, Amar Hamoudi&lt;/span&gt;; &lt;span class="report__publisher"&gt;JPMorgan Chase Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-volatility-2-report.pdf"&gt;&lt;span class="report__title"&gt;Paychecks, Paydays, and the Online Platform Economy&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2016&lt;/span&gt;; &lt;span class="report__author"&gt;Diana Farrell, Fiona Greig&lt;/span&gt;; &lt;span class="report__publisher"&gt;JPMorgan Chase Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/jpmc-institute-online-platform-econ-brief.pdf"&gt;&lt;span class="report__title"&gt;The Online Platform Economy: Has Growth Peaked?&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2016&lt;/span&gt;; &lt;span class="report__author"&gt;Diana Farrell, Fiona Greig&lt;/span&gt;; &lt;span class="report__publisher"&gt;JPMorgan Chase Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.jpmorganchase.com/institute/research/labor-markets/online-platform-economy-through-the-pandemic/?jp_cmp=email_=personalnote_=ope-21"&gt;&lt;span class="report__title"&gt;The Online Platform Economy through the Pandemic&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2021&lt;/span&gt;; &lt;span class="report__author"&gt;Fiona Greig, Daniel M. Sullivan&lt;/span&gt;; &lt;span class="report__publisher"&gt;JPMorgan Chase Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/jpmorgan.jpg?h=f9a762b9&amp;itok=JwHoVIeP" alt="JP Morgan Chase and Co Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 19:09:31 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">40 at https://www.gigeconomydata.org</guid>
+    </item>
+<item>
+  <title>The State of Independence in America</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/state-independence-america</link>
+  <description>&lt;span&gt;The State of Independence in America&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 14:54&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey administered by Emergent Research and Rockbridge Associates, with 3,687 respondents in 2020. Responses were weighted demographically to represent the population. 2021 was the eleventh year the State of Independence survey has been administered.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;MBO Partners, a business services company marketed toward independent professionals, contracts Emergent Research and Rockbridge Associates to conduct the annual survey.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;The number of workers with independent arrangements, including consultants, freelancers, contractors, temporary, and on-call workers. It also asks about their experiences and satisfaction.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;In 2021, 51.1 million adult Americans overall participated in independent arrangements - up from 38.2 million in 2020 - representing about 34.6 percent of the workforce. The survey has reported consistent increases in its measure of independent arrangements from 2011 to 2019, before a considerable decline in 2020, which authors attributed to the pandemic-related disruptions.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Online surveys are unlikely to be representative of the population, with educated and higher-income workers likely to be overrepresented. Although many consider full-time to mean 40 hours per week, this survey counts anything above 15 hours per week as full-time.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by MBO Partners&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.mbopartners.com/state-of-independence"&gt;&lt;span class="report__title"&gt;The State of Independence in America Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2021&lt;/span&gt;; &lt;span class="report__author"&gt;Emergent Research&lt;/span&gt;; &lt;span class="report__publisher"&gt;MBO Partners&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/mbo.png?h=053b8fe3&amp;itok=IPRytmK0" alt="MBO partners logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 18:54:15 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">34 at https://www.gigeconomydata.org</guid>
+    </item>
+<item>
+  <title>Gig Workers in America</title>
+  <link>https://www.gigeconomydata.org/research/data-sources/gig-workers-america</link>
+  <description>&lt;span&gt;Gig Workers in America&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Fri, 05/11/2018 - 14:52&lt;/span&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How is it collected?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey distributed to adults who had agreed to participate in Harris Poll surveys. 1,491 workers were surveyed, including 721 gig workers.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Who collects it?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Prudential commissioned Harris Poll to conduct the survey.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What is it measuring?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Income, access to benefits, and experiences of independent workers who provide service or labor and work for themselves.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;What does it tell us?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Those who rely on gig work as their only source of income earn less and have less access to benefits than full-time traditional employees.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;Considerations&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;Online panels are unlikely to be representative of the population. These findings point to interesting differences between gig only, supplemental gig, and traditional workers, but the data is not able to speak to the prevalence of these arrangements.&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+  &lt;div class="text-long"&gt;
+    &lt;div&gt;How to access this data?&lt;/div&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by Prudential&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Study tags&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/21" hreflang="en"&gt;safety net&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Reports&lt;/div&gt;
+          &lt;div&gt;
+              &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.prudential.com/media/managed/documents/rp/Gig_Economy_Whitepaper.pdf"&gt;&lt;span class="report__title"&gt;Gig Workers in America: Profiles, Mindsets, and Financial Wellness&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2017&lt;/span&gt;; &lt;span class="report__author"&gt;Harris Poll&lt;/span&gt;; &lt;span class="report__publisher"&gt;Prudential&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+  &lt;div&gt;
+    &lt;div&gt;Logo&lt;/div&gt;
+              &lt;div&gt;
+&lt;div class="media__image"&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/prudential.png?h=6855b8c7&amp;itok=0LTNpnlY" alt="Prudential logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Fri, 11 May 2018 18:52:57 +0000</pubDate>
+    <dc:creator>ilrweb admin</dc:creator>
+    <guid isPermaLink="false">33 at https://www.gigeconomydata.org</guid>
+    </item>
+
+  </channel>
+</rss>
