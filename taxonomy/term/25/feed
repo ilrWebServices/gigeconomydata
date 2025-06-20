@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/">
   <channel>
     <title>industries</title>
-    <link>https://www.gigeconomydata.org/</link>
+    <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/</link>
     <description/>
     <language>en</language>
     
     <item>
   <title>Contingent Worker Supplement (CWS)</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/contingent-worker-supplement-cws</link>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/contingent-worker-supplement-cws</link>
   <description>&lt;span&gt;Contingent Worker Supplement (CWS)&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/13" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Shelly Steward&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/13" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Shelly Steward&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Wed, 06/06/2018 - 23:27&lt;/span&gt;
 
 
@@ -32,9 +32,9 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The Contingent Worker Supplement (CWS) estimates the number of American workers in contingent and alternative arrangements as their main job in the past week. Contingent arrangements are short-term or temporary jobs. Alternative arrangements are particular types of relationships between workers and the individual or company who pays them: independent contractors, temporary help agency workers, on-call workers, and workers provided by contract firms. It also gathers information on demographics, industry, access to benefits, and preference for contingent and alternative work.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;The Contingent Worker Supplement (CWS) estimates the number of American workers in contingent and alternative arrangements as their main job in the past week. Contingent arrangements are short-term or temporary jobs, which workers do not expect to last. Alternative arrangements are particular types of relationships between workers and the individual or company who pays them, including 1) independent contractors, 2) temporary help agency workers, 3) on-call workers, and 4) workers provided by contract firms. It also gathers information on demographics, industry, and access to benefits.&lt;/p&gt;
 
-&lt;p&gt;In 2017, respondents were asked if they used online platforms to arrange jobs or tasks, either online or offline.&lt;/p&gt;
+&lt;p&gt;In 2017 and 2023, respondents were asked if they used online platforms to arrange jobs or tasks, either online or offline.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -42,11 +42,11 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What does it tell us?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;In 2017, 10.1 percent of the workforce was engaged in alternative arrangements. 3.8 percent was engaged in contingent arrangements. There was slight overlap between the two categories.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;In 2023, 10.2 percent of the workforce were engaged in alternative arrangements as their main job, including 7.4 percent as independent contractors, 2.8 1.7 as on-call workers, and 0.5 percent as contract firm workers. 4.3 percent had contingent jobs, which they did not expect to last. There was some overlap between these two categories. &lt;/p&gt;
 
-&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;About 1 percent of the workforce used apps to arrange work. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;In 2017, 10.1 percent of the workforce was engaged in alternative arrangements as their main job, and 3.8 percent was engaged in contingent arrangements. There was slight overlap between the two categories. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;About 1 percent of the workforce used apps to arrange work. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;In 2005, 10.7 percent of the workforce was engaged in an alternative work arrangement as their main job in the past week. 4.1 percent of the workforce was engaged in a contingent work arrangement. There was some overlap between the two categories, totaling just over 1 percent of the workforce.&lt;/p&gt;
+&lt;p&gt;In 2005, 10.7 percent of the workforce was engaged in an alternative arrangements as their main job in the past week. 4.1 percent of the workforce was engaged in a contingent work arrangement.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -54,7 +54,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Considerations&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The CWS is one of the most rigorous studies of alternative work. However, it only asks about workers' main jobs&lt;span&gt;&lt;span&gt;—the job for which they worked the most hours—meaning it leaves out any supplemental or occasional work.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;The CWS is one of the most rigorous studies of alternative work. However, it only asks about workers' main jobs&lt;span&gt;&lt;span&gt;—the job for which they worked the most hours—meaning it leaves out any supplemental or occasional work. In addition, it relies on workers correctly self-identifying their own employment arrangement.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -62,7 +62,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How to access this data?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;Read &lt;a href="https://www.bls.gov/news.release/conemp.htm"&gt;Summary tables from 2017&lt;/a&gt;. Review the &lt;a href="https://thedataweb.rm.census.gov/ftp/cps_ftp.html"&gt;Microdata&lt;/a&gt;. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;Data, when available, can be found on the &lt;a href="https://www.bls.gov/cps/labor-force/contingent-and-alternative-arrangements.htm"&gt;BLS website&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -72,18 +72,18 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/8" hreflang="en"&gt;public&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/8" hreflang="en"&gt;public&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -95,24 +95,27 @@
               &lt;div&gt;
 &lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.bls.gov/news.release/conemp.htm"&gt;&lt;span class="report__title"&gt;Contingent and Alternative Employment Arrangements - May 2017&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2018&lt;/span&gt;; &lt;span class="report__author"&gt;Bureau of Labor Statistics&lt;/span&gt;; &lt;span class="report__publisher"&gt;US Department of Labor&lt;/span&gt;;&lt;/p&gt;
 &lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.bls.gov/news.release/pdf/conemp.pdf"&gt;&lt;span class="report__title"&gt;Contingent and Alternative Employment Arrangements - July 2023&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2024&lt;/span&gt;; &lt;span class="report__author"&gt;Bureau of Labor Statistics&lt;/span&gt;; &lt;span class="report__publisher"&gt;US Department of Labor&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 </description>
   <pubDate>Thu, 07 Jun 2018 03:27:56 +0000</pubDate>
     <dc:creator>Shelly Steward</dc:creator>
-    <guid isPermaLink="false">52 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">52 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 <item>
   <title>American Life Panel</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/rand-alp-cws-replication</link>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/rand-alp-cws-replication</link>
   <description>&lt;span&gt;American Life Panel&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 15:08&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The survey was administered through the RAND American Life Panel, an online panel recruited using a compilation of methods, including a group recruited for the University of Michigan Internet panel, a random-digit-dial sample, and a snowball sample. There were 3,850 responses, and a response rate of 63.9 percent. Results were weighted to increase representativeness.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;This one-time 2015 survey was administered through the RAND American Life Panel, an online panel recruited using a compilation of methods, including a group recruited for the University of Michigan Internet panel, a random-digit-dial sample, and a snowball sample. There were 3,850 responses, and a response rate of 63.9 percent. Results were weighted to increase representativeness.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -144,7 +147,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Considerations&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The results are not fully comparable to the BLS CWS, due to differences in sampling and response, as discussed by the authors in the 2019 working paper.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;The results are not fully comparable to the BLS CWS, due to differences in sampling and response, as discussed by the authors in the 2019 working paper. Although it was a helpful measure in between iterations of the CWS, it is not as relevant today.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -162,17 +165,17 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/17" hreflang="en"&gt;subcontracted work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/25" hreflang="en"&gt;industries&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -196,13 +199,13 @@
     &lt;div&gt;Logo&lt;/div&gt;
               &lt;div&gt;
 &lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/rand.png?h=b044a8f9&amp;itok=tNlf7x_M" alt="Rand Corporation logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/sites/default/files/styles/full_content/public/2018-05/rand.png?h=b044a8f9&amp;itok=tNlf7x_M" alt="Rand Corporation logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 19:08:12 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">39 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">39 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 
   </channel>

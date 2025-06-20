@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/">
   <channel>
     <title>challenges</title>
-    <link>https://www.gigeconomydata.org/</link>
+    <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/</link>
     <description/>
     <language>en</language>
     
     <item>
-  <title>Independent Work: Choice, Necessity, and the Gig Economy</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/independent-work-choice-necessity-and-gig-economy</link>
-  <description>&lt;span&gt;Independent Work: Choice, Necessity, and the Gig Economy&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+  <title>American Opportunity Survey</title>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/american-opportunity-survey</link>
+  <description>&lt;span&gt;American Opportunity Survey&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 15:00&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Through an online survey in six countries, including the U.S. The survey was administered to a panel selected to be demographically representative, with 8,131 respondents globally and 1,804 in the U.S.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey conducted in spring 2022. There were 25,062 respondents, weighted to be more demographically representative.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -32,7 +32,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;This survey asks a broad range of questions about work, including arrangements, experiences, motivations, and satisfaction. Rather than measuring independent work through a single question, researchers identify respondents whose work is characterized by independence regardless of formal arrangement. The traits used to define independence are having high levels of worker autonomy, payment by task, assignment, or sales, and a short-term relationship between workers and customers.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;McKinsey Global Institute's American Opportunity Survey focuses on economic obstacles and opportunities for people in the U.S. This survey asked about people's participation in contract, freelance, temporary, or gig work, along with demographics, outlook, and overall economic position.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -40,7 +40,9 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What does it tell us?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;In the U.S., 27 percent of workers are engaged in work of an independent nature on a primary or supplementary basis, including some online sellers and property renters.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;36 percent of surveyed workers were engaged in contract, freelance, temporary, or gig work in some capacity. These workers tended to be younger and have lower incomes. Nearly half of all immigrants included in the survey were gig workers. Gig workers reported challenges accessing health insurance and basic needs like food, housing, and transportation.&lt;/p&gt;
+
+&lt;p&gt;In 2016, MGI conducted a different survey, which found that 27 percent of workers engaged in some form of gig work.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -48,7 +50,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Considerations&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The process used to identify independent work includes some activities that are excluded by other measures, including renting property online through capital platforms. In addition, online panels are not fully representative, and tend to undersample low-income populations.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Online surveys are not fully representative and may undercount those with lower incomes, less education, without internet access, and who are older, among other characteristics.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -66,15 +68,15 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/29" hreflang="en"&gt;satisfaction&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/29" hreflang="en"&gt;satisfaction&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -86,6 +88,9 @@
               &lt;div&gt;
 &lt;p class="data-source__report"&gt;&lt;a class="report__link" href="http://www.mckinsey.com/global-themes/employment-and-growth/independent-work-choice-necessity-and-the-gig-economy"&gt;&lt;span class="report__title"&gt;Independent Work: Choice, Necessity, and the Gig Economy Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2016&lt;/span&gt;; &lt;span class="report__author"&gt;James Manyika, Susan Lund, Jacques Bughin, Kelsey Robinson, Jan Mischke, Deepa Mahajan&lt;/span&gt;; &lt;span class="report__publisher"&gt;McKinsey Global Institute&lt;/span&gt;;&lt;/p&gt;
 &lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.mckinsey.com/featured-insights/sustainable-inclusive-growth/future-of-america/freelance-side-hustles-and-gigs-many-more-americans-have-become-independent-workers#/"&gt;&lt;span class="report__title"&gt;Freelance, Side Hustles, and Gigs&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2022&lt;/span&gt;; &lt;span class="report__author"&gt;André Dua, Kweilin Ellingrud, Bryan Hancock, Ryan Luby, Anu Madgavkar, and Sarah Pemberton&lt;/span&gt;; &lt;span class="report__publisher"&gt;McKinsey Global Institute&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -95,25 +100,25 @@
     &lt;div&gt;Logo&lt;/div&gt;
               &lt;div&gt;
 &lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/mckinsey.png?h=5446506c&amp;itok=p9pJHIMU" alt="McKinsey Global Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/sites/default/files/styles/full_content/public/2018-05/mckinsey.png?h=5446506c&amp;itok=p9pJHIMU" alt="McKinsey Global Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 19:00:11 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">37 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">37 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 <item>
-  <title>The State of Independence in America</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/state-independence-america</link>
-  <description>&lt;span&gt;The State of Independence in America&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+  <title>State of Independence in America</title>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/state-independence-america</link>
+  <description>&lt;span&gt;State of Independence in America&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 14:54&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Through an online survey administered by Emergent Research and Rockbridge Associates, with 3,687 respondents in 2020. Responses were weighted demographically to represent the population. 2021 was the eleventh year the State of Independence survey has been administered.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey administered by Emergent Research and Illuminas, with 6,575 respondents in 2024. Responses were weighted demographically to represent the population. 2024 was the 14th year the State of Independence survey has been administered.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -121,7 +126,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Who collects it?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;MBO Partners, a business services company marketed toward independent professionals, contracts Emergent Research and Rockbridge Associates to conduct the annual survey.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;MBO Partners, a business services company marketed toward independent professionals, contracts Emergent Research and Illuminas to conduct the annual survey. Earlier iterations were contracted to Emergent Research and Rockbridge Associates.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -129,7 +134,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The number of workers with independent arrangements, including consultants, freelancers, contractors, temporary, and on-call workers. It also asks about their experiences and satisfaction.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;The number of workers with "independent arrangements," including consultants, freelancers, contractors, temporary, and on-call workers. It also asks about their experiences and satisfaction.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -137,7 +142,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What does it tell us?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;In 2021, 51.1 million adult Americans overall participated in independent arrangements - up from 38.2 million in 2020 - representing about 34.6 percent of the workforce. The survey has reported consistent increases in its measure of independent arrangements from 2011 to 2019, before a considerable decline in 2020, which authors attributed to the pandemic-related disruptions.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;In 2024, 72.7 million adults in America participated in independent arrangements - up only slightly from 72.1 million in 2023 - representing about 43 percent of the workforce both years. The survey reported consistent increases in its measure of independent arrangements from 2011 to 2019, before a considerable decline in 2020, which authors attributed to the pandemic-related disruptions. It has observed growth again from 2020 to 2023, leveling off last year.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -163,18 +168,18 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/14" hreflang="en"&gt;on-call&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/18" hreflang="en"&gt;primary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/13" hreflang="en"&gt;temp agency&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -184,7 +189,7 @@
     &lt;div&gt;Reports&lt;/div&gt;
           &lt;div&gt;
               &lt;div&gt;
-&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.mbopartners.com/state-of-independence"&gt;&lt;span class="report__title"&gt;The State of Independence in America Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2021&lt;/span&gt;; &lt;span class="report__author"&gt;Emergent Research&lt;/span&gt;; &lt;span class="report__publisher"&gt;MBO Partners&lt;/span&gt;;&lt;/p&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.mbopartners.com/state-of-independence"&gt;&lt;span class="report__title"&gt;The State of Independence in America Report&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2024&lt;/span&gt;; &lt;span class="report__author"&gt;Emergent Research&lt;/span&gt;; &lt;span class="report__publisher"&gt;MBO Partners&lt;/span&gt;;&lt;/p&gt;
 &lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
@@ -195,25 +200,25 @@
     &lt;div&gt;Logo&lt;/div&gt;
               &lt;div&gt;
 &lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/mbo.png?h=053b8fe3&amp;itok=IPRytmK0" alt="MBO partners logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/sites/default/files/styles/full_content/public/2018-05/mbo.png?h=053b8fe3&amp;itok=IPRytmK0" alt="MBO partners logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 18:54:15 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">34 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">34 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 <item>
   <title>Gig Workers in America</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/gig-workers-america</link>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/gig-workers-america</link>
   <description>&lt;span&gt;Gig Workers in America&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 14:52&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Through an online survey distributed to adults who had agreed to participate in Harris Poll surveys. 1,491 workers were surveyed, including 721 gig workers.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;This one-time survey was conducted in 2017, distributed to adults who had agreed to participate in Harris Poll surveys. 1,491 workers were surveyed, including 721 gig workers.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -229,7 +234,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Income, access to benefits, and experiences of independent workers who provide service or labor and work for themselves.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Income, access to benefits, and experiences of workers who provide service or labor and work for themselves.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -263,17 +268,17 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/21" hreflang="en"&gt;safety net&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/21" hreflang="en"&gt;safety net&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -294,25 +299,25 @@
     &lt;div&gt;Logo&lt;/div&gt;
               &lt;div&gt;
 &lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/prudential.png?h=6855b8c7&amp;itok=0LTNpnlY" alt="Prudential logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/sites/default/files/styles/full_content/public/2018-05/prudential.png?h=6855b8c7&amp;itok=0LTNpnlY" alt="Prudential logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 18:52:57 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">33 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">33 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 <item>
-  <title>Freelancing in America</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/freelancing-america</link>
-  <description>&lt;span&gt;Freelancing in America&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+  <title>Freelance Forward</title>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/freelance-forward</link>
+  <description>&lt;span&gt;Freelance Forward&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 14:51&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Through an online survey administered by Edelman Intelligence, with 6,001 respondents who had done paid work in the past 12 months. Responses were weighted demographically to represent the population.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Through an online survey administered by Edelman Intelligence, with 3,000 total respondents including 1,142 freelancers. The sample was intended to be demographically representative.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -320,7 +325,9 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Who collects it?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The Freelancers Union, an advocacy organization for independent workers, and Upwork, an online freelancing platform, have commissioned Edelman Intelligence to conduct the annual survey since 2014.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Upwork, an online freelancing platform, commissions Edelman Inteligence to conduct the survey.&lt;/p&gt;
+
+&lt;p&gt;This survey was known as Freelancing in America and collected in partnership with Freelancers Union, an advocacy organization for freelance workers, from 2014 to 2019. &lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -328,7 +335,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;This survey counts the number of workers who engaged in supplemental, temporary, project- or contract-based work at any point in the past 12 months. It also asks a wide range of questions about the outlooks, experiences, satisfaction, and challenges of these workers.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;This survey counts the number of workers who engaged in any supplemental, temporary, project- or contract-based work at any point in the past 12 months. It also asks a wide range of questions about the outlooks, experiences, satisfaction, and challenges of these workers.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -336,9 +343,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What does it tell us?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;35 percent of the workforce had engaged in supplemental, temporary, project- or contract-based work in some capacity in the past 12 months, totaling 56.7 million people and representing 7 percent growth since 2014.&lt;/p&gt;
-
-&lt;p&gt;The report linked below contains responses about workers' experiences, outlooks, and challenges.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;In 2023, 38 percent of workers engaged in freelance work in some capacity, representing 64 million people. Since the first iteration of the survey in 2014, this has increased modestly from 34 percent.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -354,7 +359,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How to access this data?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by Freelancers Union and Upwork&lt;/span&gt;&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;&lt;span&gt;Privately held by Upwork.&lt;/span&gt;&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -364,17 +369,17 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/20" hreflang="en"&gt;benefits&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/16" hreflang="en"&gt;freelancers&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/15" hreflang="en"&gt;independent contractors&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/7" hreflang="en"&gt;self-reported data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/19" hreflang="en"&gt;supplementary work&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/10" hreflang="en"&gt;worker-side&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/28" hreflang="en"&gt;challenges&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -384,24 +389,20 @@
     &lt;div&gt;Reports&lt;/div&gt;
           &lt;div&gt;
               &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.upwork.com/research/freelance-forward-2023-research-report"&gt;&lt;span class="report__title"&gt;Freelance Forward 2023&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2023&lt;/span&gt;; &lt;span class="report__author"&gt;Upwork Research Institute&lt;/span&gt;; &lt;span class="report__publisher"&gt;Upwork&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
+&lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.upwork.com/research/freelance-forward-2022"&gt;&lt;span class="report__title"&gt;Freelance Forward 2022&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2022&lt;/span&gt;; &lt;span class="report__author"&gt;Upwork&lt;/span&gt;; &lt;span class="report__publisher"&gt;Upwork&lt;/span&gt;;&lt;/p&gt;
+&lt;/div&gt;
+          &lt;div&gt;
 &lt;p class="data-source__report"&gt;&lt;a class="report__link" href="https://www.upwork.com/i/freelancing-in-america/2019/"&gt;&lt;span class="report__title"&gt;Freelancing in America: 2019&lt;/span&gt;&lt;/a&gt;; &lt;span class="report__year"&gt;2019&lt;/span&gt;; &lt;span class="report__author"&gt;Edelman Intelligence&lt;/span&gt;; &lt;span class="report__publisher"&gt;Freelancers Union and Upwork&lt;/span&gt;;&lt;/p&gt;
 &lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
-
-
-
-  &lt;div&gt;
-    &lt;div&gt;Logo&lt;/div&gt;
-              &lt;div&gt;
-&lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/freelancers.png?h=038a9462&amp;itok=f7JQPo-x" alt="Freelancers Union logo shows three stylized bees over a hive with 1995 printed below and the address www.freelancersunion.org" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
-&lt;/div&gt;
-          &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 18:51:25 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">32 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">32 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 
   </channel>

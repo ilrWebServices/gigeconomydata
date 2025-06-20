@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.gigeconomydata.org/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/">
   <channel>
     <title>income volatility</title>
-    <link>https://www.gigeconomydata.org/</link>
+    <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/</link>
     <description/>
     <language>en</language>
     
     <item>
   <title>The Online Platform Economy</title>
-  <link>https://www.gigeconomydata.org/research/data-sources/online-platform-economy</link>
+  <link>https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/research/data-sources/online-platform-economy</link>
   <description>&lt;span&gt;The Online Platform Economy&lt;/span&gt;
-&lt;span&gt;&lt;span lang="" about="https://www.gigeconomydata.org/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span lang="" about="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/user/1" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;ilrweb admin&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 05/11/2018 - 15:09&lt;/span&gt;
 
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;How is it collected?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Bank account records were completely anonymized prior to being released to JPMorgan Chase Institute researchers. Transaction histories from October 2012 to June 2021 were analyzed in order to track participation in platform work, as well as earnings and the relation of earnings to other income streams.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Bank account records were completely anonymized prior to being released to JPMorgan Chase Institute researchers. Transaction histories from October 2012 to June 2021 were analyzed in order to track income from platform work, including its relationship to other income streams and expenses.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -32,7 +32,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What is it measuring?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Participation and income streams from 128 distinct online platforms, extracted from JPMorgan Chase bank accounts. The most recent report focuses on the period between 2018 and 2021, including the COVID-19 pandemic. It considers households who earned income through the online platform economy. The report examines four designated sectors of the platform economy: transportation work (which includes ridesharing and delivery), non-transportation work (including both in-person and virtual services), selling goods, and leasing assets.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;People's income from 128 different online platforms, extracted from JPMorgan Chase bank accounts. The most recent report focuses on the period between 2018 and 2021, including the COVID-19 pandemic. Platforms are divided into four sectors: transportation work (rideshare and delivery), non-transportation work (including both in-person and virtual services), selling goods, and leasing assets.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -40,9 +40,9 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;What does it tell us?&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;Prior to the pandemic, participation in the online platform economy had been growing steadily. The percentage of households who had earned income on platforms peaked at 2.5 percent in early 2020 before dropping by a quarter to 1.9 percent shortly after the onset of the pandemic. By June 2021, participation had risen back to near-peak pre-pandemic levels.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;Prior to the pandemic, participation on platforms had been growing steadily. The percentage of households who had earned income on platforms peaked at 2.5 percent in early 2020 before dropping to 1.9 percent shortly after the onset of the pandemic. By June 2021, participation had risen back to near-peak pre-pandemic levels.&lt;/p&gt;
 
-&lt;p&gt;During the pandemic, participation in transportation and leasing platform work dropped most significantly, while non-transportation work remained stable and selling platforms continued to grow. Compared to the general population, platform workers - particularly those involved in the transportation sector - were more likely to receive Unemployment Insurance under the Pandemic Unemployment Assistance program. Among active platform participants, platform income as a share of total income declined, though median earnings have remained constant.&lt;/p&gt;
+&lt;p&gt;During the pandemic, participation in transportation and leasing platform work dropped most significantly, while non-transportation work remained stable and selling platforms continued to grow. Compared to the general population, platform workers - particularly those involved in the transportation sector - were more likely to receive Unemployment Insurance under the Pandemic Unemployment Assistance program.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -50,7 +50,7 @@
 
   &lt;div class="text-long"&gt;
     &lt;div&gt;Considerations&lt;/div&gt;
-              &lt;div&gt;&lt;p&gt;The data are limited to JPMorgan Chase account holders, who are not fully representative of US workers; they are more likely to be men, to be between 25 and 54, live in the West, and have higher incomes than the average American. In addition, the reliance on account transactions means that hours worked and expenses are unknowns, so information on earnings is limited.&lt;/p&gt;
+              &lt;div&gt;&lt;p&gt;The data are limited to JPMorgan Chase account holders, who are not fully representative of US workers; they are more likely to be men, to be between 25 and 54, live in the West, and have higher incomes than the average American. In addition, the reliance on account transactions means that hours worked and related expenses are unknowns, so information on earnings is limited.&lt;/p&gt;
 
 &lt;/div&gt;
           &lt;/div&gt;
@@ -68,13 +68,13 @@
   &lt;div&gt;
     &lt;div&gt;Study tags&lt;/div&gt;
           &lt;div&gt;
-              &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/6" hreflang="en"&gt;administrative data&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/26" hreflang="en"&gt;income volatility&lt;/a&gt;&lt;/div&gt;
-          &lt;div&gt;&lt;a href="https://www.gigeconomydata.org/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
+              &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/6" hreflang="en"&gt;administrative data&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/23" hreflang="en"&gt;demographics&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/11" hreflang="en"&gt;online platforms&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/9" hreflang="en"&gt;private&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/4" hreflang="en"&gt;quantitative&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/26" hreflang="en"&gt;income volatility&lt;/a&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;a href="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/taxonomy/term/27" hreflang="en"&gt;income&lt;/a&gt;&lt;/div&gt;
               &lt;/div&gt;
       &lt;/div&gt;
 
@@ -104,13 +104,13 @@
     &lt;div&gt;Logo&lt;/div&gt;
               &lt;div&gt;
 &lt;div class="media__image"&gt;
-    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.gigeconomydata.org/sites/default/files/styles/full_content/public/2018-05/jpmorgan.jpg?h=f9a762b9&amp;itok=JwHoVIeP" alt="JP Morgan Chase and Co Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+    &lt;figure class="figure"&gt;&lt;img class="img" src="https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh/sites/default/files/styles/full_content/public/2018-05/jpmorgan.jpg?h=f9a762b9&amp;itok=JwHoVIeP" alt="JP Morgan Chase and Co Institute logo" /&gt;&lt;figcaption class="figcaption"&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
 &lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 11 May 2018 19:09:31 +0000</pubDate>
     <dc:creator>ilrweb admin</dc:creator>
-    <guid isPermaLink="false">40 at https://www.gigeconomydata.org</guid>
+    <guid isPermaLink="false">40 at https://www.master-7rqtwti-uu4o3wqcnw2yk.us.platform.sh</guid>
     </item>
 
   </channel>
